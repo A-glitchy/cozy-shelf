@@ -1,0 +1,98 @@
+[
+  {
+    "id": "comforting",
+    "label": "Comforting",
+    "bg": "#F3E3C8",
+    "text": "#5A3E24"
+  },
+  {
+    "id": "cozy",
+    "label": "Cozy",
+    "bg": "#EBD9BF",
+    "text": "#5A3E24"
+  },
+  {
+    "id": "spooky",
+    "label": "Spooky",
+    "bg": "#D9D2E6",
+    "text": "#3F3558"
+  },
+  {
+    "id": "romantic",
+    "label": "Romantic",
+    "bg": "#F1D3D8",
+    "text": "#6B2F3D"
+  },
+  {
+    "id": "heartbreaking",
+    "label": "Heartbreaking",
+    "bg": "#E8CCD0",
+    "text": "#5E2A35"
+  },
+  {
+    "id": "hopeful",
+    "label": "Hopeful",
+    "bg": "#D8E6D0",
+    "text": "#2F4A2A"
+  },
+  {
+    "id": "whimsical",
+    "label": "Whimsical",
+    "bg": "#E6D8EE",
+    "text": "#52366B"
+  },
+  {
+    "id": "dreamy",
+    "label": "Dreamy",
+    "bg": "#DCE3F0",
+    "text": "#34486B"
+  },
+  {
+    "id": "suspenseful",
+    "label": "Suspenseful",
+    "bg": "#E3D2C2",
+    "text": "#5A3320"
+  },
+  {
+    "id": "dark-unsettling",
+    "label": "Dark and unsettling",
+    "bg": "#CFC8C2",
+    "text": "#2E2622"
+  },
+  {
+    "id": "thought-provoking",
+    "label": "Thought-provoking",
+    "bg": "#D3E0DA",
+    "text": "#27493D"
+  },
+  {
+    "id": "adventurous",
+    "label": "Adventurous",
+    "bg": "#E4E0C0",
+    "text": "#4D4A1E"
+  },
+  {
+    "id": "funny",
+    "label": "Funny",
+    "bg": "#F5E6B8",
+    "text": "#6B5410"
+  },
+  {
+    "id": "nostalgic",
+    "label": "Nostalgic",
+    "bg": "#EAD5C4",
+    "text": "#6B4126"
+  },
+  {
+    "id": "atmospheric",
+    "label": "Atmospheric",
+    "bg": "#CDDCD3",
+    "text": "#24473A"
+  },
+  {
+    "id": "emotionally-intense",
+    "label": "Emotionally intense",
+    "bg": "#E9C9C0",
+    "text": "#6B2A1C"
+  }
+]

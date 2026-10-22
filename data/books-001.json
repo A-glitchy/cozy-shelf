@@ -1,0 +1,390 @@
+[
+  {
+    "id": "bk_n1ghtc1r",
+    "title": "The Night Circus",
+    "authors": [
+      "Erin Morgenstern"
+    ],
+    "summary": "A mysterious travelling circus appears without warning and is open only at night, while two young magicians are bound to a competition they barely understand.",
+    "pages": {
+      "estimate": 390,
+      "confidence": "low",
+      "source": "Page count is an unverified recall-based estimate; confirm against a publisher or library listing."
+    },
+    "genres": [
+      "fantasy"
+    ],
+    "subgenres": [
+      "magical realism",
+      "historical fantasy"
+    ],
+    "moods": [
+      "dreamy",
+      "atmospheric",
+      "romantic",
+      "whimsical"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Title/author from Atena's earlier book-curation chats; summary written originally by Claude"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "draft",
+      "lastReviewed": "2026-10-22"
+    }
+  },
+  {
+    "id": "bk_st4rl3ss",
+    "title": "The Starless Sea",
+    "authors": [
+      "Erin Morgenstern"
+    ],
+    "summary": "A graduate student finds a strange book that seems to describe his own life, and follows it toward a hidden underground world of stories.",
+    "pages": {
+      "estimate": 500,
+      "confidence": "low",
+      "source": "Page count is an unverified recall-based estimate; confirm against a publisher or library listing."
+    },
+    "genres": [
+      "fantasy"
+    ],
+    "subgenres": [
+      "portal fantasy",
+      "metafiction"
+    ],
+    "moods": [
+      "dreamy",
+      "atmospheric",
+      "adventurous",
+      "whimsical"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Title/author from Atena's earlier book-curation chats; summary written originally by Claude"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "draft",
+      "lastReviewed": "2026-10-22"
+    }
+  },
+  {
+    "id": "bk_ng0dsnm0",
+    "title": "No Gods, No Monsters",
+    "authors": [
+      "Cadwell Turnbull"
+    ],
+    "summary": "After a family loss, a man in Boston begins to uncover a hidden world of monsters and the secrets surrounding it.",
+    "pages": {
+      "estimate": 400,
+      "confidence": "low",
+      "source": "Page count is an unverified recall-based estimate; confirm against a publisher or library listing."
+    },
+    "genres": [
+      "fantasy",
+      "speculative fiction"
+    ],
+    "subgenres": [
+      "urban fantasy"
+    ],
+    "moods": [
+      "atmospheric",
+      "suspenseful",
+      "thought-provoking"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Title/author from Atena's earlier book-curation chats; summary written originally by Claude"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "draft",
+      "lastReviewed": "2026-10-22"
+    }
+  },
+  {
+    "id": "bk_hw1ldpl4",
+    "title": "A History of Wild Places",
+    "authors": [
+      "Shea Ernshaw"
+    ],
+    "summary": "A man who finds missing people for a living follows a trail to a secluded community that may be hiding something about the place it has built.",
+    "pages": {
+      "estimate": 400,
+      "confidence": "low",
+      "source": "Page count is an unverified recall-based estimate; confirm against a publisher or library listing."
+    },
+    "genres": [
+      "mystery",
+      "fantasy"
+    ],
+    "subgenres": [
+      "slow-burn mystery",
+      "folk horror"
+    ],
+    "moods": [
+      "atmospheric",
+      "suspenseful",
+      "spooky"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Title/author from Atena's earlier book-curation chats; summary written originally by Claude"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "draft",
+      "lastReviewed": "2026-10-22"
+    }
+  },
+  {
+    "id": "bk_p1r4n3s1",
+    "title": "Piranesi",
+    "authors": [
+      "Susanna Clarke"
+    ],
+    "summary": "A man lives in an endless house of statues and tides, keeping careful notes on his world until signs appear that he is not alone.",
+    "pages": {
+      "estimate": 270,
+      "confidence": "low",
+      "source": "Page count is an unverified recall-based estimate; confirm against a publisher or library listing."
+    },
+    "genres": [
+      "fantasy"
+    ],
+    "subgenres": [
+      "literary fantasy",
+      "mystery"
+    ],
+    "moods": [
+      "dreamy",
+      "atmospheric",
+      "thought-provoking",
+      "hopeful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Title/author from Atena's earlier book-curation chats; summary written originally by Claude"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "draft",
+      "lastReviewed": "2026-10-22"
+    }
+  },
+  {
+    "id": "bk_4nn1h1l4",
+    "title": "Annihilation",
+    "authors": [
+      "Jeff VanderMeer"
+    ],
+    "summary": "A team of scientists enters a strange, sealed-off region where the rules of nature no longer seem to hold.",
+    "pages": {
+      "estimate": 195,
+      "confidence": "low",
+      "source": "Page count is an unverified recall-based estimate; confirm against a publisher or library listing."
+    },
+    "genres": [
+      "science fiction",
+      "horror"
+    ],
+    "subgenres": [
+      "weird fiction",
+      "new weird"
+    ],
+    "moods": [
+      "dark-unsettling",
+      "atmospheric",
+      "suspenseful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Title/author from Atena's earlier book-curation chats; summary written originally by Claude"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "draft",
+      "lastReviewed": "2026-10-22"
+    }
+  },
+  {
+    "id": "bk_c4stl3sj",
+    "title": "We Have Always Lived in the Castle",
+    "authors": [
+      "Shirley Jackson"
+    ],
+    "summary": "Two sisters live in seclusion on their family estate, isolated from a suspicious village, until a visitor disrupts their routine.",
+    "pages": {
+      "estimate": 160,
+      "confidence": "low",
+      "source": "Page count is an unverified recall-based estimate; confirm against a publisher or library listing."
+    },
+    "genres": [
+      "gothic fiction"
+    ],
+    "subgenres": [
+      "psychological suspense"
+    ],
+    "moods": [
+      "spooky",
+      "dark-unsettling",
+      "atmospheric"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Title/author from Atena's earlier book-curation chats; summary written originally by Claude"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "draft",
+      "lastReviewed": "2026-10-22"
+    }
+  },
+  {
+    "id": "bk_b34rn1gh",
+    "title": "The Bear and the Nightingale",
+    "authors": [
+      "Katherine Arden"
+    ],
+    "summary": "In medieval Russia, a girl who can sense household spirits must protect her family as old beliefs give way to new ones.",
+    "pages": {
+      "estimate": 330,
+      "confidence": "low",
+      "source": "Page count is an unverified recall-based estimate; confirm against a publisher or library listing."
+    },
+    "genres": [
+      "fantasy",
+      "historical fiction"
+    ],
+    "subgenres": [
+      "fairy-tale retelling",
+      "folklore"
+    ],
+    "moods": [
+      "atmospheric",
+      "adventurous",
+      "spooky",
+      "cozy"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Title/author from Atena's earlier book-curation chats; summary written originally by Claude"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "draft",
+      "lastReviewed": "2026-10-22"
+    }
+  },
+  {
+    "id": "bk_p3rs0nl1",
+    "title": "The Personal Librarian",
+    "authors": [
+      "Marie Benedict",
+      "Victoria Christopher Murray"
+    ],
+    "summary": "Based on a real figure, the story follows the private librarian to a famous financier and the secret she keeps in a society that would judge her for it.",
+    "pages": {
+      "estimate": 350,
+      "confidence": "low",
+      "source": "Page count is an unverified recall-based estimate; confirm against a publisher or library listing."
+    },
+    "genres": [
+      "historical fiction"
+    ],
+    "subgenres": [
+      "biographical fiction"
+    ],
+    "moods": [
+      "thought-provoking",
+      "emotionally-intense",
+      "hopeful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Title/author from Atena's earlier book-curation chats; summary written originally by Claude"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "draft",
+      "lastReviewed": "2026-10-22"
+    }
+  },
+  {
+    "id": "bk_4c3sp4d3s",
+    "title": "Ace of Spades",
+    "authors": [
+      "Faridah Àbíké-Íyímídé"
+    ],
+    "summary": "Two students at an elite school are targeted by an anonymous person who exposes their secrets to the whole school.",
+    "pages": {
+      "estimate": 400,
+      "confidence": "low",
+      "source": "Page count is an unverified recall-based estimate; confirm against a publisher or library listing."
+    },
+    "genres": [
+      "young adult",
+      "thriller"
+    ],
+    "subgenres": [
+      "mystery thriller"
+    ],
+    "moods": [
+      "suspenseful",
+      "dark-unsettling",
+      "emotionally-intense"
+    ],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Atena's earlier screening notes; not independently confirmed"
+          }
+        ],
+        "note": "Flagged during Atena's earlier screening; confirm before reading."
+      }
+    ],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Title/author from Atena's earlier book-curation chats; summary written originally by Claude"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "draft",
+      "lastReviewed": "2026-10-22"
+    }
+  }
+]
