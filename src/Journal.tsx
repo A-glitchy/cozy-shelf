@@ -5,6 +5,8 @@ import { Cover, MoodChip } from "./components";
 import { STATUSES, statusLabel, stars, newId, splitList, csvEscape, download } from "./format";
 import { store, useLibrary, normalizeLibrary } from "./store";
 import Import from "./Import";
+import { findMatch } from "./importer";
+import { books, warningState, catLabel } from "./catalogue";
 
 function AddBook({ onDone }: { onDone: (id?: string) => void }) {
   const [title, setTitle] = useState(""); const [authors, setAuthors] = useState(""); const [pages, setPages] = useState("");
@@ -94,13 +96,32 @@ function Backup({ byId }: { byId: Map<string, Book> }) {
   );
 }
 
+function LinkBanner() {
+  const lib = useLibrary();
+  const links = lib.customBooks.map(c => ({ c, m: findMatch(c.title, c.authors.join(" "), books) }))
+    .filter((x): x is { c: typeof x.c; m: { kind: "matched"; id: string; candidates: string[] } } => x.m.kind === "matched");
+  if (!links.length) return null;
+  return (
+    <div className="notice">
+      <p>{links.length} of your own book{links.length === 1 ? " is" : "s are"} now in the catalogue: {links.slice(0, 5).map(l => l.c.title).join(", ")}{links.length > 5 ? "…" : ""}. Link {links.length === 1 ? "it" : "them"} to get the catalogue details and warnings. Your dates, ratings and reviews move over unchanged.</p>
+      <button className="btn primary" onClick={() => store.relink(Object.fromEntries(links.map(l => [l.c.id, l.m.id])))}>Link {links.length} book{links.length === 1 ? "" : "s"}</button>
+    </div>
+  );
+}
+
 export default function Journal({ byId, onOpen }: { byId: Map<string, Book>; onOpen: (id: string) => void }) {
   const lib = useLibrary();
   const [filter, setFilter] = useState<Status | "all">("all");
   const [favOnly, setFavOnly] = useState(false);
   const [adding, setAdding] = useState(false);
   const [importing, setImporting] = useState(false);
-  const list = lib.sessions.filter(s => (filter === "all" || s.status === filter) && (!favOnly || s.favorite)).sort((a, b) => b.updatedAt.localeCompare(a.updatedAt));
+  const [showHidden, setShowHidden] = useState(false);
+  const isExcluded = (s: { bookRef: string; status: Status }) => {
+    const b = byId.get(s.bookRef);
+    return s.status === "want" && !!b && lib.excluded.some(c => warningState(b, c) === "present");
+  };
+  const hiddenCount = lib.sessions.filter(isExcluded).length;
+  const list = lib.sessions.filter(s => (showHidden || !isExcluded(s)) && (filter === "all" || s.status === filter) && (!favOnly || s.favorite)).sort((a, b) => b.updatedAt.localeCompare(a.updatedAt));
   return (
     <>
       <div className="row between">
@@ -113,6 +134,10 @@ export default function Journal({ byId, onOpen }: { byId: Map<string, Book>; onO
         ))}
         <button className={`chip btn-chip plain ${favOnly ? "s1" : ""}`} onClick={() => setFavOnly(v => !v)}>♥ Favorites</button>
       </div>
+      <LinkBanner />
+      {hiddenCount > 0 && (
+        <p className="small">{hiddenCount} to-read book{hiddenCount === 1 ? " is" : "s are"} {showHidden ? "shown" : "hidden"} because of warnings you excluded ({lib.excluded.map(catLabel).join(", ")}). <button className="link" onClick={() => setShowHidden(v => !v)}>{showHidden ? "Hide them" : "Show them"}</button></p>
+      )}
       <p className="count">{list.length} record{list.length === 1 ? "" : "s"}</p>
       {lib.sessions.length === 0 && <p className="notice">Nothing here yet. Open a book in Discover and tap “Add to my shelf”, or add a book of your own.</p>}
       <div className="grid">

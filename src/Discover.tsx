@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 import Fuse from "fuse.js";
 import { books, moods, warningCategories, warningState, pagesLabel, catLabel } from "./catalogue";
 import { MoodChip, Cover, WarningBadge } from "./components";
+import { store, useLibrary } from "./store";
 
 type Tri = 0 | 1 | 2; // off / include / exclude
 
@@ -10,7 +11,9 @@ export default function Discover({ onOpen }: { onOpen: (id: string) => void }) {
   const [moodSel, setMoodSel] = useState<Record<string, Tri>>({});
   const [pMin, setPMin] = useState("");
   const [pMax, setPMax] = useState("");
-  const [exCats, setExCats] = useState<string[]>([]);
+  const lib = useLibrary();
+  const exCats = lib.excluded; // saved with your library, so it also applies to your to-read list
+  const setExCats = (f: (s: string[]) => string[]) => store.setExcluded(f(lib.excluded));
   const [hideUnassessed, setHideUnassessed] = useState(false);
   const [showFilters, setShowFilters] = useState(false);
 

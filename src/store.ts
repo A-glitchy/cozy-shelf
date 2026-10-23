@@ -4,7 +4,7 @@ import { isDate } from "./format";
 
 const KEY = "cozy-shelf:v1";
 const STATUS_IDS = ["want", "reading", "read", "hold", "dnf"];
-const emptyLib = (): Library => ({ version: 1, sessions: [], customBooks: [], goals: [] });
+const emptyLib = (): Library => ({ version: 1, sessions: [], customBooks: [], goals: [], excluded: [] });
 const str = (v: unknown) => (typeof v === "string" && v.trim() ? v : undefined);
 const date = (v: unknown) => (typeof v === "string" && isDate(v) ? v : undefined);
 
@@ -37,6 +37,7 @@ export function normalizeLibrary(raw: any): { lib: Library; skipped: number; val
   for (const g of Array.isArray(raw.goals) ? raw.goals : []) {
     if (g && Number.isInteger(g.year) && Number.isInteger(g.target) && g.target > 0) lib.goals.push({ year: g.year, target: g.target });
   }
+  lib.excluded = Array.isArray(raw.excluded) ? raw.excluded.filter((x: unknown) => typeof x === "string") : [];
   return { lib, skipped, valid };
 }
 
@@ -85,6 +86,12 @@ export const store = {
   importBatch(newBooks: CustomBook[], newSessions: Session[]) {
     commit({ ...lib, customBooks: [...lib.customBooks, ...newBooks], sessions: [...lib.sessions, ...newSessions] });
   },
+  /** Moves reading records from your own book to a catalogue book, then removes the duplicate own book. */
+  relink(map: Record<string, string>) {
+    commit({ ...lib, sessions: lib.sessions.map(x => (map[x.bookRef] ? { ...x, bookRef: map[x.bookRef], updatedAt: new Date().toISOString() } : x)),
+      customBooks: lib.customBooks.filter(b => !map[b.id]) });
+  },
+  setExcluded(cats: string[]) { commit({ ...lib, excluded: cats }); },
   replace(next: Library) { commit(next); },
   /** Adds records that are not already present. Existing records are never overwritten. */
   merge(inc: Library) {
@@ -92,7 +99,7 @@ export const store = {
     const newS = inc.sessions.filter(s => !sIds.has(s.id)), newB = inc.customBooks.filter(b => !bIds.has(b.id));
     const years = new Set(lib.goals.map(g => g.year));
     const newG = inc.goals.filter(g => !years.has(g.year));
-    commit({ ...lib, sessions: [...lib.sessions, ...newS], customBooks: [...lib.customBooks, ...newB], goals: [...lib.goals, ...newG] });
+    commit({ ...lib, sessions: [...lib.sessions, ...newS], customBooks: [...lib.customBooks, ...newB], goals: [...lib.goals, ...newG], excluded: [...new Set([...lib.excluded, ...inc.excluded])] });
     return { addedSessions: newS.length, skippedSessions: inc.sessions.length - newS.length, addedBooks: newB.length, skippedBooks: inc.customBooks.length - newB.length };
   },
   exportObject() { return { app: "cozy-shelf", exportedAt: new Date().toISOString(), ...lib }; },
