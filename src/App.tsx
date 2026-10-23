@@ -36,7 +36,7 @@ export default function App() {
         {tab === "journal" && <Journal byId={byId} onOpen={setOpenId} />}
         {tab === "stats" && <Stats byId={byId} />}
       </main>
-      {open && <Detail b={open} onClose={() => setOpenId(null)} />}
+      {open && <Detail key={open.id} b={open} onClose={() => setOpenId(null)} onOpen={setOpenId} />}
     </div>
   );
 }

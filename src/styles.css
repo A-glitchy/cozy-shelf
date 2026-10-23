@@ -70,3 +70,12 @@ input[type=number]{width:6rem}
 .progress{background:#EADFC8;border-radius:999px;height:12px;overflow:hidden}.progress div{background:var(--forest);height:100%}
 .plainlist{list-style:none;padding:0;margin:0}.plainlist li{padding:.35rem 0;border-bottom:1px solid var(--line)}
 button:disabled{opacity:.6;cursor:default}
+
+.sheet.wide{max-width:960px}
+.tablewrap{overflow-x:auto;margin:.6rem 0}
+table.pv{border-collapse:collapse;font-size:.85rem;width:100%;min-width:560px}
+.pv th,.pv td{border-bottom:1px solid var(--line);padding:.4rem .5rem;text-align:left;vertical-align:top}
+.pv tr.bad{background:#F6E3DF}
+.pv select{font:inherit;max-width:260px;padding:.3rem;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--brown)}
+.warnText{color:#8A2F2F}
+.link.big{font-size:.95rem;font-weight:700}

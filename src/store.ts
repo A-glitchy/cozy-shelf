@@ -82,6 +82,9 @@ export const store = {
     if (target > 0) goals.push({ year, target });
     commit({ ...lib, goals });
   },
+  importBatch(newBooks: CustomBook[], newSessions: Session[]) {
+    commit({ ...lib, customBooks: [...lib.customBooks, ...newBooks], sessions: [...lib.sessions, ...newSessions] });
+  },
   replace(next: Library) { commit(next); },
   /** Adds records that are not already present. Existing records are never overwritten. */
   merge(inc: Library) {

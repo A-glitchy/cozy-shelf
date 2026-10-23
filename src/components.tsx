@@ -1,5 +1,6 @@
-import { useState } from "react";
-import { moodById, pagesLabel, catLabel, verLabel, warningState } from "./catalogue";
+import { useMemo, useState } from "react";
+import { moodById, pagesLabel, catLabel, verLabel, warningState, books, customToBook } from "./catalogue";
+import { recommend } from "./recommend";
 import type { Book, Session, Status } from "./types";
 import { STATUSES, statusLabel, stars, RATINGS, newId, splitList } from "./format";
 import { store, useLibrary } from "./store";
@@ -99,7 +100,38 @@ function MyReading({ book }: { book: Book }) {
   );
 }
 
-export function Detail({ b, onClose }: { b: Book; onClose: () => void }) {
+
+function Similar({ book, onOpen }: { book: Book; onOpen: (id: string) => void }) {
+  const lib = useLibrary();
+  const [show, setShow] = useState(false);
+  const recs = useMemo(() => {
+    if (!show) return [];
+    const custom = lib.customBooks.map(customToBook);
+    const lookup = (id: string) => books.find(b => b.id === id) ?? custom.find(b => b.id === id);
+    return recommend(book, books, lib.sessions, lookup);
+  }, [show, book, lib]);
+  return (
+    <section>
+      <h3>Similar books</h3>
+      {!show ? <button className="btn" onClick={() => setShow(true)}>Find similar books</button> : recs.length === 0 ? (
+        <p className="small">No similar books in the catalogue yet (books you've read, started or abandoned are left out).</p>
+      ) : (
+        <>
+          <ul className="plainlist">{recs.map(r => (
+            <li key={r.book.id}>
+              <button className="link big" onClick={() => onOpen(r.book.id)}>{r.book.title}</button> <span className="small">by {r.book.authors.join(", ")}</span>
+              <div className="small">{r.reasons.join(" · ")}</div>
+              <WarningBadge b={r.book} exCats={[]} />
+            </li>
+          ))}</ul>
+          <p className="small">Based only on tags in this catalogue (moods, genres, author) and your ratings. Check each book's warnings before reading.</p>
+        </>
+      )}
+    </section>
+  );
+}
+
+export function Detail({ b, onClose, onOpen }: { b: Book; onClose: () => void; onOpen: (id: string) => void }) {
   const [shown, setShown] = useState<Record<number, boolean>>({});
   return (
     <div className="overlay" onClick={onClose}>
@@ -139,6 +171,7 @@ export function Detail({ b, onClose }: { b: Book; onClose: () => void }) {
             <p className="meta small">Catalogue entry status: {b.research.status}, last reviewed {b.research.lastReviewed}.</p>
           </>
         )}
+        <Similar book={b} onOpen={onOpen} />
         {b.custom && (
           <button className="link" onClick={() => {
             if (window.confirm("Remove this book and all your reading records for it?")) { store.removeCustomBook(b.id); onClose(); }

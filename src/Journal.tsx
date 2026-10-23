@@ -4,6 +4,7 @@ import { moods } from "./catalogue";
 import { Cover, MoodChip } from "./components";
 import { STATUSES, statusLabel, stars, newId, splitList, csvEscape, download } from "./format";
 import { store, useLibrary, normalizeLibrary } from "./store";
+import Import from "./Import";
 
 function AddBook({ onDone }: { onDone: (id?: string) => void }) {
   const [title, setTitle] = useState(""); const [authors, setAuthors] = useState(""); const [pages, setPages] = useState("");
@@ -98,12 +99,13 @@ export default function Journal({ byId, onOpen }: { byId: Map<string, Book>; onO
   const [filter, setFilter] = useState<Status | "all">("all");
   const [favOnly, setFavOnly] = useState(false);
   const [adding, setAdding] = useState(false);
+  const [importing, setImporting] = useState(false);
   const list = lib.sessions.filter(s => (filter === "all" || s.status === filter) && (!favOnly || s.favorite)).sort((a, b) => b.updatedAt.localeCompare(a.updatedAt));
   return (
     <>
       <div className="row between">
         <h2 className="pagetitle">My journal</h2>
-        <button className="btn primary" onClick={() => setAdding(true)}>＋ Add my own book</button>
+        <div className="row"><button className="btn" onClick={() => setImporting(true)}>Import…</button><button className="btn primary" onClick={() => setAdding(true)}>＋ Add my own book</button></div>
       </div>
       <div className="chips">
         {([["all", "All"], ...STATUSES.map(s => [s.id, s.label])] as [string, string][]).map(([id, label]) => (
@@ -131,6 +133,7 @@ export default function Journal({ byId, onOpen }: { byId: Map<string, Book>; onO
         })}
       </div>
       <Backup byId={byId} />
+      {importing && <Import byId={byId} onClose={() => setImporting(false)} />}
       {adding && <AddBook onDone={id => { setAdding(false); if (id) onOpen(id); }} />}
     </>
   );
