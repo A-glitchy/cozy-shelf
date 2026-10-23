@@ -24,3 +24,13 @@ export const verLabel: Record<string, string> = {
   verified: "Verified", "unverified-research": "Unverified research",
   "community-report": "Community report", disputed: "Disputed",
 };
+
+import type { CustomBook } from "./types";
+export function customToBook(c: CustomBook): Book {
+  return {
+    id: c.id, title: c.title, authors: c.authors.length ? c.authors : ["Unknown"], summary: c.summary ?? "Added by you.",
+    pages: { estimate: c.pages, confidence: c.pages ? "high" : "unknown", source: "Entered by you" },
+    genres: c.genres, subgenres: [], moods: c.moods, warnings: [], warningsReviewed: "none", sources: [], cover: null,
+    research: { status: "personal", lastReviewed: c.createdAt.slice(0, 10) }, custom: true,
+  };
+}
