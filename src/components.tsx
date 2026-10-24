@@ -2,9 +2,17 @@ import { useMemo, useState } from "react";
 import { moodById, pagesLabel, catLabel, verLabel, warningState, books, customToBook } from "./catalogue";
 import { recommend } from "./recommend";
 import type { Book, Session, Status } from "./types";
-import { STATUSES, statusLabel, stars, RATINGS, newId, splitList } from "./format";
+import { STATUSES, STATUS_STYLE, statusLabel, stars, RATINGS, newId, splitList } from "./format";
 import { store, useLibrary } from "./store";
 
+export function StatusBadge({ status }: { status: Status }) {
+  const c = STATUS_STYLE[status];
+  return <span className="badge status" style={{ background: c.bg, color: c.text }}>{statusLabel(status)}</span>;
+}
+export function FavBadge() {
+  const c = STATUS_STYLE.favorite;
+  return <span className="badge status" style={{ background: c.bg, color: c.text }}>♥ Favorite</span>;
+}
 export function MoodChip({ id }: { id: string }) {
   const m = moodById(id);
   return <span className="chip" style={{ background: m?.bg ?? "#EEE5D2", color: m?.text ?? "#4A3426" }}>{m?.label ?? id}</span>;
@@ -82,7 +90,7 @@ function MyReading({ book }: { book: Book }) {
         <SessionForm key={s.id} book={book} initial={s} onDone={() => setEditing(null)} />
       ) : (
         <div className="session" key={s.id}>
-          <div><strong>{statusLabel(s.status)}</strong> {s.favorite && "♥"} <span className="stars">{stars(s.rating)}</span></div>
+          <div><StatusBadge status={s.status} /> {s.favorite && <FavBadge />} <span className="stars">{stars(s.rating)}</span></div>
           <div className="small">{s.startDate ?? "start date unknown"} → {s.finishDate ?? "no finish date"}</div>
           {s.review && <p className="small">“{s.review}”</p>}
           {s.notes && <p className="small">Notes: {s.notes}</p>}

@@ -1,0 +1,14 @@
+{
+  "name": "Cozy Shelf",
+  "short_name": "Cozy Shelf",
+  "description": "A cozy mood-based book discovery and reading journal",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#FBF5E9",
+  "theme_color": "#2F4A3A",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

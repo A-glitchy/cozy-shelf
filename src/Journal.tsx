@@ -1,8 +1,8 @@
 import { useMemo, useState } from "react";
 import type { Book, Library, Status } from "./types";
 import { moods } from "./catalogue";
-import { Cover, MoodChip } from "./components";
-import { STATUSES, statusLabel, stars, newId, splitList, csvEscape, download } from "./format";
+import { Cover, MoodChip, StatusBadge, FavBadge } from "./components";
+import { STATUSES, STATUS_STYLE, statusLabel, stars, newId, splitList, csvEscape, download } from "./format";
 import { store, useLibrary, normalizeLibrary } from "./store";
 import Import from "./Import";
 import { useSyncStatus, connect, disconnect, syncNow, resolveConflict, getConnection } from "./sync";
@@ -174,9 +174,9 @@ export default function Journal({ byId, onOpen }: { byId: Map<string, Book>; onO
       <input type="search" className="jsearch" placeholder="Search my journal by title or author…" value={q} onChange={e => setQ(e.target.value)} />
       <div className="chips">
         {([["all", "All"], ...STATUSES.map(s => [s.id, s.label])] as [string, string][]).map(([id, label]) => (
-          <button key={id} className={`chip btn-chip plain ${filter === id ? "s1" : ""}`} onClick={() => setFilter(id as Status | "all")}>{label}</button>
+          <button key={id} className={`chip btn-chip plain ${filter === id ? "s1" : ""}`} style={id !== "all" ? { background: STATUS_STYLE[id as Status].bg, color: STATUS_STYLE[id as Status].text } : undefined} onClick={() => setFilter(id as Status | "all")}>{label}</button>
         ))}
-        <button className={`chip btn-chip plain ${favOnly ? "s1" : ""}`} onClick={() => setFavOnly(v => !v)}>♥ Favorites</button>
+        <button className={`chip btn-chip plain ${favOnly ? "s1" : ""}`} style={{ background: STATUS_STYLE.favorite.bg, color: STATUS_STYLE.favorite.text }} onClick={() => setFavOnly(v => !v)}>♥ Favorites</button>
       </div>
       <LinkBanner />
       {hiddenCount > 0 && (
@@ -193,7 +193,7 @@ export default function Journal({ byId, onOpen }: { byId: Map<string, Book>; onO
               <div className="info">
                 <h2>{b?.title ?? "Book no longer in the catalogue"}</h2>
                 <p className="by">{b?.authors.join(", ") ?? s.bookRef}</p>
-                <p className="meta"><span className="badge unk">{statusLabel(s.status)}</span> <span className="stars">{stars(s.rating)}</span> {s.favorite && "♥"}</p>
+                <p className="meta"><StatusBadge status={s.status} /> {s.favorite && <FavBadge />} <span className="stars">{stars(s.rating)}</span></p>
                 <p className="small">{s.startDate ?? "?"} → {s.finishDate ?? "—"}</p>
                 {b && <div className="chips">{b.moods.slice(0, 2).map(m => <MoodChip key={m} id={m} />)}</div>}
               </div>

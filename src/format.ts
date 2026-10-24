@@ -18,3 +18,13 @@ export function download(name: string, text: string, mime: string) {
   setTimeout(() => URL.revokeObjectURL(url), 1000);
 }
 export const splitList = (s: string) => s.split(",").map(x => x.trim()).filter(Boolean);
+
+/** One colour pair per status, plus favourite, so they are easy to tell apart. */
+export const STATUS_STYLE: Record<Status | "favorite", { bg: string; text: string }> = {
+  want: { bg: "#E3DAF0", text: "#43365E" },
+  reading: { bg: "#D4E3F2", text: "#27456B" },
+  read: { bg: "#CFE5C8", text: "#2A4D26" },
+  hold: { bg: "#F7E2A6", text: "#6B4E0B" },
+  dnf: { bg: "#E0D3CB", text: "#5A4034" },
+  favorite: { bg: "#F4C9D3", text: "#8A2748" },
+};
