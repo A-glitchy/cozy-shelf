@@ -21,7 +21,7 @@ export function validateBookRecord(b, at, { moods, cats }) {
   const errors = [];
   if (!b.title) errors.push(`${at}: missing title`);
   if (!Array.isArray(b.authors) || !b.authors.length) errors.push(`${at}: authors required (use ["Unknown"] explicitly)`);
-  if (typeof b.summary !== "string" || !b.summary) errors.push(`${at}: summary required`);
+  if (b.summary !== null && (typeof b.summary !== "string" || !b.summary)) errors.push(`${at}: summary must be text, or null when not written yet`);
   const p = b.pages;
   if (!p || !CONF.includes(p.confidence)) errors.push(`${at}: pages.confidence invalid`);
   else if (p.estimate !== null && (!Number.isInteger(p.estimate) || p.estimate < 1 || p.estimate > 5000)) errors.push(`${at}: invalid page count`);

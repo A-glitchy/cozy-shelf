@@ -6,7 +6,7 @@ export interface Warning {
   evidence?: Evidence[]; intensity?: "mild" | "moderate" | "heavy"; note?: string; spoilerNote?: string;
 }
 export interface Book {
-  id: string; title: string; authors: string[]; summary: string;
+  id: string; title: string; authors: string[]; summary: string | null;
   pages: { estimate: number | null; confidence: string; source: string };
   genres: string[]; subgenres: string[]; moods: string[];
   warnings: Warning[]; warningsReviewed: "none" | "partial" | "complete";

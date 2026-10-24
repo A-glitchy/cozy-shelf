@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import type { Book, Library, Status } from "./types";
 import { moods } from "./catalogue";
 import { Cover, MoodChip } from "./components";
@@ -7,6 +7,7 @@ import { store, useLibrary, normalizeLibrary } from "./store";
 import Import from "./Import";
 import { useSyncStatus, connect, disconnect, syncNow, resolveConflict, getConnection } from "./sync";
 import type { Session } from "./types";
+import Fuse from "fuse.js";
 import { findMatch } from "./importer";
 import { books, warningState, catLabel } from "./catalogue";
 
@@ -152,18 +153,25 @@ export default function Journal({ byId, onOpen }: { byId: Map<string, Book>; onO
   const [adding, setAdding] = useState(false);
   const [importing, setImporting] = useState(false);
   const [showHidden, setShowHidden] = useState(false);
+  const [q, setQ] = useState("");
   const isExcluded = (s: { bookRef: string; status: Status }) => {
     const b = byId.get(s.bookRef);
     return s.status === "want" && !!b && lib.excluded.some(c => warningState(b, c) === "present");
   };
   const hiddenCount = lib.sessions.filter(isExcluded).length;
-  const list = lib.sessions.filter(s => (showHidden || !isExcluded(s)) && (filter === "all" || s.status === filter) && (!favOnly || s.favorite)).sort((a, b) => b.updatedAt.localeCompare(a.updatedAt));
+  const matchIds = useMemo(() => {
+    if (!q.trim()) return null;
+    const mine = [...new Set(lib.sessions.map(s => s.bookRef))].map(id => byId.get(id)).filter((b): b is Book => !!b);
+    return new Set(new Fuse(mine, { keys: ["title", "authors"], threshold: 0.3, ignoreLocation: true }).search(q.trim()).map(r => r.item.id));
+  }, [q, lib.sessions, byId]);
+  const list = lib.sessions.filter(s => (!matchIds || matchIds.has(s.bookRef)) && (showHidden || !isExcluded(s)) && (filter === "all" || s.status === filter) && (!favOnly || s.favorite)).sort((a, b) => b.updatedAt.localeCompare(a.updatedAt));
   return (
     <>
       <div className="row between">
         <h2 className="pagetitle">My journal</h2>
         <div className="row"><button className="btn" onClick={() => setImporting(true)}>Import…</button><button className="btn primary" onClick={() => setAdding(true)}>＋ Add my own book</button></div>
       </div>
+      <input type="search" className="jsearch" placeholder="Search my journal by title or author…" value={q} onChange={e => setQ(e.target.value)} />
       <div className="chips">
         {([["all", "All"], ...STATUSES.map(s => [s.id, s.label])] as [string, string][]).map(([id, label]) => (
           <button key={id} className={`chip btn-chip plain ${filter === id ? "s1" : ""}`} onClick={() => setFilter(id as Status | "all")}>{label}</button>

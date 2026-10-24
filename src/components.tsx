@@ -108,12 +108,14 @@ function Similar({ book, onOpen }: { book: Book; onOpen: (id: string) => void })
     if (!show) return [];
     const custom = lib.customBooks.map(customToBook);
     const lookup = (id: string) => books.find(b => b.id === id) ?? custom.find(b => b.id === id);
-    return recommend(book, books, lib.sessions, lookup);
+    return recommend(book, [...books, ...custom], lib.sessions, lookup);
   }, [show, book, lib]);
   return (
     <section>
       <h3>Similar books</h3>
-      {!show ? <button className="btn" onClick={() => setShow(true)}>Find similar books</button> : recs.length === 0 ? (
+      {book.moods.length === 0 && book.genres.length === 0 ? (
+        <p className="small">This book has no moods or genres yet, so there is nothing to compare. Similar books work from those tags, which come from the catalogue.</p>
+      ) : !show ? <button className="btn" onClick={() => setShow(true)}>Find similar books</button> : recs.length === 0 ? (
         <p className="small">No similar books in the catalogue yet (books you've read, started or abandoned are left out).</p>
       ) : (
         <>
@@ -139,7 +141,7 @@ export function Detail({ b, onClose, onOpen }: { b: Book; onClose: () => void; o
         <button className="close" onClick={onClose} aria-label="Close">×</button>
         <h2>{b.title}</h2>
         <p className="by">by {b.authors.join(", ")}</p>
-        <p>{b.summary}</p>
+        {b.summary ? <p>{b.summary}</p> : <p className="small">No summary yet.</p>}
         <p className="meta">{pagesLabel(b)} {b.pages.estimate !== null && !b.custom && <em>({b.pages.confidence} confidence)</em>}</p>
         {!b.custom && <p className="meta small">{b.pages.source}</p>}
         <div className="chips">{b.moods.map(m => <MoodChip key={m} id={m} />)}</div>
