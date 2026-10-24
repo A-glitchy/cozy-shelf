@@ -27,4 +27,4 @@ export interface CustomBook {
   genres: string[]; moods: string[]; summary?: string; createdAt: string;
 }
 export interface Goal { year: number; target: number }
-export interface Library { version: 1; sessions: Session[]; customBooks: CustomBook[]; goals: Goal[]; excluded: string[] }
+export interface Library { version: 1; sessions: Session[]; customBooks: CustomBook[]; goals: Goal[]; excluded: string[]; tombstones: string[]; settingsUpdatedAt?: string }

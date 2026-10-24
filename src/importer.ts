@@ -95,7 +95,7 @@ export function parseDate(raw: string, order: "mdy" | "dmy"): string | null | un
   if (dt.getUTCFullYear() !== y || dt.getUTCMonth() !== m - 1 || dt.getUTCDate() !== d) return null;
   return `${y}-${String(m).padStart(2, "0")}-${String(d).padStart(2, "0")}`;
 }
-function parseStatus(raw: string): Status | null | undefined {
+export function parseStatus(raw: string): Status | null | undefined {
   const s = raw.toLowerCase().replace(/[_-]+/g, " ").trim(); if (!s) return undefined;
   if (["to read", "want to read", "want", "wishlist", "wish list", "tbr"].includes(s)) return "want";
   if (["currently reading", "reading", "in progress"].includes(s)) return "reading";
@@ -104,7 +104,7 @@ function parseStatus(raw: string): Status | null | undefined {
   if (["dnf", "did not finish", "abandoned", "stopped"].includes(s)) return "dnf";
   return null;
 }
-function parseRating(raw: string): number | null | undefined {
+export function parseRating(raw: string): number | null | undefined {
   const s = raw.trim().replace(",", "."); if (!s) return undefined;
   const n = Number(s); if (Number.isNaN(n)) return null;
   if (n === 0) return undefined; // many services use 0 for "unrated"

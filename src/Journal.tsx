@@ -5,6 +5,8 @@ import { Cover, MoodChip } from "./components";
 import { STATUSES, statusLabel, stars, newId, splitList, csvEscape, download } from "./format";
 import { store, useLibrary, normalizeLibrary } from "./store";
 import Import from "./Import";
+import { useSyncStatus, connect, disconnect, syncNow, resolveConflict, getConnection } from "./sync";
+import type { Session } from "./types";
 import { findMatch } from "./importer";
 import { books, warningState, catLabel } from "./catalogue";
 
@@ -109,6 +111,40 @@ function LinkBanner() {
   );
 }
 
+
+const summ = (s: Session | null) => (s ? `${statusLabel(s.status)}${s.rating ? ` · ${stars(s.rating)}` : ""} · ${s.startDate ?? "?"} → ${s.finishDate ?? "—"}${s.review ? " · has review" : ""}` : "deleted in the Sheet");
+
+function SyncPanel({ byId }: { byId: Map<string, Book> }) {
+  const st = useSyncStatus();
+  const [url, setUrl] = useState(getConnection().url);
+  const [token, setToken] = useState(getConnection().token);
+  return (
+    <details className="panel" open={st.configured && (st.conflicts.length > 0 || st.state === "error") ? true : undefined}>
+      <summary>Sync with Google Sheet {st.configured ? "✓" : ""}</summary>
+      <p className="small">Keeps your journal in a Google Sheet you own, so your laptop and phone share it. The app still works offline and syncs when it can. Edit rows in the Sheet and they appear here; add a row with a title and author and it is matched to a book.</p>
+      <div className="form">
+        <label>Web app URL<input value={url} onChange={e => setUrl(e.target.value)} placeholder="https://script.google.com/macros/s/…/exec" /></label>
+        <label>Token (the phrase you put in the script)<input type="password" value={token} onChange={e => setToken(e.target.value)} /></label>
+        <div className="row">
+          <button className="btn primary" disabled={!url.trim() || !token.trim()} onClick={() => void connect(url, token, books)}>{st.configured ? "Save and sync" : "Connect and sync"}</button>
+          {st.configured && <button className="btn" onClick={() => void syncNow(books)}>Sync now</button>}
+          {st.configured && <button className="btn" onClick={() => { if (window.confirm("Disconnect from the Sheet? Your data stays in the app and in the Sheet.")) { disconnect(); setUrl(""); setToken(""); } }}>Disconnect</button>}
+        </div>
+      </div>
+      {st.message && <p className={st.state === "error" ? "notice" : "small"}>{st.message}{st.lastSync && st.state === "ok" ? ` (${new Date(st.lastSync).toLocaleTimeString()})` : ""}</p>}
+      {st.conflicts.map(c => (
+        <div className="notice" key={c.id}>
+          <strong>{byId.get(c.local.bookRef)?.title ?? "A book"}</strong> was changed in both places.
+          <div className="small">In the app: {summ(c.local)}</div>
+          <div className="small">In the Sheet: {summ(c.remote)}</div>
+          <div className="row"><button className="btn" onClick={() => void resolveConflict(c.id, "app", books)}>Keep the app version</button><button className="btn" onClick={() => void resolveConflict(c.id, "sheet", books)}>Keep the Sheet version</button></div>
+        </div>
+      ))}
+      {st.problems.length > 0 && <div className="notice"><p>These Sheet rows were skipped, so nothing was changed. Fix them in the Sheet:</p><ul className="plainlist">{st.problems.slice(0, 10).map((p, i) => <li key={i} className="small">{p}</li>)}</ul></div>}
+    </details>
+  );
+}
+
 export default function Journal({ byId, onOpen }: { byId: Map<string, Book>; onOpen: (id: string) => void }) {
   const lib = useLibrary();
   const [filter, setFilter] = useState<Status | "all">("all");
@@ -157,6 +193,7 @@ export default function Journal({ byId, onOpen }: { byId: Map<string, Book>; onO
           );
         })}
       </div>
+      <SyncPanel byId={byId} />
       <Backup byId={byId} />
       {importing && <Import byId={byId} onClose={() => setImporting(false)} />}
       {adding && <AddBook onDone={id => { setAdding(false); if (id) onOpen(id); }} />}
