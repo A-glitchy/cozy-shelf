@@ -3475,5 +3475,7593 @@
       "lastReviewed": "2026-10-24"
     },
     "id": "bk_fwiwdtzj"
+  },
+  {
+    "title": "Tilly and the Map of Stories",
+    "authors": [
+      "Anna James"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 448,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "children's",
+      "fantasy"
+    ],
+    "subgenres": [
+      "bookish fantasy"
+    ],
+    "moods": [
+      "whimsical",
+      "cozy",
+      "adventurous",
+      "comforting"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_jthgv0ic"
+  },
+  {
+    "title": "Tilly and the Lost Fairytales",
+    "authors": [
+      "Anna James"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 400,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "children's",
+      "fantasy"
+    ],
+    "subgenres": [
+      "bookish fantasy"
+    ],
+    "moods": [
+      "whimsical",
+      "cozy",
+      "adventurous",
+      "comforting"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_mb1tq5dl"
+  },
+  {
+    "title": "Tilly and the Bookwanderers",
+    "authors": [
+      "Anna James"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 400,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "children's",
+      "fantasy"
+    ],
+    "subgenres": [
+      "bookish fantasy"
+    ],
+    "moods": [
+      "whimsical",
+      "cozy",
+      "adventurous",
+      "comforting"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_835uu24o"
+  },
+  {
+    "title": "The Spanish Love Deception",
+    "authors": [
+      "Elena Armas"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 487,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "romance",
+      "contemporary"
+    ],
+    "subgenres": [
+      "romantic comedy"
+    ],
+    "moods": [
+      "romantic",
+      "funny"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_o4zxukqc"
+  },
+  {
+    "title": "The Last Thing He Told Me",
+    "authors": [
+      "Laura Dave"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 307,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "mystery",
+      "thriller"
+    ],
+    "subgenres": [
+      "domestic suspense"
+    ],
+    "moods": [
+      "suspenseful",
+      "emotionally-intense"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_tkx1vddc"
+  },
+  {
+    "title": "The Beast Within",
+    "authors": [
+      "Serena Valentino"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 224,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "fantasy"
+    ],
+    "subgenres": [
+      "fairy tale retelling"
+    ],
+    "moods": [
+      "whimsical",
+      "atmospheric",
+      "dark-unsettling"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_kr2y7pf7"
+  },
+  {
+    "title": "The Inheritance Games",
+    "authors": [
+      "Jennifer Lynn Barnes"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 386,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "mystery"
+    ],
+    "subgenres": [
+      "puzzle mystery"
+    ],
+    "moods": [
+      "suspenseful",
+      "adventurous",
+      "romantic"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_zfm4y4n6"
+  },
+  {
+    "title": "The Picture of Dorian Gray",
+    "authors": [
+      "Oscar Wilde",
+      "Jeffrey Eugenides"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 272,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "classic",
+      "gothic fiction"
+    ],
+    "subgenres": [],
+    "moods": [
+      "dark-unsettling",
+      "thought-provoking",
+      "atmospheric"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_9ri5n086"
+  },
+  {
+    "title": "Darling Girl",
+    "authors": [
+      "Liz Michalski"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 352,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "fantasy"
+    ],
+    "subgenres": [
+      "fairy tale retelling"
+    ],
+    "moods": [
+      "dark-unsettling",
+      "atmospheric",
+      "suspenseful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_gjg4caob"
+  },
+  {
+    "title": "Hello, Transcriber",
+    "authors": [
+      "Hannah Morrissey"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 304,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "mystery",
+      "thriller"
+    ],
+    "subgenres": [],
+    "moods": [
+      "suspenseful",
+      "dark-unsettling"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_zvxpmeqs"
+  },
+  {
+    "title": "Hidden Pictures",
+    "authors": [
+      "Jason Rekulak"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 372,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "horror",
+      "thriller"
+    ],
+    "subgenres": [
+      "supernatural thriller"
+    ],
+    "moods": [
+      "spooky",
+      "suspenseful",
+      "dark-unsettling"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_wgbtnvza"
+  },
+  {
+    "title": "Medusa: The Girl Behind the Myth",
+    "authors": [
+      "Jessie Burton",
+      "Olivia Lomenech Gill"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 224,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "fantasy"
+    ],
+    "subgenres": [
+      "mythological retelling"
+    ],
+    "moods": [
+      "emotionally-intense",
+      "thought-provoking",
+      "atmospheric"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_8ce1ikec"
+  },
+  {
+    "title": "56 Days",
+    "authors": [
+      "Catherine Ryan Howard"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 305,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "thriller",
+      "mystery"
+    ],
+    "subgenres": [
+      "psychological thriller"
+    ],
+    "moods": [
+      "suspenseful",
+      "dark-unsettling"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_83olxupa"
+  },
+  {
+    "title": "Fahrenheit 451",
+    "authors": [
+      "Ray Bradbury"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 249,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "science fiction",
+      "classic"
+    ],
+    "subgenres": [
+      "dystopian"
+    ],
+    "moods": [
+      "thought-provoking",
+      "dark-unsettling",
+      "atmospheric"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_qzl1c8x3"
+  },
+  {
+    "title": "The Metamorphosis",
+    "authors": [
+      "Franz Kafka",
+      "Stanley Corngold"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 201,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "classic",
+      "literary fiction"
+    ],
+    "subgenres": [
+      "novella"
+    ],
+    "moods": [
+      "dark-unsettling",
+      "thought-provoking"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_5m53swak"
+  },
+  {
+    "title": "Get a Life, Chloe Brown",
+    "authors": [
+      "Talia Hibbert"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 373,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "romance",
+      "contemporary"
+    ],
+    "subgenres": [
+      "romantic comedy"
+    ],
+    "moods": [
+      "romantic",
+      "funny",
+      "comforting"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_ffhqyzm4"
+  },
+  {
+    "title": "The Orange Girl",
+    "authors": [
+      "Jostein Gaarder"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 151,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "literary fiction",
+      "young adult"
+    ],
+    "subgenres": [
+      "philosophical fiction"
+    ],
+    "moods": [
+      "thought-provoking",
+      "heartbreaking",
+      "hopeful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_vg4jktcg"
+  },
+  {
+    "title": "If Cats Disappeared from the World",
+    "authors": [
+      "Genki Kawamura",
+      "Eric Selland"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 168,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "literary fiction"
+    ],
+    "subgenres": [
+      "translated fiction"
+    ],
+    "moods": [
+      "thought-provoking",
+      "heartbreaking",
+      "hopeful",
+      "comforting"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_b9rt3t7i"
+  },
+  {
+    "title": "If We Were Villains",
+    "authors": [
+      "M.L. Rio"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 354,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "mystery",
+      "thriller"
+    ],
+    "subgenres": [
+      "dark academia"
+    ],
+    "moods": [
+      "dark-unsettling",
+      "suspenseful",
+      "atmospheric",
+      "emotionally-intense"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_qoakizv9"
+  },
+  {
+    "title": "The Beekeeper of Aleppo",
+    "authors": [
+      "Christy Lefteri"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 317,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "historical fiction",
+      "literary fiction"
+    ],
+    "subgenres": [
+      "refugee story"
+    ],
+    "moods": [
+      "heartbreaking",
+      "emotionally-intense",
+      "hopeful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_vl5ufksi"
+  },
+  {
+    "title": "The Mistletoe Motive",
+    "authors": [
+      "Chloe Liese"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 185,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "romance",
+      "contemporary"
+    ],
+    "subgenres": [
+      "holiday novella"
+    ],
+    "moods": [
+      "romantic",
+      "cozy",
+      "comforting"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_mwdasy97"
+  },
+  {
+    "title": "Aristotle and Dante Dive into the Waters of the World",
+    "authors": [
+      "Benjamin Alire Sáenz"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 516,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "contemporary"
+    ],
+    "subgenres": [
+      "LGBTQ+ coming of age"
+    ],
+    "moods": [
+      "romantic",
+      "hopeful",
+      "nostalgic",
+      "emotionally-intense"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_6dzvogmk"
+  },
+  {
+    "title": "Aristotle and Dante Discover the Secrets of the Universe",
+    "authors": [
+      "Benjamin Alire Sáenz"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 390,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "contemporary"
+    ],
+    "subgenres": [
+      "LGBTQ+ coming of age"
+    ],
+    "moods": [
+      "romantic",
+      "hopeful",
+      "nostalgic",
+      "emotionally-intense"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_i1sh8aou"
+  },
+  {
+    "title": "The Egg",
+    "authors": [
+      "Andy Weir"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": null,
+      "confidence": "unknown",
+      "source": "Not given in the Goodreads export."
+    },
+    "genres": [
+      "science fiction"
+    ],
+    "subgenres": [
+      "short story"
+    ],
+    "moods": [
+      "thought-provoking"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_ng4iagwk"
+  },
+  {
+    "title": "Rock Paper Scissors",
+    "authors": [
+      "Alice Feeney"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 294,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "thriller",
+      "mystery"
+    ],
+    "subgenres": [
+      "psychological thriller"
+    ],
+    "moods": [
+      "suspenseful",
+      "dark-unsettling"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_tfc7uyi8"
+  },
+  {
+    "title": "The Ex Hex",
+    "authors": [
+      "Erin Sterling"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 308,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "romance",
+      "fantasy"
+    ],
+    "subgenres": [
+      "romantic comedy"
+    ],
+    "moods": [
+      "romantic",
+      "funny",
+      "cozy",
+      "whimsical"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_ad8zu6tk"
+  },
+  {
+    "title": "For Your Own Good",
+    "authors": [
+      "Samantha Downing"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 373,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "thriller"
+    ],
+    "subgenres": [
+      "domestic suspense"
+    ],
+    "moods": [
+      "suspenseful",
+      "dark-unsettling"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_wl8ogj5g"
+  },
+  {
+    "title": "Coraline",
+    "authors": [
+      "Neil Gaiman",
+      "Dave McKean"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 208,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "fantasy",
+      "horror"
+    ],
+    "subgenres": [
+      "children's horror"
+    ],
+    "moods": [
+      "spooky",
+      "whimsical",
+      "dark-unsettling",
+      "atmospheric"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_dwghak0s"
+  },
+  {
+    "title": "The Ocean at the End of the Lane",
+    "authors": [
+      "Neil Gaiman"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 181,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "fantasy"
+    ],
+    "subgenres": [
+      "dark fantasy"
+    ],
+    "moods": [
+      "dreamy",
+      "nostalgic",
+      "atmospheric",
+      "dark-unsettling",
+      "emotionally-intense"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_64jzbsze"
+  },
+  {
+    "title": "Green Witch",
+    "authors": [
+      "Alice Hoffman"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 137,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "fantasy"
+    ],
+    "subgenres": [
+      "magical realism"
+    ],
+    "moods": [
+      "dreamy",
+      "atmospheric",
+      "hopeful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_9owr7zwj"
+  },
+  {
+    "title": "Green Angel",
+    "authors": [
+      "Alice Hoffman"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 128,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "fantasy"
+    ],
+    "subgenres": [
+      "magical realism"
+    ],
+    "moods": [
+      "heartbreaking",
+      "hopeful",
+      "dreamy",
+      "atmospheric"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_fuk611gm"
+  },
+  {
+    "title": "House of Hollow",
+    "authors": [
+      "Krystal Sutherland"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 292,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "horror"
+    ],
+    "subgenres": [
+      "supernatural horror"
+    ],
+    "moods": [
+      "spooky",
+      "dark-unsettling",
+      "atmospheric"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_1mpmo59p"
+  },
+  {
+    "title": "Almost Midnight",
+    "authors": [
+      "Rainbow Rowell",
+      "Simini Blocker"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 161,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "romance",
+      "contemporary"
+    ],
+    "subgenres": [
+      "holiday novellas"
+    ],
+    "moods": [
+      "cozy",
+      "romantic",
+      "hopeful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_csnad7pd"
+  },
+  {
+    "title": "The Lightning Thief",
+    "authors": [
+      "Rick Riordan"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 377,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "children's",
+      "fantasy"
+    ],
+    "subgenres": [
+      "mythology adventure"
+    ],
+    "moods": [
+      "adventurous",
+      "funny"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_rvya81yg"
+  },
+  {
+    "title": "A Little Lumpen Novelita",
+    "authors": [
+      "Roberto Bolaño",
+      "Natasha Wimmer"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 128,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "literary fiction"
+    ],
+    "subgenres": [
+      "novella"
+    ],
+    "moods": [
+      "dark-unsettling",
+      "thought-provoking"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_l9dzlkkt"
+  },
+  {
+    "title": "The Okay Witch",
+    "authors": [
+      "Emma Steinkellner"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 272,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "children's",
+      "fantasy"
+    ],
+    "subgenres": [
+      "graphic novel"
+    ],
+    "moods": [
+      "whimsical",
+      "funny",
+      "cozy"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_8vmdhhy2"
+  },
+  {
+    "title": "The Silent Patient",
+    "authors": [
+      "Alex Michaelides"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 336,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "thriller",
+      "mystery"
+    ],
+    "subgenres": [
+      "psychological thriller"
+    ],
+    "moods": [
+      "suspenseful",
+      "dark-unsettling"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_7q27dh04"
+  },
+  {
+    "title": "Evidence of the Affair",
+    "authors": [
+      "Taylor Jenkins Reid"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 88,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "romance",
+      "literary fiction"
+    ],
+    "subgenres": [
+      "epistolary novella"
+    ],
+    "moods": [
+      "emotionally-intense",
+      "heartbreaking"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_4p9rgkh9"
+  },
+  {
+    "title": "The Soulmate Equation",
+    "authors": [
+      "Christina Lauren"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 360,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "romance",
+      "contemporary"
+    ],
+    "subgenres": [
+      "romantic comedy"
+    ],
+    "moods": [
+      "romantic",
+      "funny",
+      "comforting"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_qo6dnfz5"
+  },
+  {
+    "title": "Mythos - The Greek Myths Retold",
+    "authors": [
+      "Stephen Fry"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 416,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "mythology"
+    ],
+    "subgenres": [
+      "mythology retelling"
+    ],
+    "moods": [
+      "funny",
+      "adventurous",
+      "thought-provoking"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_60q6je1w"
+  },
+  {
+    "title": "The Broken Wings",
+    "authors": [
+      "Kahlil Gibran",
+      "Anthony Rizcallah Ferris"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 132,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "classic",
+      "literary fiction"
+    ],
+    "subgenres": [
+      "novella"
+    ],
+    "moods": [
+      "heartbreaking",
+      "romantic",
+      "thought-provoking"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_n2xzus23"
+  },
+  {
+    "title": "A Good Girl's Guide to Murder",
+    "authors": [
+      "Holly Jackson"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 433,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "mystery"
+    ],
+    "subgenres": [
+      "puzzle mystery"
+    ],
+    "moods": [
+      "suspenseful",
+      "thought-provoking",
+      "adventurous"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_7au75a3q"
+  },
+  {
+    "title": "The Little Prince",
+    "authors": [
+      "Antoine de Saint-Exupéry",
+      "Richard Howard"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 96,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "classic",
+      "children's"
+    ],
+    "subgenres": [
+      "fable"
+    ],
+    "moods": [
+      "whimsical",
+      "thought-provoking",
+      "hopeful",
+      "nostalgic"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_ccaoe2pw"
+  },
+  {
+    "title": "Some Kind of Happiness",
+    "authors": [
+      "Claire Legrand"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 374,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "children's",
+      "contemporary"
+    ],
+    "subgenres": [
+      "middle grade"
+    ],
+    "moods": [
+      "hopeful",
+      "emotionally-intense",
+      "whimsical"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_2ot9lv70"
+  },
+  {
+    "title": "A Mid Summer Night's Dream",
+    "authors": [
+      "William Shakespeare"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 96,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "classic",
+      "play"
+    ],
+    "subgenres": [
+      "comedy"
+    ],
+    "moods": [
+      "funny",
+      "whimsical",
+      "romantic",
+      "dreamy"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_w7pjwnns"
+  },
+  {
+    "title": "The Cousins",
+    "authors": [
+      "Karen M. McManus"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 337,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "mystery"
+    ],
+    "subgenres": [],
+    "moods": [
+      "suspenseful",
+      "adventurous"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_s6068xsi"
+  },
+  {
+    "title": "Tales from the Cafe",
+    "authors": [
+      "Toshikazu Kawaguchi",
+      "Geoffrey Trousselot"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 192,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "fantasy",
+      "literary fiction"
+    ],
+    "subgenres": [
+      "translated fiction"
+    ],
+    "moods": [
+      "comforting",
+      "cozy",
+      "heartbreaking",
+      "hopeful",
+      "nostalgic"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_25xcxmwk"
+  },
+  {
+    "title": "Before the Coffee Gets Cold",
+    "authors": [
+      "Toshikazu Kawaguchi",
+      "Geoffrey Trousselot"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 213,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "fantasy",
+      "literary fiction"
+    ],
+    "subgenres": [
+      "translated fiction"
+    ],
+    "moods": [
+      "comforting",
+      "cozy",
+      "heartbreaking",
+      "hopeful",
+      "nostalgic"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_3wg22dx7"
+  },
+  {
+    "title": "Robinson Crusoe",
+    "authors": [
+      "Daniel Defoe",
+      "Virginia Woolf"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 320,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "classic",
+      "adventure"
+    ],
+    "subgenres": [],
+    "moods": [
+      "adventurous"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_0jpun2a6"
+  },
+  {
+    "title": "Salt to the Sea",
+    "authors": [
+      "Ruta Sepetys"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 391,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "historical fiction",
+      "young adult"
+    ],
+    "subgenres": [
+      "World War II"
+    ],
+    "moods": [
+      "heartbreaking",
+      "emotionally-intense",
+      "adventurous"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_ycen9x9o"
+  },
+  {
+    "title": "The 7½ Deaths of Evelyn Hardcastle",
+    "authors": [
+      "Stuart Turton"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 432,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "mystery"
+    ],
+    "subgenres": [
+      "locked-room mystery"
+    ],
+    "moods": [
+      "suspenseful",
+      "thought-provoking",
+      "atmospheric"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_g5xtqp8u"
+  },
+  {
+    "title": "The Seven Husbands of Evelyn Hugo",
+    "authors": [
+      "Taylor Jenkins Reid"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 389,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "historical fiction"
+    ],
+    "subgenres": [
+      "Hollywood drama"
+    ],
+    "moods": [
+      "romantic",
+      "emotionally-intense",
+      "heartbreaking",
+      "nostalgic"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_tylxhyus"
+  },
+  {
+    "title": "The Midnight Library",
+    "authors": [
+      "Matt Haig"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 288,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "literary fiction",
+      "fantasy"
+    ],
+    "subgenres": [
+      "speculative fiction"
+    ],
+    "moods": [
+      "hopeful",
+      "thought-provoking",
+      "comforting",
+      "emotionally-intense"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_dgucpaym"
+  },
+  {
+    "title": "Max Havelaar, or the Coffee Auctions of the Dutch Trading Company",
+    "authors": [
+      "Multatuli",
+      "Roy Edwards",
+      "R.P. Meijer"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 352,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "classic",
+      "literary fiction"
+    ],
+    "subgenres": [
+      "Dutch literature"
+    ],
+    "moods": [
+      "thought-provoking",
+      "emotionally-intense"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_j9czi8ug"
+  },
+  {
+    "title": "The Perfect Marriage",
+    "authors": [
+      "Jeneva Rose"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 337,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "thriller"
+    ],
+    "subgenres": [
+      "domestic suspense"
+    ],
+    "moods": [
+      "suspenseful",
+      "dark-unsettling"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_4ife7ur1"
+  },
+  {
+    "title": "A Thousand Splendid Suns",
+    "authors": [
+      "Khaled Hosseini"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 372,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "historical fiction",
+      "literary fiction"
+    ],
+    "subgenres": [],
+    "moods": [
+      "heartbreaking",
+      "emotionally-intense",
+      "hopeful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_3mv07zup"
+  },
+  {
+    "title": "Sarah's Key",
+    "authors": [
+      "Tatiana de Rosnay"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 294,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "historical fiction"
+    ],
+    "subgenres": [
+      "World War II"
+    ],
+    "moods": [
+      "heartbreaking",
+      "emotionally-intense",
+      "thought-provoking"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_7mixp0m7"
+  },
+  {
+    "title": "One of Us Is Next",
+    "authors": [
+      "Karen M. McManus"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 377,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "mystery"
+    ],
+    "subgenres": [],
+    "moods": [
+      "suspenseful",
+      "adventurous"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_cj2gmrmg"
+  },
+  {
+    "title": "One of Us Is Lying",
+    "authors": [
+      "Karen M. McManus"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 360,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "mystery"
+    ],
+    "subgenres": [],
+    "moods": [
+      "suspenseful",
+      "adventurous"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_5drhoqkg"
+  },
+  {
+    "title": "Darius the Great Is Not Okay",
+    "authors": [
+      "Adib Khorram"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 316,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "contemporary"
+    ],
+    "subgenres": [],
+    "moods": [
+      "hopeful",
+      "funny",
+      "emotionally-intense",
+      "comforting"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_y9cdiujk"
+  },
+  {
+    "title": "Half-Blood",
+    "authors": [
+      "Jennifer L. Armentrout"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 281,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "fantasy"
+    ],
+    "subgenres": [
+      "paranormal romance"
+    ],
+    "moods": [
+      "romantic",
+      "adventurous"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_77bjfptg"
+  },
+  {
+    "title": "The House of the Mosque",
+    "authors": [
+      "Kader Abdolah",
+      "Susan Massotty"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 436,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "literary fiction",
+      "historical fiction"
+    ],
+    "subgenres": [
+      "family saga"
+    ],
+    "moods": [
+      "nostalgic",
+      "atmospheric",
+      "emotionally-intense",
+      "thought-provoking"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_enwbrwwq"
+  },
+  {
+    "title": "My Father's Notebook: A Masterful Literary Novel of Enduring Love and Cuneiform Secrets",
+    "authors": [
+      "Kader Abdolah"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 336,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "literary fiction"
+    ],
+    "subgenres": [
+      "autobiographical novel"
+    ],
+    "moods": [
+      "thought-provoking",
+      "heartbreaking"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_anbf49xp"
+  },
+  {
+    "title": "The Great Gatsby",
+    "authors": [
+      "F. Scott Fitzgerald"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 180,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "classic",
+      "literary fiction"
+    ],
+    "subgenres": [],
+    "moods": [
+      "heartbreaking",
+      "nostalgic",
+      "atmospheric",
+      "thought-provoking"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_j7ocrz2i"
+  },
+  {
+    "title": "The Invisible Life of Addie LaRue",
+    "authors": [
+      "V.E. Schwab",
+      "Victoria Schwab"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 448,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "fantasy",
+      "historical fiction"
+    ],
+    "subgenres": [
+      "historical fantasy"
+    ],
+    "moods": [
+      "romantic",
+      "heartbreaking",
+      "dreamy",
+      "atmospheric",
+      "thought-provoking"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_7qf0r629"
+  },
+  {
+    "title": "The Alchemist",
+    "authors": [
+      "Paulo Coelho"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 182,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "literary fiction",
+      "classic"
+    ],
+    "subgenres": [
+      "fable"
+    ],
+    "moods": [
+      "thought-provoking",
+      "hopeful",
+      "adventurous",
+      "dreamy"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_ji2wafpt"
+  },
+  {
+    "title": "The Kite Runner",
+    "authors": [
+      "Khaled Hosseini"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 371,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "historical fiction",
+      "literary fiction"
+    ],
+    "subgenres": [],
+    "moods": [
+      "heartbreaking",
+      "emotionally-intense",
+      "hopeful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_i5uqlrsk"
+  },
+  {
+    "title": "Animal Farm",
+    "authors": [
+      "George Orwell",
+      "Russell Baker",
+      "C.M. Woodhouse"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 141,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "classic",
+      "literary fiction"
+    ],
+    "subgenres": [
+      "political satire"
+    ],
+    "moods": [
+      "thought-provoking",
+      "dark-unsettling"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_03ox7eug"
+  },
+  {
+    "title": "The Rule of All",
+    "authors": [
+      "Ashley Saunders",
+      "Leslie Saunders"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 338,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "science fiction"
+    ],
+    "subgenres": [
+      "dystopian"
+    ],
+    "moods": [
+      "adventurous",
+      "suspenseful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_47cvrl4d"
+  },
+  {
+    "title": "The Rule of Many",
+    "authors": [
+      "Ashley Saunders",
+      "Leslie Saunders"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 344,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "science fiction"
+    ],
+    "subgenres": [
+      "dystopian"
+    ],
+    "moods": [
+      "adventurous",
+      "suspenseful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_qspwvwot"
+  },
+  {
+    "title": "The Rule of One",
+    "authors": [
+      "Ashley Saunders",
+      "Leslie Saunders"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 271,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "science fiction"
+    ],
+    "subgenres": [
+      "dystopian"
+    ],
+    "moods": [
+      "adventurous",
+      "suspenseful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_y75zoz1r"
+  },
+  {
+    "title": "Shahnameh: The Persian Book of Kings",
+    "authors": [
+      "Abolqasem Ferdowsi",
+      "Dick Davis",
+      "Azar Nafisi"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 886,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "epic poetry",
+      "classic"
+    ],
+    "subgenres": [
+      "Persian literature"
+    ],
+    "moods": [
+      "adventurous",
+      "atmospheric",
+      "heartbreaking"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_lstu69yj"
+  },
+  {
+    "title": "Aurora",
+    "authors": [
+      "David Koepp"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 289,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "science fiction",
+      "thriller"
+    ],
+    "subgenres": [
+      "disaster fiction"
+    ],
+    "moods": [
+      "suspenseful",
+      "thought-provoking"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_bziztnrv"
+  },
+  {
+    "title": "This Time Tomorrow",
+    "authors": [
+      "Emma Straub"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 310,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "literary fiction",
+      "fantasy"
+    ],
+    "subgenres": [
+      "time travel"
+    ],
+    "moods": [
+      "nostalgic",
+      "hopeful",
+      "emotionally-intense"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_khgxgeua"
+  },
+  {
+    "title": "The Children on the Hill",
+    "authors": [
+      "Jennifer McMahon"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 338,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "horror",
+      "thriller"
+    ],
+    "subgenres": [],
+    "moods": [
+      "spooky",
+      "dark-unsettling",
+      "suspenseful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_2bvuzdmo"
+  },
+  {
+    "title": "Alone With You in the Ether",
+    "authors": [
+      "Olivie Blake"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 248,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "literary fiction",
+      "romance"
+    ],
+    "subgenres": [],
+    "moods": [
+      "romantic",
+      "emotionally-intense",
+      "thought-provoking"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_g94yav4d"
+  },
+  {
+    "title": "Just Like Mother",
+    "authors": [
+      "Anne Heltzel"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 320,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "horror",
+      "thriller"
+    ],
+    "subgenres": [
+      "psychological horror"
+    ],
+    "moods": [
+      "dark-unsettling",
+      "spooky",
+      "suspenseful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_lkaliz56"
+  },
+  {
+    "title": "Watch Over Me",
+    "authors": [
+      "Nina LaCour"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 264,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "contemporary"
+    ],
+    "subgenres": [
+      "ghost story"
+    ],
+    "moods": [
+      "heartbreaking",
+      "atmospheric",
+      "emotionally-intense",
+      "hopeful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_i9o10jbj"
+  },
+  {
+    "title": "Everything Leads to You",
+    "authors": [
+      "Nina LaCour"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 307,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "romance"
+    ],
+    "subgenres": [],
+    "moods": [
+      "romantic",
+      "hopeful",
+      "nostalgic"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_1wwt59ip"
+  },
+  {
+    "title": "Yerba Buena",
+    "authors": [
+      "Nina LaCour"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 304,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "romance",
+      "contemporary"
+    ],
+    "subgenres": [],
+    "moods": [
+      "romantic",
+      "emotionally-intense"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_hfenox8o"
+  },
+  {
+    "title": "Cleopatra and Frankenstein",
+    "authors": [
+      "Coco Mellors"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 368,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "literary fiction",
+      "contemporary"
+    ],
+    "subgenres": [],
+    "moods": [
+      "emotionally-intense",
+      "thought-provoking"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_w2pjdw48"
+  },
+  {
+    "title": "When No One Is Watching",
+    "authors": [
+      "Alyssa Cole"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 352,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "thriller"
+    ],
+    "subgenres": [
+      "social thriller"
+    ],
+    "moods": [
+      "suspenseful",
+      "dark-unsettling",
+      "thought-provoking"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_48w9e6nm"
+  },
+  {
+    "title": "Anatomy: A Love Story",
+    "authors": [
+      "Dana Schwartz"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 320,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "historical fiction",
+      "romance"
+    ],
+    "subgenres": [
+      "gothic romance"
+    ],
+    "moods": [
+      "romantic",
+      "atmospheric",
+      "spooky"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_vvoa7h5j"
+  },
+  {
+    "title": "The Divines",
+    "authors": [
+      "Ellie Eaton"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 320,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "literary fiction"
+    ],
+    "subgenres": [
+      "boarding school"
+    ],
+    "moods": [
+      "dark-unsettling",
+      "nostalgic",
+      "emotionally-intense"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_gi843qkp"
+  },
+  {
+    "title": "Bleak House",
+    "authors": [
+      "Charles Dickens",
+      "Hablot Knight Browne",
+      "Nicola Bradbury"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 1017,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "classic",
+      "literary fiction"
+    ],
+    "subgenres": [
+      "Victorian"
+    ],
+    "moods": [
+      "atmospheric",
+      "thought-provoking"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_6l7pvycd"
+  },
+  {
+    "title": "The Light We Lost",
+    "authors": [
+      "Jill Santopolo"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 328,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "romance",
+      "contemporary"
+    ],
+    "subgenres": [],
+    "moods": [
+      "romantic",
+      "heartbreaking",
+      "emotionally-intense"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_h9y8ckr9"
+  },
+  {
+    "title": "Playing Nice",
+    "authors": [
+      "J.P. Delaney"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 416,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "thriller"
+    ],
+    "subgenres": [
+      "domestic suspense"
+    ],
+    "moods": [
+      "suspenseful",
+      "dark-unsettling"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_8b0jd5k8"
+  },
+  {
+    "title": "Peach Blossom Spring",
+    "authors": [
+      "Melissa Fu"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 400,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "historical fiction",
+      "literary fiction"
+    ],
+    "subgenres": [],
+    "moods": [
+      "heartbreaking",
+      "emotionally-intense",
+      "hopeful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_gr2r6ddd"
+  },
+  {
+    "title": "A River Enchanted",
+    "authors": [
+      "Rebecca Ross"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 467,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "fantasy",
+      "romance"
+    ],
+    "subgenres": [
+      "romantic fantasy"
+    ],
+    "moods": [
+      "atmospheric",
+      "romantic",
+      "dreamy",
+      "spooky"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_6a3lz0lb"
+  },
+  {
+    "title": "Don't Cry for Me",
+    "authors": [
+      "Daniel Black"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 301,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "literary fiction"
+    ],
+    "subgenres": [
+      "epistolary"
+    ],
+    "moods": [
+      "emotionally-intense",
+      "heartbreaking",
+      "thought-provoking"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_3ej25od0"
+  },
+  {
+    "title": "The Golden Couple",
+    "authors": [
+      "Greer Hendricks",
+      "Sarah Pekkanen"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 329,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "thriller"
+    ],
+    "subgenres": [
+      "domestic suspense"
+    ],
+    "moods": [
+      "suspenseful",
+      "dark-unsettling"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_svh10t02"
+  },
+  {
+    "title": "The Afterlife of Holly Chase",
+    "authors": [
+      "Cynthia Hand"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 400,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "fantasy"
+    ],
+    "subgenres": [
+      "retelling"
+    ],
+    "moods": [
+      "funny",
+      "hopeful",
+      "whimsical"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_tqxj0kxy"
+  },
+  {
+    "title": "I Must Betray You",
+    "authors": [
+      "Ruta Sepetys"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 321,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "historical fiction",
+      "young adult"
+    ],
+    "subgenres": [],
+    "moods": [
+      "heartbreaking",
+      "emotionally-intense",
+      "suspenseful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_j642obm5"
+  },
+  {
+    "title": "How Do You Live?",
+    "authors": [
+      "Genzaburo Yoshino",
+      "Neil Gaiman",
+      "Bruno Navasky"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 288,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "literary fiction",
+      "children's"
+    ],
+    "subgenres": [
+      "translated fiction"
+    ],
+    "moods": [
+      "thought-provoking",
+      "hopeful",
+      "comforting"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_so5onark"
+  },
+  {
+    "title": "The Lighthouse Witches",
+    "authors": [
+      "C.J. Cooke"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 350,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "mystery",
+      "thriller"
+    ],
+    "subgenres": [
+      "gothic mystery"
+    ],
+    "moods": [
+      "spooky",
+      "atmospheric",
+      "suspenseful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_nnixhel7"
+  },
+  {
+    "title": "How High We Go in the Dark",
+    "authors": [
+      "Sequoia Nagamatsu"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 293,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "science fiction",
+      "literary fiction"
+    ],
+    "subgenres": [
+      "speculative fiction"
+    ],
+    "moods": [
+      "heartbreaking",
+      "thought-provoking",
+      "dreamy",
+      "atmospheric"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_ah8hg54u"
+  },
+  {
+    "title": "The Book of Cold Cases",
+    "authors": [
+      "Simone St. James"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 344,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "mystery"
+    ],
+    "subgenres": [
+      "ghost mystery"
+    ],
+    "moods": [
+      "suspenseful",
+      "spooky",
+      "atmospheric"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_xx0bsrhj"
+  },
+  {
+    "title": "You've Reached Sam",
+    "authors": [
+      "Dustin Thao"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 296,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "contemporary"
+    ],
+    "subgenres": [
+      "grief"
+    ],
+    "moods": [
+      "heartbreaking",
+      "hopeful",
+      "emotionally-intense"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_tsg0pdkv"
+  },
+  {
+    "title": "The Book of Form and Emptiness",
+    "authors": [
+      "Ruth Ozeki"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 548,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "literary fiction",
+      "fantasy"
+    ],
+    "subgenres": [
+      "magical realism"
+    ],
+    "moods": [
+      "thought-provoking",
+      "whimsical",
+      "emotionally-intense"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_f6uwf4fo"
+  },
+  {
+    "title": "Loveless",
+    "authors": [
+      "Alice Oseman"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 433,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "contemporary"
+    ],
+    "subgenres": [],
+    "moods": [
+      "hopeful",
+      "comforting",
+      "thought-provoking"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_3ep5heei"
+  },
+  {
+    "title": "Greenglass House",
+    "authors": [
+      "Kate Milford",
+      "Jaime Zollars"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 384,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "children's",
+      "mystery"
+    ],
+    "subgenres": [
+      "middle grade"
+    ],
+    "moods": [
+      "cozy",
+      "whimsical",
+      "adventurous",
+      "atmospheric"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_pif7fnxz"
+  },
+  {
+    "title": "The Reading List",
+    "authors": [
+      "Sara Nisha Adams"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 368,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "literary fiction",
+      "contemporary"
+    ],
+    "subgenres": [],
+    "moods": [
+      "comforting",
+      "hopeful",
+      "cozy"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_ohiwjwou"
+  },
+  {
+    "title": "The Monarchs",
+    "authors": [
+      "Kass Morgan",
+      "Danielle Paige"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 448,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "fantasy"
+    ],
+    "subgenres": [],
+    "moods": [
+      "suspenseful",
+      "atmospheric",
+      "romantic"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_90mxehh0"
+  },
+  {
+    "title": "The Ravens",
+    "authors": [
+      "Kass Morgan",
+      "Danielle Paige"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 400,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "fantasy"
+    ],
+    "subgenres": [
+      "dark academia"
+    ],
+    "moods": [
+      "suspenseful",
+      "atmospheric",
+      "romantic"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_08u1p8ox"
+  },
+  {
+    "title": "All of Us Villains",
+    "authors": [
+      "Amanda Foody",
+      "C.L. Herman"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 400,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "fantasy"
+    ],
+    "subgenres": [
+      "dark fantasy"
+    ],
+    "moods": [
+      "dark-unsettling",
+      "suspenseful",
+      "adventurous"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_v26k79ix"
+  },
+  {
+    "title": "Blame It on the Mistletoe",
+    "authors": [
+      "Beth Garrod"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 368,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "romance"
+    ],
+    "subgenres": [
+      "holiday romance"
+    ],
+    "moods": [
+      "romantic",
+      "funny",
+      "cozy"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_83bdlqfa"
+  },
+  {
+    "title": "All About Us",
+    "authors": [
+      "Tom Ellen"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 400,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "romance",
+      "contemporary"
+    ],
+    "subgenres": [],
+    "moods": [
+      "romantic",
+      "funny",
+      "nostalgic"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_lmyjxay3"
+  },
+  {
+    "title": "You'll Be the Death of Me",
+    "authors": [
+      "Karen M. McManus"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 336,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "mystery"
+    ],
+    "subgenres": [],
+    "moods": [
+      "suspenseful",
+      "adventurous"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_ypekyi90"
+  },
+  {
+    "title": "The End of Men",
+    "authors": [
+      "Christina Sweeney-Baird"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 416,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "science fiction",
+      "literary fiction"
+    ],
+    "subgenres": [
+      "pandemic fiction"
+    ],
+    "moods": [
+      "thought-provoking",
+      "dark-unsettling",
+      "emotionally-intense"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_rd1mejgo"
+  },
+  {
+    "title": "A Not So Meet Cute",
+    "authors": [
+      "Meghan Quinn"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 404,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "romance",
+      "contemporary"
+    ],
+    "subgenres": [
+      "romantic comedy"
+    ],
+    "moods": [
+      "romantic",
+      "funny"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_kyqxd1v8"
+  },
+  {
+    "title": "An Unkindness of Magicians",
+    "authors": [
+      "Kat Howard"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 352,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "fantasy"
+    ],
+    "subgenres": [
+      "dark fantasy"
+    ],
+    "moods": [
+      "dark-unsettling",
+      "atmospheric",
+      "suspenseful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_7nnrezz0"
+  },
+  {
+    "title": "Long Way Down",
+    "authors": [
+      "Jason Reynolds"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 306,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "poetry"
+    ],
+    "subgenres": [
+      "novel in verse"
+    ],
+    "moods": [
+      "emotionally-intense",
+      "heartbreaking",
+      "thought-provoking"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_h9e62u6c"
+  },
+  {
+    "title": "Wish You Were Here",
+    "authors": [
+      "Jodi Picoult"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 336,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "literary fiction",
+      "contemporary"
+    ],
+    "subgenres": [],
+    "moods": [
+      "emotionally-intense",
+      "hopeful",
+      "thought-provoking"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_iz4twxdu"
+  },
+  {
+    "title": "We Are Not Like Them",
+    "authors": [
+      "Christine Pride",
+      "Jo Piazza"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 336,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "literary fiction",
+      "contemporary"
+    ],
+    "subgenres": [],
+    "moods": [
+      "emotionally-intense",
+      "thought-provoking"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_u950uyqn"
+  },
+  {
+    "title": "Elatsoe",
+    "authors": [
+      "Darcie Little Badger",
+      "Rovina Cai"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 362,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "fantasy"
+    ],
+    "subgenres": [],
+    "moods": [
+      "adventurous",
+      "atmospheric",
+      "hopeful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_g6t3c1cn"
+  },
+  {
+    "title": "A Snake Falls to Earth",
+    "authors": [
+      "Darcie Little Badger"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 375,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "fantasy"
+    ],
+    "subgenres": [],
+    "moods": [
+      "adventurous",
+      "atmospheric",
+      "hopeful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_59ayt9o4"
+  },
+  {
+    "title": "The Keeper of Night",
+    "authors": [
+      "Kylie Lee Baker"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 393,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "fantasy"
+    ],
+    "subgenres": [
+      "dark fantasy"
+    ],
+    "moods": [
+      "dark-unsettling",
+      "atmospheric",
+      "adventurous"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_x13fvr8n"
+  },
+  {
+    "title": "Black Widows",
+    "authors": [
+      "Cate Quinn"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 419,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "thriller",
+      "mystery"
+    ],
+    "subgenres": [],
+    "moods": [
+      "suspenseful",
+      "dark-unsettling"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_d7x3s1e6"
+  },
+  {
+    "title": "While Justice Sleeps",
+    "authors": [
+      "Stacey Abrams"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 367,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "thriller"
+    ],
+    "subgenres": [
+      "legal thriller"
+    ],
+    "moods": [
+      "suspenseful",
+      "thought-provoking"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_unzy169c"
+  },
+  {
+    "title": "The Messengers",
+    "authors": [
+      "Margaret Peterson Haddix"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 416,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "children's",
+      "mystery"
+    ],
+    "subgenres": [
+      "middle grade adventure"
+    ],
+    "moods": [
+      "adventurous",
+      "suspenseful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_eyd3q7le"
+  },
+  {
+    "title": "The Deceivers",
+    "authors": [
+      "Margaret Peterson Haddix"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 464,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "children's",
+      "mystery"
+    ],
+    "subgenres": [
+      "middle grade adventure"
+    ],
+    "moods": [
+      "adventurous",
+      "suspenseful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_itij6n2x"
+  },
+  {
+    "title": "The Strangers",
+    "authors": [
+      "Margaret Peterson Haddix",
+      "Anne Lambelet"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 416,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "children's",
+      "mystery"
+    ],
+    "subgenres": [
+      "middle grade adventure"
+    ],
+    "moods": [
+      "adventurous",
+      "suspenseful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_k6e1nsjq"
+  },
+  {
+    "title": "Vow of Thieves",
+    "authors": [
+      "Mary E. Pearson"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 480,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "fantasy"
+    ],
+    "subgenres": [],
+    "moods": [
+      "adventurous",
+      "romantic",
+      "suspenseful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_ral1tu74"
+  },
+  {
+    "title": "Dance of Thieves",
+    "authors": [
+      "Mary E. Pearson"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 512,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "fantasy"
+    ],
+    "subgenres": [],
+    "moods": [
+      "adventurous",
+      "romantic",
+      "suspenseful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_id944v01"
+  },
+  {
+    "title": "Love & Gelato",
+    "authors": [
+      "Jenna Evans Welch"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 386,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "romance"
+    ],
+    "subgenres": [],
+    "moods": [
+      "romantic",
+      "hopeful",
+      "funny",
+      "nostalgic"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_updlolc5"
+  },
+  {
+    "title": "Payback's a Witch",
+    "authors": [
+      "Lana Harper"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 352,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "romance",
+      "fantasy"
+    ],
+    "subgenres": [
+      "romantic comedy"
+    ],
+    "moods": [
+      "romantic",
+      "funny",
+      "cozy",
+      "whimsical"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_fm7ampzl"
+  },
+  {
+    "title": "A Very Large Expanse of Sea",
+    "authors": [
+      "Tahereh Mafi"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 310,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "contemporary"
+    ],
+    "subgenres": [],
+    "moods": [
+      "hopeful",
+      "emotionally-intense",
+      "romantic"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_9w4rk428"
+  },
+  {
+    "title": "Faithful",
+    "authors": [
+      "Alice Hoffman"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 258,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "literary fiction"
+    ],
+    "subgenres": [],
+    "moods": [
+      "hopeful",
+      "emotionally-intense",
+      "heartbreaking"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_h49vhlki"
+  },
+  {
+    "title": "Confessions on the 7:45",
+    "authors": [
+      "Lisa Unger"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 368,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "thriller"
+    ],
+    "subgenres": [
+      "domestic suspense"
+    ],
+    "moods": [
+      "suspenseful",
+      "dark-unsettling"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_7wjqfpgj"
+  },
+  {
+    "title": "The Last Hope",
+    "authors": [
+      "Krista Ritchie",
+      "Becca Ritchie"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 400,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "science fiction"
+    ],
+    "subgenres": [],
+    "moods": [
+      "adventurous",
+      "romantic",
+      "suspenseful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_534zs0y0"
+  },
+  {
+    "title": "The Raging Ones",
+    "authors": [
+      "Krista Ritchie",
+      "Becca Ritchie"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 352,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "science fiction"
+    ],
+    "subgenres": [],
+    "moods": [
+      "adventurous",
+      "romantic",
+      "suspenseful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_ynuee512"
+  },
+  {
+    "title": "The Mother Code",
+    "authors": [
+      "Carole Stivers"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 352,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "science fiction"
+    ],
+    "subgenres": [
+      "speculative fiction"
+    ],
+    "moods": [
+      "thought-provoking",
+      "emotionally-intense",
+      "hopeful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_qgl33vv7"
+  },
+  {
+    "title": "Plot Twist",
+    "authors": [
+      "Bethany Turner"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 321,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "romance",
+      "contemporary"
+    ],
+    "subgenres": [
+      "romantic comedy"
+    ],
+    "moods": [
+      "romantic",
+      "funny"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_k7nh6n15"
+  },
+  {
+    "title": "The Bromance Book Club",
+    "authors": [
+      "Lyssa Kay Adams"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 352,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "romance",
+      "contemporary"
+    ],
+    "subgenres": [
+      "romantic comedy"
+    ],
+    "moods": [
+      "romantic",
+      "funny"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_8mjbqcqd"
+  },
+  {
+    "title": "Every Last Word",
+    "authors": [
+      "Tamara Ireland Stone"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 358,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "contemporary"
+    ],
+    "subgenres": [],
+    "moods": [
+      "hopeful",
+      "emotionally-intense",
+      "thought-provoking"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_lxv87hzg"
+  },
+  {
+    "title": "The Book of Accidents",
+    "authors": [
+      "Chuck Wendig"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 530,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "horror"
+    ],
+    "subgenres": [
+      "supernatural horror"
+    ],
+    "moods": [
+      "spooky",
+      "dark-unsettling",
+      "suspenseful",
+      "emotionally-intense"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_19fkjj5j"
+  },
+  {
+    "title": "Beasts and Beauty: Dangerous Tales",
+    "authors": [
+      "Soman Chainani",
+      "Julia Iredale"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 320,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "fantasy",
+      "young adult"
+    ],
+    "subgenres": [
+      "fairy tale retelling"
+    ],
+    "moods": [
+      "dark-unsettling",
+      "whimsical"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_7i0j7q6a"
+  },
+  {
+    "title": "The Corpse Queen",
+    "authors": [
+      "Heather M. Herrman"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 407,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "mystery"
+    ],
+    "subgenres": [
+      "gothic mystery"
+    ],
+    "moods": [
+      "spooky",
+      "suspenseful",
+      "atmospheric"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_iuvrvzpq"
+  },
+  {
+    "title": "Threadneedle",
+    "authors": [
+      "Cari Thomas"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 576,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "fantasy"
+    ],
+    "subgenres": [
+      "dark academia"
+    ],
+    "moods": [
+      "adventurous",
+      "atmospheric",
+      "suspenseful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_bmj9k7b6"
+  },
+  {
+    "title": "A Quiet Kind of Thunder",
+    "authors": [
+      "Sara Barnard"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 307,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "romance"
+    ],
+    "subgenres": [],
+    "moods": [
+      "romantic",
+      "hopeful",
+      "thought-provoking"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_18w4e4ph"
+  },
+  {
+    "title": "Defy the Night",
+    "authors": [
+      "Brigid Kemmerer"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 448,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "fantasy"
+    ],
+    "subgenres": [],
+    "moods": [
+      "adventurous",
+      "romantic",
+      "suspenseful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_uh2m4h72"
+  },
+  {
+    "title": "The Ivies",
+    "authors": [
+      "Alexa Donne"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 312,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "thriller"
+    ],
+    "subgenres": [
+      "dark academia"
+    ],
+    "moods": [
+      "suspenseful",
+      "dark-unsettling"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_dg5w87t1"
+  },
+  {
+    "title": "Act Your Age, Eve Brown",
+    "authors": [
+      "Talia Hibbert"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 400,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "romance",
+      "contemporary"
+    ],
+    "subgenres": [
+      "romantic comedy"
+    ],
+    "moods": [
+      "romantic",
+      "funny",
+      "comforting"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_5b65d7n8"
+  },
+  {
+    "title": "Take a Hint, Dani Brown",
+    "authors": [
+      "Talia Hibbert"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 400,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "romance",
+      "contemporary"
+    ],
+    "subgenres": [
+      "romantic comedy"
+    ],
+    "moods": [
+      "romantic",
+      "funny",
+      "comforting"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_nlxxyige"
+  },
+  {
+    "title": "With You Forever",
+    "authors": [
+      "Chloe Liese"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 350,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "romance",
+      "contemporary"
+    ],
+    "subgenres": [],
+    "moods": [
+      "romantic",
+      "emotionally-intense",
+      "comforting"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_pjh69oqj"
+  },
+  {
+    "title": "Kisses and Croissants",
+    "authors": [
+      "Anne-Sophie Jouhanneau"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 320,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "romance"
+    ],
+    "subgenres": [],
+    "moods": [
+      "romantic",
+      "funny",
+      "hopeful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_oux3utxa"
+  },
+  {
+    "title": "All These Bodies",
+    "authors": [
+      "Kendare Blake"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 288,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "thriller"
+    ],
+    "subgenres": [],
+    "moods": [
+      "dark-unsettling",
+      "suspenseful",
+      "spooky"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_7gsi4zfm"
+  },
+  {
+    "title": "Writers & Lovers",
+    "authors": [
+      "Lily King"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 320,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "literary fiction",
+      "contemporary"
+    ],
+    "subgenres": [],
+    "moods": [
+      "emotionally-intense",
+      "hopeful",
+      "thought-provoking"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_goyltyq9"
+  },
+  {
+    "title": "Regretting You",
+    "authors": [
+      "Colleen Hoover"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 363,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "romance",
+      "contemporary"
+    ],
+    "subgenres": [],
+    "moods": [
+      "heartbreaking",
+      "romantic",
+      "emotionally-intense"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_nawk8age"
+  },
+  {
+    "title": "The Secrets of Saffron Hall",
+    "authors": [
+      "Clare Marchant"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 400,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "historical fiction",
+      "mystery"
+    ],
+    "subgenres": [
+      "dual timeline"
+    ],
+    "moods": [
+      "atmospheric",
+      "nostalgic",
+      "suspenseful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_iwap2qxb"
+  },
+  {
+    "title": "Challenger Deep",
+    "authors": [
+      "Neal Shusterman",
+      "Brendan Shusterman"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 320,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "contemporary"
+    ],
+    "subgenres": [],
+    "moods": [
+      "dark-unsettling",
+      "thought-provoking",
+      "emotionally-intense",
+      "hopeful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_okgkcmuo"
+  },
+  {
+    "title": "Paperweight",
+    "authors": [
+      "Meg Haston"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 288,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "contemporary"
+    ],
+    "subgenres": [],
+    "moods": [
+      "emotionally-intense",
+      "heartbreaking",
+      "hopeful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_469j361t"
+  },
+  {
+    "title": "Bewilderment",
+    "authors": [
+      "Richard Powers"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 278,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "literary fiction",
+      "science fiction"
+    ],
+    "subgenres": [],
+    "moods": [
+      "heartbreaking",
+      "thought-provoking",
+      "emotionally-intense"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_oc4j2xmw"
+  },
+  {
+    "title": "Her Perfect Life",
+    "authors": [
+      "Hank Phillippi Ryan"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 325,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "thriller",
+      "mystery"
+    ],
+    "subgenres": [],
+    "moods": [
+      "suspenseful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_5wbav55r"
+  },
+  {
+    "title": "These Silent Woods",
+    "authors": [
+      "Kimi Cunningham Grant"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 288,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "thriller",
+      "mystery"
+    ],
+    "subgenres": [],
+    "moods": [
+      "suspenseful",
+      "atmospheric"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_wc1le4kj"
+  },
+  {
+    "title": "14 Ways to Die",
+    "authors": [
+      "Vincent Ralph"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 400,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "thriller"
+    ],
+    "subgenres": [],
+    "moods": [
+      "suspenseful",
+      "dark-unsettling"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_uis7xudd"
+  },
+  {
+    "title": "Honor",
+    "authors": [
+      "Elif Shafak"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 352,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "literary fiction",
+      "historical fiction"
+    ],
+    "subgenres": [
+      "family saga"
+    ],
+    "moods": [
+      "emotionally-intense",
+      "heartbreaking",
+      "thought-provoking"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_xc7s5jo5"
+  },
+  {
+    "title": "10 Minutes 38 Seconds in This Strange World",
+    "authors": [
+      "Elif Shafak"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 312,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "literary fiction",
+      "historical fiction"
+    ],
+    "subgenres": [],
+    "moods": [
+      "heartbreaking",
+      "thought-provoking",
+      "emotionally-intense"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_n6rnbf9z"
+  },
+  {
+    "title": "All Our Hidden Gifts",
+    "authors": [
+      "Caroline O'Donoghue"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 384,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "fantasy"
+    ],
+    "subgenres": [],
+    "moods": [
+      "whimsical",
+      "funny",
+      "atmospheric",
+      "hopeful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_qnyi6tms"
+  },
+  {
+    "title": "Take Me With You When You Go",
+    "authors": [
+      "David Levithan",
+      "Jennifer Niven"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 336,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "contemporary"
+    ],
+    "subgenres": [
+      "epistolary"
+    ],
+    "moods": [
+      "emotionally-intense",
+      "hopeful",
+      "heartbreaking"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_ix3r448q"
+  },
+  {
+    "title": "Together Tea: A Heartwarming Debut of a Mother and Daughter's Journey Through Persian Culture to Love and Understanding",
+    "authors": [
+      "Marjan Kamali"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 321,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "literary fiction",
+      "contemporary"
+    ],
+    "subgenres": [],
+    "moods": [
+      "comforting",
+      "nostalgic",
+      "hopeful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_cpqdr9ek"
+  },
+  {
+    "title": "If These Wings Could Fly",
+    "authors": [
+      "Kyrie McCauley"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 400,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "contemporary"
+    ],
+    "subgenres": [],
+    "moods": [
+      "heartbreaking",
+      "emotionally-intense",
+      "hopeful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_fmhuyggr"
+  },
+  {
+    "title": "The Flatshare",
+    "authors": [
+      "Beth O'Leary"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": null,
+      "confidence": "unknown",
+      "source": "Not given in the Goodreads export."
+    },
+    "genres": [
+      "romance",
+      "contemporary"
+    ],
+    "subgenres": [
+      "romantic comedy"
+    ],
+    "moods": [
+      "romantic",
+      "funny",
+      "comforting",
+      "cozy"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_brovsv30"
+  },
+  {
+    "title": "These Toxic Things",
+    "authors": [
+      "Rachel Howzell Hall"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 430,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "thriller",
+      "mystery"
+    ],
+    "subgenres": [],
+    "moods": [
+      "suspenseful",
+      "dark-unsettling"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_m7ko33u2"
+  },
+  {
+    "title": "Once Upon a Broken Heart",
+    "authors": [
+      "Stephanie Garber"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 408,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "fantasy"
+    ],
+    "subgenres": [
+      "romantic fantasy"
+    ],
+    "moods": [
+      "romantic",
+      "dreamy",
+      "whimsical",
+      "heartbreaking"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_qrfhczdb"
+  },
+  {
+    "title": "Fault Lines",
+    "authors": [
+      "Emily Itami"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 224,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "literary fiction",
+      "contemporary"
+    ],
+    "subgenres": [],
+    "moods": [
+      "emotionally-intense",
+      "romantic",
+      "heartbreaking"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_0o9lpa2o"
+  },
+  {
+    "title": "The Thirty Names of Night",
+    "authors": [
+      "Zeyn Joukhadar"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 291,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "literary fiction",
+      "historical fiction"
+    ],
+    "subgenres": [],
+    "moods": [
+      "atmospheric",
+      "emotionally-intense",
+      "thought-provoking"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_7bt3q72r"
+  },
+  {
+    "title": "The People We Keep",
+    "authors": [
+      "Allison Larkin"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 368,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "literary fiction",
+      "contemporary"
+    ],
+    "subgenres": [],
+    "moods": [
+      "heartbreaking",
+      "hopeful",
+      "emotionally-intense"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_nap0gl6k"
+  },
+  {
+    "title": "When You Trap a Tiger",
+    "authors": [
+      "Tae Keller"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 297,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "children's",
+      "fantasy"
+    ],
+    "subgenres": [
+      "middle grade"
+    ],
+    "moods": [
+      "whimsical",
+      "hopeful",
+      "emotionally-intense"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_pjmi2j0p"
+  },
+  {
+    "title": "Happy & You Know It",
+    "authors": [
+      "Laura Hankin"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 384,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "literary fiction",
+      "contemporary"
+    ],
+    "subgenres": [
+      "satire"
+    ],
+    "moods": [
+      "funny",
+      "thought-provoking"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_whqqfsxd"
+  },
+  {
+    "title": "Malice",
+    "authors": [
+      "Heather Walter"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 470,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "fantasy",
+      "romance"
+    ],
+    "subgenres": [
+      "fairy tale retelling"
+    ],
+    "moods": [
+      "dark-unsettling",
+      "romantic",
+      "atmospheric"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_jpxx473p"
+  },
+  {
+    "title": "The Witch's Heart",
+    "authors": [
+      "Genevieve Gornichec"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 359,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "fantasy"
+    ],
+    "subgenres": [
+      "mythological retelling"
+    ],
+    "moods": [
+      "atmospheric",
+      "romantic",
+      "emotionally-intense"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_umazlz29"
+  },
+  {
+    "title": "Poor Unfortunate Soul",
+    "authors": [
+      "Serena Valentino"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 224,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "fantasy"
+    ],
+    "subgenres": [
+      "fairy tale retelling"
+    ],
+    "moods": [
+      "atmospheric",
+      "whimsical",
+      "dark-unsettling"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_bdkja9at"
+  },
+  {
+    "title": "Mistress of All Evil",
+    "authors": [
+      "Serena Valentino"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 320,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "fantasy"
+    ],
+    "subgenres": [
+      "fairy tale retelling"
+    ],
+    "moods": [
+      "atmospheric",
+      "whimsical",
+      "dark-unsettling"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_1gl2rnkr"
+  },
+  {
+    "title": "Evil Thing",
+    "authors": [
+      "Serena Valentino"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 352,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "fantasy"
+    ],
+    "subgenres": [
+      "fairy tale retelling"
+    ],
+    "moods": [
+      "atmospheric",
+      "whimsical",
+      "dark-unsettling"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_p836ymgh"
+  },
+  {
+    "title": "The Odd Sisters",
+    "authors": [
+      "Serena Valentino"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 288,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "fantasy"
+    ],
+    "subgenres": [
+      "fairy tale retelling"
+    ],
+    "moods": [
+      "atmospheric",
+      "whimsical",
+      "dark-unsettling"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_0wdsvvaz"
+  },
+  {
+    "title": "Mother Knows Best",
+    "authors": [
+      "Serena Valentino"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 400,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "fantasy"
+    ],
+    "subgenres": [
+      "fairy tale retelling"
+    ],
+    "moods": [
+      "atmospheric",
+      "whimsical",
+      "dark-unsettling"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_u2qny58v"
+  },
+  {
+    "title": "Fairest of All",
+    "authors": [
+      "Serena Valentino"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 256,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "fantasy"
+    ],
+    "subgenres": [
+      "fairy tale retelling"
+    ],
+    "moods": [
+      "atmospheric",
+      "whimsical",
+      "dark-unsettling"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_4qc6z7m7"
+  },
+  {
+    "title": "Cold Hearted",
+    "authors": [
+      "Serena Valentino"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 304,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "fantasy"
+    ],
+    "subgenres": [
+      "fairy tale retelling"
+    ],
+    "moods": [
+      "atmospheric",
+      "whimsical",
+      "dark-unsettling"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_g9hm4rou"
+  },
+  {
+    "title": "The One",
+    "authors": [
+      "John Marrs"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 418,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "science fiction",
+      "thriller"
+    ],
+    "subgenres": [],
+    "moods": [
+      "suspenseful",
+      "thought-provoking"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_tysv0qrh"
+  },
+  {
+    "title": "We Are the Brennans",
+    "authors": [
+      "Tracey Lange"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 274,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "literary fiction",
+      "contemporary"
+    ],
+    "subgenres": [
+      "family drama"
+    ],
+    "moods": [
+      "emotionally-intense",
+      "hopeful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_s9js2evq"
+  },
+  {
+    "title": "The Unhoneymooners",
+    "authors": [
+      "Christina Lauren"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 432,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "romance",
+      "contemporary"
+    ],
+    "subgenres": [
+      "romantic comedy"
+    ],
+    "moods": [
+      "romantic",
+      "funny"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_6xk17vgh"
+  },
+  {
+    "title": "Razorblade Tears",
+    "authors": [
+      "S.A. Cosby"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 336,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "thriller",
+      "crime"
+    ],
+    "subgenres": [],
+    "moods": [
+      "dark-unsettling",
+      "emotionally-intense",
+      "suspenseful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_29aymlhr"
+  },
+  {
+    "title": "Mrs. Dalloway",
+    "authors": [
+      "Virginia Woolf",
+      "Maureen Howard"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 194,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "classic",
+      "literary fiction"
+    ],
+    "subgenres": [
+      "modernist"
+    ],
+    "moods": [
+      "thought-provoking",
+      "atmospheric",
+      "dreamy"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_0px3wz2b"
+  },
+  {
+    "title": "She Who Became the Sun",
+    "authors": [
+      "Shelley Parker-Chan"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 416,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "fantasy",
+      "historical fiction"
+    ],
+    "subgenres": [
+      "historical fantasy"
+    ],
+    "moods": [
+      "adventurous",
+      "dark-unsettling",
+      "thought-provoking",
+      "atmospheric"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_wkv3zy3r"
+  },
+  {
+    "title": "The Two Lives of Lydia Bird",
+    "authors": [
+      "Josie Silver"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 369,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "romance",
+      "literary fiction"
+    ],
+    "subgenres": [
+      "speculative romance"
+    ],
+    "moods": [
+      "heartbreaking",
+      "romantic",
+      "emotionally-intense",
+      "hopeful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_k4juds2t"
+  },
+  {
+    "title": "Summer of Salt",
+    "authors": [
+      "Katrina Leno"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 288,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "fantasy"
+    ],
+    "subgenres": [
+      "magical realism"
+    ],
+    "moods": [
+      "dreamy",
+      "atmospheric",
+      "romantic"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_obkser3l"
+  },
+  {
+    "title": "A Million Junes",
+    "authors": [
+      "Emily Henry"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 400,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "fantasy"
+    ],
+    "subgenres": [
+      "magical realism"
+    ],
+    "moods": [
+      "romantic",
+      "dreamy",
+      "atmospheric"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_hpl796y9"
+  },
+  {
+    "title": "Peaces",
+    "authors": [
+      "Helen Oyeyemi"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 272,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "literary fiction",
+      "fantasy"
+    ],
+    "subgenres": [
+      "short stories"
+    ],
+    "moods": [
+      "whimsical",
+      "dreamy",
+      "thought-provoking",
+      "atmospheric"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_ubzr038r"
+  },
+  {
+    "title": "Lore",
+    "authors": [
+      "Alexandra Bracken"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 480,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "fantasy"
+    ],
+    "subgenres": [],
+    "moods": [
+      "adventurous",
+      "atmospheric",
+      "dark-unsettling"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_rrbi0qj1"
+  },
+  {
+    "title": "With the Fire on High",
+    "authors": [
+      "Elizabeth Acevedo"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 395,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "contemporary"
+    ],
+    "subgenres": [],
+    "moods": [
+      "hopeful",
+      "comforting",
+      "romantic"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_bc058qqw"
+  },
+  {
+    "title": "The Loneliest Girl in the Universe",
+    "authors": [
+      "Wren James",
+      "Lauren James"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 290,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "science fiction"
+    ],
+    "subgenres": [],
+    "moods": [
+      "suspenseful",
+      "emotionally-intense",
+      "hopeful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_jwj9zz85"
+  },
+  {
+    "title": "How to Make Friends with the Dark",
+    "authors": [
+      "Kathleen Glasgow"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 421,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "contemporary"
+    ],
+    "subgenres": [],
+    "moods": [
+      "heartbreaking",
+      "emotionally-intense",
+      "hopeful"
+    ],
+    "warnings": [],
+    "warningsReviewed": "none",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_sa3qinx0"
   }
 ]
