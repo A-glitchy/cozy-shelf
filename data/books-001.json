@@ -30309,7 +30309,10 @@
       "memoir"
     ],
     "subgenres": [],
-    "moods": [],
+    "moods": [
+      "funny",
+      "thought-provoking"
+    ],
     "warnings": [
       {
         "category": "sexual-violence",
@@ -30357,6 +30360,9 @@
       },
       {
         "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      },
+      {
+        "label": "Moods proposed by Claude from the general nature of the book; not checked against a source"
       }
     ],
     "cover": null,
@@ -30383,7 +30389,10 @@
     "subgenres": [
       "essays and speeches"
     ],
-    "moods": [],
+    "moods": [
+      "thought-provoking",
+      "hopeful"
+    ],
     "warnings": [
       {
         "category": "sexual-violence",
@@ -30485,6 +30494,9 @@
       },
       {
         "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      },
+      {
+        "label": "Moods proposed by Claude from the general nature of the book; not checked against a source"
       }
     ],
     "cover": null,
@@ -30510,7 +30522,11 @@
       "self-help"
     ],
     "subgenres": [],
-    "moods": [],
+    "moods": [
+      "thought-provoking",
+      "comforting",
+      "hopeful"
+    ],
     "warnings": [
       {
         "category": "sexual-violence",
@@ -30570,6 +30586,9 @@
       },
       {
         "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      },
+      {
+        "label": "Moods proposed by Claude from the general nature of the book; not checked against a source"
       }
     ],
     "cover": null,
@@ -30595,7 +30614,11 @@
       "essays"
     ],
     "subgenres": [],
-    "moods": [],
+    "moods": [
+      "thought-provoking",
+      "hopeful",
+      "funny"
+    ],
     "warnings": [
       {
         "category": "sexual-violence",
@@ -30749,6 +30772,9 @@
       },
       {
         "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      },
+      {
+        "label": "Moods proposed by Claude from the general nature of the book; not checked against a source"
       }
     ],
     "cover": null,
@@ -30776,7 +30802,12 @@
     "subgenres": [
       "Persian literature"
     ],
-    "moods": [],
+    "moods": [
+      "dreamy",
+      "thought-provoking",
+      "comforting",
+      "romantic"
+    ],
     "warnings": [
       {
         "category": "sexual-violence",
@@ -30892,6 +30923,9 @@
       },
       {
         "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      },
+      {
+        "label": "Moods proposed by Claude from the general nature of the book; not checked against a source"
       }
     ],
     "cover": null,
@@ -30917,7 +30951,11 @@
       "self-help"
     ],
     "subgenres": [],
-    "moods": [],
+    "moods": [
+      "comforting",
+      "hopeful",
+      "thought-provoking"
+    ],
     "warnings": [
       {
         "category": "sexual-violence",
@@ -30993,6 +31031,9 @@
       },
       {
         "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      },
+      {
+        "label": "Moods proposed by Claude from the general nature of the book; not checked against a source"
       }
     ],
     "cover": null,
@@ -31018,7 +31059,10 @@
       "self-help"
     ],
     "subgenres": [],
-    "moods": [],
+    "moods": [
+      "hopeful",
+      "thought-provoking"
+    ],
     "warnings": [
       {
         "category": "sexual-violence",
@@ -31120,6 +31164,9 @@
       },
       {
         "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      },
+      {
+        "label": "Moods proposed by Claude from the general nature of the book; not checked against a source"
       }
     ],
     "cover": null,
@@ -31145,7 +31192,10 @@
       "self-help"
     ],
     "subgenres": [],
-    "moods": [],
+    "moods": [
+      "hopeful",
+      "comforting"
+    ],
     "warnings": [
       {
         "category": "sexual-violence",
@@ -31221,6 +31271,9 @@
       },
       {
         "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      },
+      {
+        "label": "Moods proposed by Claude from the general nature of the book; not checked against a source"
       }
     ],
     "cover": null,
@@ -31246,7 +31299,9 @@
       "self-help"
     ],
     "subgenres": [],
-    "moods": [],
+    "moods": [
+      "thought-provoking"
+    ],
     "warnings": [
       {
         "category": "sexual-violence",
@@ -31270,6 +31325,9 @@
       },
       {
         "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      },
+      {
+        "label": "Moods proposed by Claude from the general nature of the book; not checked against a source"
       }
     ],
     "cover": null,
@@ -31295,7 +31353,11 @@
       "self-help"
     ],
     "subgenres": [],
-    "moods": [],
+    "moods": [
+      "comforting",
+      "thought-provoking",
+      "hopeful"
+    ],
     "warnings": [
       {
         "category": "sexual-violence",
@@ -31355,6 +31417,9 @@
       },
       {
         "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      },
+      {
+        "label": "Moods proposed by Claude from the general nature of the book; not checked against a source"
       }
     ],
     "cover": null,
@@ -31380,7 +31445,11 @@
       "self-help"
     ],
     "subgenres": [],
-    "moods": [],
+    "moods": [
+      "comforting",
+      "hopeful",
+      "thought-provoking"
+    ],
     "warnings": [
       {
         "category": "sexual-violence",
@@ -31440,6 +31509,9 @@
       },
       {
         "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      },
+      {
+        "label": "Moods proposed by Claude from the general nature of the book; not checked against a source"
       }
     ],
     "cover": null,
@@ -31465,7 +31537,10 @@
       "self-help"
     ],
     "subgenres": [],
-    "moods": [],
+    "moods": [
+      "thought-provoking",
+      "hopeful"
+    ],
     "warnings": [
       {
         "category": "sexual-violence",
@@ -31489,6 +31564,9 @@
       },
       {
         "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      },
+      {
+        "label": "Moods proposed by Claude from the general nature of the book; not checked against a source"
       }
     ],
     "cover": null,
@@ -31514,7 +31592,9 @@
       "psychology"
     ],
     "subgenres": [],
-    "moods": [],
+    "moods": [
+      "thought-provoking"
+    ],
     "warnings": [
       {
         "category": "sexual-violence",
@@ -31618,6 +31698,9 @@
       },
       {
         "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      },
+      {
+        "label": "Moods proposed by Claude from the general nature of the book; not checked against a source"
       }
     ],
     "cover": null,
@@ -31643,7 +31726,9 @@
       "self-help"
     ],
     "subgenres": [],
-    "moods": [],
+    "moods": [
+      "thought-provoking"
+    ],
     "warnings": [
       {
         "category": "sexual-violence",
@@ -31667,6 +31752,9 @@
       },
       {
         "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      },
+      {
+        "label": "Moods proposed by Claude from the general nature of the book; not checked against a source"
       }
     ],
     "cover": null,
@@ -31692,7 +31780,9 @@
       "self-help"
     ],
     "subgenres": [],
-    "moods": [],
+    "moods": [
+      "thought-provoking"
+    ],
     "warnings": [
       {
         "category": "sexual-violence",
@@ -31716,6 +31806,9 @@
       },
       {
         "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      },
+      {
+        "label": "Moods proposed by Claude from the general nature of the book; not checked against a source"
       }
     ],
     "cover": null,
@@ -31741,7 +31834,10 @@
       "science"
     ],
     "subgenres": [],
-    "moods": [],
+    "moods": [
+      "thought-provoking",
+      "funny"
+    ],
     "warnings": [
       {
         "category": "sexual-violence",
@@ -31843,6 +31939,9 @@
       },
       {
         "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      },
+      {
+        "label": "Moods proposed by Claude from the general nature of the book; not checked against a source"
       }
     ],
     "cover": null,
@@ -31868,7 +31967,10 @@
       "self-help"
     ],
     "subgenres": [],
-    "moods": [],
+    "moods": [
+      "comforting",
+      "hopeful"
+    ],
     "warnings": [
       {
         "category": "sexual-violence",
@@ -31918,6 +32020,9 @@
       },
       {
         "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      },
+      {
+        "label": "Moods proposed by Claude from the general nature of the book; not checked against a source"
       }
     ],
     "cover": null,
@@ -31945,7 +32050,9 @@
     "subgenres": [
       "Persian philosophy"
     ],
-    "moods": [],
+    "moods": [
+      "thought-provoking"
+    ],
     "warnings": [
       {
         "category": "sexual-violence",
@@ -31969,6 +32076,9 @@
       },
       {
         "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      },
+      {
+        "label": "Moods proposed by Claude from the general nature of the book; not checked against a source"
       }
     ],
     "cover": null,
@@ -31996,7 +32106,9 @@
     "subgenres": [
       "Persian philosophy"
     ],
-    "moods": [],
+    "moods": [
+      "thought-provoking"
+    ],
     "warnings": [
       {
         "category": "sexual-violence",
@@ -32020,6 +32132,9 @@
       },
       {
         "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      },
+      {
+        "label": "Moods proposed by Claude from the general nature of the book; not checked against a source"
       }
     ],
     "cover": null,
@@ -32047,7 +32162,9 @@
     "subgenres": [
       "Persian philosophy"
     ],
-    "moods": [],
+    "moods": [
+      "thought-provoking"
+    ],
     "warnings": [
       {
         "category": "sexual-violence",
@@ -32071,6 +32188,9 @@
       },
       {
         "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      },
+      {
+        "label": "Moods proposed by Claude from the general nature of the book; not checked against a source"
       }
     ],
     "cover": null,
@@ -32096,7 +32216,10 @@
       "self-help"
     ],
     "subgenres": [],
-    "moods": [],
+    "moods": [
+      "hopeful",
+      "thought-provoking"
+    ],
     "warnings": [
       {
         "category": "sexual-violence",
@@ -32120,6 +32243,9 @@
       },
       {
         "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      },
+      {
+        "label": "Moods proposed by Claude from the general nature of the book; not checked against a source"
       }
     ],
     "cover": null,
@@ -32262,7 +32388,9 @@
       "psychology"
     ],
     "subgenres": [],
-    "moods": [],
+    "moods": [
+      "thought-provoking"
+    ],
     "warnings": [
       {
         "category": "sexual-violence",
@@ -32286,6 +32414,9 @@
       },
       {
         "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      },
+      {
+        "label": "Moods proposed by Claude from the general nature of the book; not checked against a source"
       }
     ],
     "cover": null,
