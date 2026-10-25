@@ -165,7 +165,7 @@ export function Detail({ b, onClose, onOpen }: { b: Book; onClose: () => void; o
                 <ul className="warnings">
                   {b.warnings.map((w, i) => (
                     <li key={i}>
-                      <strong>{catLabel(w.category)}{w.subcategory ? ` – ${w.subcategory}` : ""}</strong>{" "}
+                      {w.presence === "present" ? <strong>{catLabel(w.category)}{w.subcategory ? ` – ${w.subcategory}` : ""}</strong> : <strong className="muted">{catLabel(w.category)}: {w.presence === "absent" ? "not found in the sources checked" : "not assessed (no reliable source found)"}</strong>}{" "}
                       <span className={`badge ${w.verification === "verified" ? "ok" : "unk"}`}>{verLabel[w.verification]}</span>
                       {w.intensity && <span className="badge unk">{w.intensity}</span>}
                       {w.note && <div className="small">{w.note}</div>}
