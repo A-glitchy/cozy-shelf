@@ -28384,10 +28384,16 @@
       "source": "Goodreads export edition page count; other editions differ."
     },
     "genres": [
-      "fiction"
+      "literary fiction",
+      "women's fiction"
     ],
     "subgenres": [],
-    "moods": [],
+    "moods": [
+      "comforting",
+      "heartbreaking",
+      "hopeful",
+      "emotionally-intense"
+    ],
     "warnings": [
       {
         "category": "sexual-violence",
@@ -28539,10 +28545,10 @@
         "label": "Goodreads library export (title, author, page count)"
       },
       {
-        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
       },
       {
-        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+        "label": "Genre and moods from a spreadsheet check done with another AI tool, based on: Sourcebooks publisher description (confidence: high); unverified"
       }
     ],
     "cover": null,
@@ -28564,10 +28570,18 @@
       "source": "Goodreads export edition page count; other editions differ."
     },
     "genres": [
+      "mystery",
       "romance"
     ],
-    "subgenres": [],
-    "moods": [],
+    "subgenres": [
+      "romantic drama"
+    ],
+    "moods": [
+      "romantic",
+      "suspenseful",
+      "heartbreaking",
+      "emotionally-intense"
+    ],
     "warnings": [
       {
         "category": "sexual-violence",
@@ -28652,10 +28666,10 @@
         "label": "Goodreads library export (title, author, page count)"
       },
       {
-        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
       },
       {
-        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+        "label": "Genre and moods from a spreadsheet check done with another AI tool, based on: Fantastic Fiction description (confidence: high); unverified"
       }
     ],
     "cover": null,
@@ -28677,10 +28691,18 @@
       "source": "Goodreads export edition page count; other editions differ."
     },
     "genres": [
-      "young adult"
+      "children's",
+      "contemporary"
     ],
-    "subgenres": [],
-    "moods": [],
+    "subgenres": [
+      "middle grade"
+    ],
+    "moods": [
+      "hopeful",
+      "comforting",
+      "adventurous",
+      "thought-provoking"
+    ],
     "warnings": [
       {
         "category": "sexual-violence",
@@ -28752,10 +28774,10 @@
         "label": "Goodreads library export (title, author, page count)"
       },
       {
-        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
       },
       {
-        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+        "label": "Genre and moods from a spreadsheet check done with another AI tool, based on: Author's website (confidence: high); unverified"
       }
     ],
     "cover": null,
@@ -28778,10 +28800,18 @@
     },
     "genres": [
       "young adult",
-      "fantasy"
+      "fantasy",
+      "horror"
     ],
-    "subgenres": [],
-    "moods": [],
+    "subgenres": [
+      "thriller"
+    ],
+    "moods": [
+      "dark-unsettling",
+      "suspenseful",
+      "adventurous",
+      "thought-provoking"
+    ],
     "warnings": [
       {
         "category": "sexual-violence",
@@ -28932,10 +28962,10 @@
         "label": "Goodreads library export (title, author, page count)"
       },
       {
-        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
       },
       {
-        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+        "label": "Genre and moods from a spreadsheet check done with another AI tool, based on: Author's website and Kirkus Reviews (confidence: high); unverified"
       }
     ],
     "cover": null,
@@ -28957,10 +28987,16 @@
       "source": "Goodreads export edition page count; other editions differ."
     },
     "genres": [
-      "fiction"
+      "literary fiction",
+      "contemporary"
     ],
     "subgenres": [],
-    "moods": [],
+    "moods": [
+      "heartbreaking",
+      "hopeful",
+      "thought-provoking",
+      "emotionally-intense"
+    ],
     "warnings": [
       {
         "category": "sexual-violence",
@@ -29004,10 +29040,10 @@
         "label": "Goodreads library export (title, author, page count)"
       },
       {
-        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
       },
       {
-        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+        "label": "Genre and moods from a spreadsheet check done with another AI tool, based on: The Borough Press and reviews (confidence: high); unverified"
       }
     ],
     "cover": null,
@@ -29134,8 +29170,15 @@
     "genres": [
       "literary fiction"
     ],
-    "subgenres": [],
-    "moods": [],
+    "subgenres": [
+      "coming of age"
+    ],
+    "moods": [
+      "thought-provoking",
+      "heartbreaking",
+      "nostalgic",
+      "emotionally-intense"
+    ],
     "warnings": [
       {
         "category": "sexual-violence",
@@ -29208,10 +29251,10 @@
         "label": "Goodreads library export (title, author, page count)"
       },
       {
-        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
       },
       {
-        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+        "label": "Genre and moods from a spreadsheet check done with another AI tool, based on: Publishers Weekly (confidence: high); unverified"
       }
     ],
     "cover": null,
@@ -29323,10 +29366,16 @@
       "source": "Goodreads export edition page count; other editions differ."
     },
     "genres": [
-      "fiction"
+      "literary fiction",
+      "contemporary"
     ],
     "subgenres": [],
-    "moods": [],
+    "moods": [
+      "heartbreaking",
+      "romantic",
+      "thought-provoking",
+      "emotionally-intense"
+    ],
     "warnings": [
       {
         "category": "sexual-violence",
@@ -29398,10 +29447,10 @@
         "label": "Goodreads library export (title, author, page count)"
       },
       {
-        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
       },
       {
-        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+        "label": "Genre and moods from a spreadsheet check done with another AI tool, based on: Author's website (confidence: high); unverified"
       }
     ],
     "cover": null,
@@ -29696,10 +29745,16 @@
       "source": "Goodreads export edition page count; other editions differ."
     },
     "genres": [
-      "fiction"
+      "young adult",
+      "fantasy"
     ],
     "subgenres": [],
-    "moods": [],
+    "moods": [
+      "adventurous",
+      "suspenseful",
+      "atmospheric",
+      "romantic"
+    ],
     "warnings": [
       {
         "category": "sexual-violence",
@@ -29745,10 +29800,10 @@
         "label": "Goodreads library export (title, author, page count)"
       },
       {
-        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
       },
       {
-        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+        "label": "Genre and moods from a spreadsheet check done with another AI tool, based on: Author's website (confidence: medium); unverified"
       }
     ],
     "cover": null,
@@ -29770,10 +29825,17 @@
       "source": "Not given in the Goodreads export."
     },
     "genres": [
-      "fiction"
+      "historical fiction",
+      "literary fiction",
+      "fantasy"
     ],
     "subgenres": [],
-    "moods": [],
+    "moods": [
+      "atmospheric",
+      "adventurous",
+      "hopeful",
+      "romantic"
+    ],
     "warnings": [
       {
         "category": "sexual-violence",
@@ -29793,10 +29855,10 @@
         "label": "Goodreads library export (title, author, page count)"
       },
       {
-        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
       },
       {
-        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+        "label": "Genre and moods from a spreadsheet check done with another AI tool, based on: Fantastic Fiction description and reader comments (confidence: high); unverified"
       }
     ],
     "cover": null,
@@ -29818,11 +29880,17 @@
       "source": "Goodreads export edition page count; other editions differ."
     },
     "genres": [
-      "fiction",
-      "contemporary"
+      "women's fiction",
+      "family drama",
+      "romance"
     ],
     "subgenres": [],
-    "moods": [],
+    "moods": [
+      "funny",
+      "romantic",
+      "thought-provoking",
+      "nostalgic"
+    ],
     "warnings": [
       {
         "category": "sexual-violence",
@@ -29842,10 +29910,10 @@
         "label": "Goodreads library export (title, author, page count)"
       },
       {
-        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
       },
       {
-        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+        "label": "Genre and moods from a spreadsheet check done with another AI tool, based on: Penguin Random House and Kirkus Reviews (confidence: high); unverified"
       }
     ],
     "cover": null,
@@ -29867,10 +29935,19 @@
       "source": "Goodreads export edition page count; other editions differ."
     },
     "genres": [
-      "young adult"
+      "young adult",
+      "fantasy"
     ],
-    "subgenres": [],
-    "moods": [],
+    "subgenres": [
+      "paranormal",
+      "supernatural thriller"
+    ],
+    "moods": [
+      "spooky",
+      "suspenseful",
+      "atmospheric",
+      "funny"
+    ],
     "warnings": [
       {
         "category": "sexual-violence",
@@ -29982,10 +30059,10 @@
         "label": "Goodreads library export (title, author, page count)"
       },
       {
-        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
       },
       {
-        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+        "label": "Genre and moods from a spreadsheet check done with another AI tool, based on: Author's website (confidence: high); unverified"
       }
     ],
     "cover": null,
