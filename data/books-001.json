@@ -28371,5 +28371,4103 @@
       "lastReviewed": "2026-10-24"
     },
     "id": "bk_sa3qinx0"
+  },
+  {
+    "title": "Where the Wildflowers Grow",
+    "authors": [
+      "Terah Shelton Harris"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 496,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "fiction"
+    ],
+    "subgenres": [],
+    "moods": [],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings; SuperSummary guide (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/books/2b0e263e-b784-461b-a650-541e93f76e6b/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Referenced or in the past; reader reports describe sexual abuse involving an adult and a minor, reportedly not graphically depicted. Confidence in this finding: High.",
+        "intensity": "mild"
+      },
+      {
+        "category": "abuse",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings; SuperSummary guide (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/books/2b0e263e-b784-461b-a650-541e93f76e6b/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "Child abuse"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings; SuperSummary guide (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/books/2b0e263e-b784-461b-a650-541e93f76e6b/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "adult"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings; SuperSummary guide (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/books/2b0e263e-b784-461b-a650-541e93f76e6b/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "minor relationship"
+      },
+      {
+        "category": "abuse",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings; SuperSummary guide (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/books/2b0e263e-b784-461b-a650-541e93f76e6b/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "domestic abuse"
+      },
+      {
+        "category": "death-grief",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings; SuperSummary guide (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/books/2b0e263e-b784-461b-a650-541e93f76e6b/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "grief"
+      },
+      {
+        "category": "violence-gore",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings; SuperSummary guide (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/books/2b0e263e-b784-461b-a650-541e93f76e6b/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "murder"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings; SuperSummary guide (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/books/2b0e263e-b784-461b-a650-541e93f76e6b/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "car accident"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings; SuperSummary guide (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/books/2b0e263e-b784-461b-a650-541e93f76e6b/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "fire"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings; SuperSummary guide (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/books/2b0e263e-b784-461b-a650-541e93f76e6b/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "abandonment"
+      },
+      {
+        "category": "discrimination",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings; SuperSummary guide (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/books/2b0e263e-b784-461b-a650-541e93f76e6b/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "racism"
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_lus9kthi"
+  },
+  {
+    "title": "Beyond the Moonlit Sea",
+    "authors": [
+      "Julianne MacLean"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 345,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "romance"
+    ],
+    "subgenres": [],
+    "moods": [],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "unknown",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Searched; no reliable source found either way"
+          }
+        ],
+        "note": "A search found no reliable source either way, so this has not been assessed."
+      },
+      {
+        "category": "infidelity",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Author’s discussion guide (via spreadsheet check)",
+            "url": "https://www.juliannemaclean.com/clubs/beyond-the-moonlit-sea/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "Infidelity"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Author’s discussion guide (via spreadsheet check)",
+            "url": "https://www.juliannemaclean.com/clubs/beyond-the-moonlit-sea/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "relationship betrayal"
+      },
+      {
+        "category": "death-grief",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Author’s discussion guide (via spreadsheet check)",
+            "url": "https://www.juliannemaclean.com/clubs/beyond-the-moonlit-sea/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "grief"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Author’s discussion guide (via spreadsheet check)",
+            "url": "https://www.juliannemaclean.com/clubs/beyond-the-moonlit-sea/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "disappearance"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Author’s discussion guide (via spreadsheet check)",
+            "url": "https://www.juliannemaclean.com/clubs/beyond-the-moonlit-sea/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "psychological distress"
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_ufme3cm3"
+  },
+  {
+    "title": "The Brave",
+    "authors": [
+      "James Bird"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 320,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult"
+    ],
+    "subgenres": [],
+    "moods": [],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "unknown",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Searched; no reliable source found either way"
+          }
+        ],
+        "note": "A search found no reliable source either way, so this has not been assessed."
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Author’s book page; Utah State Library description (via spreadsheet check)",
+            "url": "https://www.jamesbirdwriter.com/books/project-three-sng7y-ljzfp?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "Bullying"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Author’s book page; Utah State Library description (via spreadsheet check)",
+            "url": "https://www.jamesbirdwriter.com/books/project-three-sng7y-ljzfp?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "OCD"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Author’s book page; Utah State Library description (via spreadsheet check)",
+            "url": "https://www.jamesbirdwriter.com/books/project-three-sng7y-ljzfp?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "family separation"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Author’s book page; Utah State Library description (via spreadsheet check)",
+            "url": "https://www.jamesbirdwriter.com/books/project-three-sng7y-ljzfp?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "identity and belonging"
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_nfodt18m"
+  },
+  {
+    "title": "Extasia",
+    "authors": [
+      "Claire Legrand"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 496,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult",
+      "fantasy"
+    ],
+    "subgenres": [],
+    "moods": [],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Trigger Warning Database; StoryGraph reader warnings; StoryGraph review with detailed warnings (via spreadsheet check)",
+            "url": "https://triggerwarningdatabase.com/sexual-assault/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Sexual assault and attempted rape are reported; exact scene details and graphicness aren’t fully established. Confidence in this finding: High."
+      },
+      {
+        "category": "discrimination",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Trigger Warning Database; StoryGraph reader warnings; StoryGraph review with detailed warnings (via spreadsheet check)",
+            "url": "https://triggerwarningdatabase.com/sexual-assault/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "Misogyny"
+      },
+      {
+        "category": "abuse",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Trigger Warning Database; StoryGraph reader warnings; StoryGraph review with detailed warnings (via spreadsheet check)",
+            "url": "https://triggerwarningdatabase.com/sexual-assault/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "religious abuse"
+      },
+      {
+        "category": "abuse",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Trigger Warning Database; StoryGraph reader warnings; StoryGraph review with detailed warnings (via spreadsheet check)",
+            "url": "https://triggerwarningdatabase.com/sexual-assault/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "domestic abuse"
+      },
+      {
+        "category": "abuse",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Trigger Warning Database; StoryGraph reader warnings; StoryGraph review with detailed warnings (via spreadsheet check)",
+            "url": "https://triggerwarningdatabase.com/sexual-assault/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "physical abuse"
+      },
+      {
+        "category": "kidnapping",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Trigger Warning Database; StoryGraph reader warnings; StoryGraph review with detailed warnings (via spreadsheet check)",
+            "url": "https://triggerwarningdatabase.com/sexual-assault/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "confinement"
+      },
+      {
+        "category": "violence-gore",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Trigger Warning Database; StoryGraph reader warnings; StoryGraph review with detailed warnings (via spreadsheet check)",
+            "url": "https://triggerwarningdatabase.com/sexual-assault/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "torture"
+      },
+      {
+        "category": "violence-gore",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Trigger Warning Database; StoryGraph reader warnings; StoryGraph review with detailed warnings (via spreadsheet check)",
+            "url": "https://triggerwarningdatabase.com/sexual-assault/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "body horror"
+      },
+      {
+        "category": "violence-gore",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Trigger Warning Database; StoryGraph reader warnings; StoryGraph review with detailed warnings (via spreadsheet check)",
+            "url": "https://triggerwarningdatabase.com/sexual-assault/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "gore"
+      },
+      {
+        "category": "violence-gore",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Trigger Warning Database; StoryGraph reader warnings; StoryGraph review with detailed warnings (via spreadsheet check)",
+            "url": "https://triggerwarningdatabase.com/sexual-assault/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "violence"
+      },
+      {
+        "category": "death-grief",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Trigger Warning Database; StoryGraph reader warnings; StoryGraph review with detailed warnings (via spreadsheet check)",
+            "url": "https://triggerwarningdatabase.com/sexual-assault/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "death"
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_ycaz1td5"
+  },
+  {
+    "title": "All My Mothers",
+    "authors": [
+      "Joanna Glen"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 400,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "fiction"
+    ],
+    "subgenres": [],
+    "moods": [],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "unknown",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Searched; no reliable source found either way"
+          }
+        ],
+        "note": "A search found no reliable source either way, so this has not been assessed."
+      },
+      {
+        "category": "mental-health",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "No sufficiently detailed source confirmed in the results reviewed (via spreadsheet check)"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "Family trauma and difficult relationships may be relevant"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "No sufficiently detailed source confirmed in the results reviewed (via spreadsheet check)"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "but I couldn’t verify a detailed book-specific warning list in the sources revie"
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_r9ao3qkg"
+  },
+  {
+    "title": "When Nietzsche Wept",
+    "authors": [
+      "Irvin D. Yalom"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 310,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "historical fiction",
+      "literary fiction"
+    ],
+    "subgenres": [],
+    "moods": [
+      "thought-provoking"
+    ],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "unknown",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Searched; no reliable source found either way"
+          }
+        ],
+        "note": "A search found no reliable source either way, so this has not been assessed."
+      },
+      {
+        "category": "suicide-self-harm",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Author’s book page; IMDb film parental guide (via spreadsheet check)",
+            "url": "https://www.yalom.com/when-nietzsche-wept/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "Suicidal despair"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Author’s book page; IMDb film parental guide (via spreadsheet check)",
+            "url": "https://www.yalom.com/when-nietzsche-wept/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "psychological distress"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Author’s book page; IMDb film parental guide (via spreadsheet check)",
+            "url": "https://www.yalom.com/when-nietzsche-wept/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "sexual themes"
+      },
+      {
+        "category": "illness",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Author’s book page; IMDb film parental guide (via spreadsheet check)",
+            "url": "https://www.yalom.com/when-nietzsche-wept/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "historical medical treatment"
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_xs9i02nd"
+  },
+  {
+    "title": "Win Me Something",
+    "authors": [
+      "Kyle Lucia Wu"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 272,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "literary fiction"
+    ],
+    "subgenres": [],
+    "moods": [],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "absent",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Kirkus Reviews (via spreadsheet check)",
+            "url": "https://www.kirkusreviews.com/book-reviews/kyle-lucia-wu/win-me-something/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Not found in the sources checked; this is not proof it is absent. Confidence: Medium."
+      },
+      {
+        "category": "abuse",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Kirkus Reviews (via spreadsheet check)",
+            "url": "https://www.kirkusreviews.com/book-reviews/kyle-lucia-wu/win-me-something/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "Childhood emotional neglect"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Kirkus Reviews (via spreadsheet check)",
+            "url": "https://www.kirkusreviews.com/book-reviews/kyle-lucia-wu/win-me-something/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "family difficulties"
+      },
+      {
+        "category": "mental-health",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Kirkus Reviews (via spreadsheet check)",
+            "url": "https://www.kirkusreviews.com/book-reviews/kyle-lucia-wu/win-me-something/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "anxiety"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Kirkus Reviews (via spreadsheet check)",
+            "url": "https://www.kirkusreviews.com/book-reviews/kyle-lucia-wu/win-me-something/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "pregnancy-related themes"
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_uft8k8oy"
+  },
+  {
+    "title": "Someone I Used to Know",
+    "authors": [
+      "Paige Toon"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 384,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "romance",
+      "contemporary"
+    ],
+    "subgenres": [],
+    "moods": [
+      "romantic"
+    ],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "unknown",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Searched; no reliable source found either way"
+          }
+        ],
+        "note": "A search found no reliable source either way, so this has not been assessed."
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Publisher’s book page (via spreadsheet check)",
+            "url": "https://www.penguinrandomhouse.com/books/737060/someone-i-used-to-know-by-paige-toon/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "Teen relationships"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Publisher’s book page (via spreadsheet check)",
+            "url": "https://www.penguinrandomhouse.com/books/737060/someone-i-used-to-know-by-paige-toon/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "a love triangle"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Publisher’s book page (via spreadsheet check)",
+            "url": "https://www.penguinrandomhouse.com/books/737060/someone-i-used-to-know-by-paige-toon/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "troubled family circumstances"
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_pjo10zhs"
+  },
+  {
+    "title": "Small Joys of Real Life",
+    "authors": [
+      "Allee Richards"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 300,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "fiction"
+    ],
+    "subgenres": [],
+    "moods": [],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "unknown",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Searched; no reliable source found either way"
+          }
+        ],
+        "note": "A search found no reliable source either way, so this has not been assessed."
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Author’s book page (via spreadsheet check)",
+            "url": "https://www.alleerichards.com/small-joys?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "Pregnancy"
+      },
+      {
+        "category": "death-grief",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Author’s book page (via spreadsheet check)",
+            "url": "https://www.alleerichards.com/small-joys?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "bereavement"
+      },
+      {
+        "category": "death-grief",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Author’s book page (via spreadsheet check)",
+            "url": "https://www.alleerichards.com/small-joys?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "grief"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Author’s book page (via spreadsheet check)",
+            "url": "https://www.alleerichards.com/small-joys?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "relationship difficulties"
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_1yedzakt"
+  },
+  {
+    "title": "The Minute I Saw You",
+    "authors": [
+      "Paige Toon"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 400,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "romance",
+      "contemporary"
+    ],
+    "subgenres": [],
+    "moods": [
+      "romantic"
+    ],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph reader warning (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/book_reviews/ece799d8-e328-4830-af64-8901a7cf0df3/content_warning/16?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Sexual assault is reported in reader-submitted warnings; presentation and graphicness unverified. Confidence in this finding: Medium.",
+        "subcategory": "pedophilia"
+      },
+      {
+        "category": "abuse",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph reader warning (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/book_reviews/ece799d8-e328-4830-af64-8901a7cf0df3/content_warning/16?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "Child abuse"
+      },
+      {
+        "category": "death-grief",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph reader warning (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/book_reviews/ece799d8-e328-4830-af64-8901a7cf0df3/content_warning/16?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "child death"
+      },
+      {
+        "category": "illness",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph reader warning (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/book_reviews/ece799d8-e328-4830-af64-8901a7cf0df3/content_warning/16?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "cancer"
+      },
+      {
+        "category": "addiction",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph reader warning (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/book_reviews/ece799d8-e328-4830-af64-8901a7cf0df3/content_warning/16?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "drug abuse"
+      },
+      {
+        "category": "suicide-self-harm",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph reader warning (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/book_reviews/ece799d8-e328-4830-af64-8901a7cf0df3/content_warning/16?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "suicide"
+      },
+      {
+        "category": "death-grief",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph reader warning (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/book_reviews/ece799d8-e328-4830-af64-8901a7cf0df3/content_warning/16?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "death of a parent"
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_26krsv6b"
+  },
+  {
+    "title": "To Sleep in a Sea of Stars",
+    "authors": [
+      "Christopher Paolini"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 880,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "science fiction"
+    ],
+    "subgenres": [],
+    "moods": [
+      "adventurous"
+    ],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "absent",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Book Trigger Warnings (via spreadsheet check)",
+            "url": "https://booktriggerwarnings.com/To_Sleep_in_a_Sea_of_Stars_by_Christopher_Paolini?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Not found in the sources checked; this is not proof it is absent. Confidence: Medium."
+      },
+      {
+        "category": "violence-gore",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Book Trigger Warnings (via spreadsheet check)",
+            "url": "https://booktriggerwarnings.com/To_Sleep_in_a_Sea_of_Stars_by_Christopher_Paolini?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "Body horror"
+      },
+      {
+        "category": "violence-gore",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Book Trigger Warnings (via spreadsheet check)",
+            "url": "https://booktriggerwarnings.com/To_Sleep_in_a_Sea_of_Stars_by_Christopher_Paolini?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "gore"
+      },
+      {
+        "category": "violence-gore",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Book Trigger Warnings (via spreadsheet check)",
+            "url": "https://booktriggerwarnings.com/To_Sleep_in_a_Sea_of_Stars_by_Christopher_Paolini?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "torture"
+      },
+      {
+        "category": "violence-gore",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Book Trigger Warnings (via spreadsheet check)",
+            "url": "https://booktriggerwarnings.com/To_Sleep_in_a_Sea_of_Stars_by_Christopher_Paolini?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "violence"
+      },
+      {
+        "category": "war",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Book Trigger Warnings (via spreadsheet check)",
+            "url": "https://booktriggerwarnings.com/To_Sleep_in_a_Sea_of_Stars_by_Christopher_Paolini?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "war"
+      },
+      {
+        "category": "death-grief",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Book Trigger Warnings (via spreadsheet check)",
+            "url": "https://booktriggerwarnings.com/To_Sleep_in_a_Sea_of_Stars_by_Christopher_Paolini?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "death"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Book Trigger Warnings (via spreadsheet check)",
+            "url": "https://booktriggerwarnings.com/To_Sleep_in_a_Sea_of_Stars_by_Christopher_Paolini?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "bullying"
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_dd33385c"
+  },
+  {
+    "title": "A Thousand Years to Wait",
+    "authors": [
+      "L. Ryan Storms"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 386,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "fiction"
+    ],
+    "subgenres": [],
+    "moods": [],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "unknown",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Searched; no reliable source found either way"
+          }
+        ],
+        "note": "A search found no reliable source either way, so this has not been assessed."
+      },
+      {
+        "category": "war",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Author’s book page (via spreadsheet check)",
+            "url": "https://lryanstorms.com/a-thousand-years-to-wait/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "Fantasy conflict and war are part of the premise"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Author’s book page (via spreadsheet check)",
+            "url": "https://lryanstorms.com/a-thousand-years-to-wait/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "detailed warnings not verified"
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_91xv903j"
+  },
+  {
+    "title": "The Last Beekeeper",
+    "authors": [
+      "Siya Turabi"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": null,
+      "confidence": "unknown",
+      "source": "Not given in the Goodreads export."
+    },
+    "genres": [
+      "fiction"
+    ],
+    "subgenres": [],
+    "moods": [],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "unknown",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Searched; no reliable source found either way"
+          }
+        ],
+        "note": "A search found no reliable source either way, so this has not been assessed."
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_7douef0z"
+  },
+  {
+    "title": "The Tiger Mom's Tale",
+    "authors": [
+      "Lyn Liao Butler"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 352,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "fiction",
+      "contemporary"
+    ],
+    "subgenres": [],
+    "moods": [],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "unknown",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Searched; no reliable source found either way"
+          }
+        ],
+        "note": "A search found no reliable source either way, so this has not been assessed."
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_nipzfxcr"
+  },
+  {
+    "title": "The Reckless Afterlife of Harriet Stoker",
+    "authors": [
+      "Lauren James"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 425,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "young adult"
+    ],
+    "subgenres": [],
+    "moods": [],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "absent",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Goodreads reader warning list; Fantastic Fiction description (via spreadsheet check)",
+            "url": "https://www.goodreads.com/en/book/show/51906350-the-reckless-afterlife-of-harriet-stoker?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Not found in the sources checked; this is not proof it is absent. Confidence: Medium."
+      },
+      {
+        "category": "death-grief",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Goodreads reader warning list; Fantastic Fiction description (via spreadsheet check)",
+            "url": "https://www.goodreads.com/en/book/show/51906350-the-reckless-afterlife-of-harriet-stoker?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "Death"
+      },
+      {
+        "category": "violence-gore",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Goodreads reader warning list; Fantastic Fiction description (via spreadsheet check)",
+            "url": "https://www.goodreads.com/en/book/show/51906350-the-reckless-afterlife-of-harriet-stoker?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "murder"
+      },
+      {
+        "category": "violence-gore",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Goodreads reader warning list; Fantastic Fiction description (via spreadsheet check)",
+            "url": "https://www.goodreads.com/en/book/show/51906350-the-reckless-afterlife-of-harriet-stoker?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "blood"
+      },
+      {
+        "category": "violence-gore",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Goodreads reader warning list; Fantastic Fiction description (via spreadsheet check)",
+            "url": "https://www.goodreads.com/en/book/show/51906350-the-reckless-afterlife-of-harriet-stoker?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "violence"
+      },
+      {
+        "category": "animal-cruelty",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Goodreads reader warning list; Fantastic Fiction description (via spreadsheet check)",
+            "url": "https://www.goodreads.com/en/book/show/51906350-the-reckless-afterlife-of-harriet-stoker?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "animal death"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Goodreads reader warning list; Fantastic Fiction description (via spreadsheet check)",
+            "url": "https://www.goodreads.com/en/book/show/51906350-the-reckless-afterlife-of-harriet-stoker?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "poisoning"
+      },
+      {
+        "category": "death-grief",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Goodreads reader warning list; Fantastic Fiction description (via spreadsheet check)",
+            "url": "https://www.goodreads.com/en/book/show/51906350-the-reckless-afterlife-of-harriet-stoker?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "death of a parent"
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_dv0776er"
+  },
+  {
+    "title": "Unfaithful",
+    "authors": [
+      "Natalie Barelli"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 288,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "thriller"
+    ],
+    "subgenres": [],
+    "moods": [
+      "suspenseful"
+    ],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "unknown",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Searched; no reliable source found either way"
+          }
+        ],
+        "note": "A search found no reliable source either way, so this has not been assessed."
+      },
+      {
+        "category": "infidelity",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Publisher’s book page; Author’s website (via spreadsheet check)",
+            "url": "https://bookouture.com/books/1939/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "Infidelity"
+      },
+      {
+        "category": "death-grief",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Publisher’s book page; Author’s website (via spreadsheet check)",
+            "url": "https://bookouture.com/books/1939/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "death"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Publisher’s book page; Author’s website (via spreadsheet check)",
+            "url": "https://bookouture.com/books/1939/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "threatening messages"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Publisher’s book page; Author’s website (via spreadsheet check)",
+            "url": "https://bookouture.com/books/1939/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "psychological suspense"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Publisher’s book page; Author’s website (via spreadsheet check)",
+            "url": "https://bookouture.com/books/1939/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "family conflict"
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_i6rjxxqg"
+  },
+  {
+    "title": "From the Ashes: My Story of Being Métis, Homeless, and Finding My Way",
+    "authors": [
+      "Jesse Thistle"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 384,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "nonfiction",
+      "memoir"
+    ],
+    "subgenres": [],
+    "moods": [
+      "emotionally-intense",
+      "hopeful"
+    ],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "SuperSummary content warning; StoryGraph reader warnings (via spreadsheet check)",
+            "url": "https://www.supersummary.com/from-the-ashes/summary/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Sexual assault and sexual violence are reported in the memoir; the available warnings do not establish the presentation of every incident. Confidence in this finding: High."
+      },
+      {
+        "category": "abuse",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "SuperSummary content warning; StoryGraph reader warnings (via spreadsheet check)",
+            "url": "https://www.supersummary.com/from-the-ashes/summary/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "Domestic abuse"
+      },
+      {
+        "category": "abuse",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "SuperSummary content warning; StoryGraph reader warnings (via spreadsheet check)",
+            "url": "https://www.supersummary.com/from-the-ashes/summary/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "child abuse"
+      },
+      {
+        "category": "discrimination",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "SuperSummary content warning; StoryGraph reader warnings (via spreadsheet check)",
+            "url": "https://www.supersummary.com/from-the-ashes/summary/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "racism"
+      },
+      {
+        "category": "addiction",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "SuperSummary content warning; StoryGraph reader warnings (via spreadsheet check)",
+            "url": "https://www.supersummary.com/from-the-ashes/summary/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "addiction"
+      },
+      {
+        "category": "addiction",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "SuperSummary content warning; StoryGraph reader warnings (via spreadsheet check)",
+            "url": "https://www.supersummary.com/from-the-ashes/summary/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "drug and alcohol abuse"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "SuperSummary content warning; StoryGraph reader warnings (via spreadsheet check)",
+            "url": "https://www.supersummary.com/from-the-ashes/summary/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "homelessness"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "SuperSummary content warning; StoryGraph reader warnings (via spreadsheet check)",
+            "url": "https://www.supersummary.com/from-the-ashes/summary/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "incarceration"
+      },
+      {
+        "category": "suicide-self-harm",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "SuperSummary content warning; StoryGraph reader warnings (via spreadsheet check)",
+            "url": "https://www.supersummary.com/from-the-ashes/summary/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "suicidal thoughts"
+      },
+      {
+        "category": "suicide-self-harm",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "SuperSummary content warning; StoryGraph reader warnings (via spreadsheet check)",
+            "url": "https://www.supersummary.com/from-the-ashes/summary/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "suicide attempt"
+      },
+      {
+        "category": "violence-gore",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "SuperSummary content warning; StoryGraph reader warnings (via spreadsheet check)",
+            "url": "https://www.supersummary.com/from-the-ashes/summary/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "violence"
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_k6wct9x0"
+  },
+  {
+    "title": "My Mess Is a Bit of a Life: Adventures in Anxiety",
+    "authors": [
+      "Georgia Pritchett"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 282,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "nonfiction",
+      "memoir"
+    ],
+    "subgenres": [],
+    "moods": [],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "unknown",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Searched; no reliable source found either way"
+          }
+        ],
+        "note": "A search found no reliable source either way, so this has not been assessed."
+      },
+      {
+        "category": "mental-health",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "No sufficiently detailed, book-specific source confirmed in the results reviewed (via spreadsheet check)"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "Anxiety and mental-health struggles"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "No sufficiently detailed, book-specific source confirmed in the results reviewed (via spreadsheet check)"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "other warnings not sufficiently verified"
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_8zd8wx9u"
+  },
+  {
+    "title": "My Own Words",
+    "authors": [
+      "Ruth Bader Ginsburg"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 400,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "nonfiction"
+    ],
+    "subgenres": [
+      "essays and speeches"
+    ],
+    "moods": [],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "unknown",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Searched; no reliable source found either way"
+          }
+        ],
+        "note": "A search found no reliable source either way, so this has not been assessed."
+      },
+      {
+        "category": "discrimination",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/books/2810a7fd-0958-45f1-b023-105c9d302c4c/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "Sexism"
+      },
+      {
+        "category": "discrimination",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/books/2810a7fd-0958-45f1-b023-105c9d302c4c/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "misogyny"
+      },
+      {
+        "category": "discrimination",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/books/2810a7fd-0958-45f1-b023-105c9d302c4c/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "racism"
+      },
+      {
+        "category": "discrimination",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/books/2810a7fd-0958-45f1-b023-105c9d302c4c/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "antisemitism"
+      },
+      {
+        "category": "pregnancy-loss",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/books/2810a7fd-0958-45f1-b023-105c9d302c4c/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "abortion-related discussion"
+      },
+      {
+        "category": "death-grief",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/books/2810a7fd-0958-45f1-b023-105c9d302c4c/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "death and grief"
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_68ecbxn0"
+  },
+  {
+    "title": "The Child in You: The Breakthrough Method for Bringing Out Your Authentic Self",
+    "authors": [
+      "Stefanie Stahl"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 352,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "nonfiction",
+      "self-help"
+    ],
+    "subgenres": [],
+    "moods": [],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "unknown",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Searched; no reliable source found either way"
+          }
+        ],
+        "note": "A search found no reliable source either way, so this has not been assessed."
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "No sufficiently detailed, book-specific source confirmed in the results reviewed (via spreadsheet check)"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "Childhood experiences"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "No sufficiently detailed, book-specific source confirmed in the results reviewed (via spreadsheet check)"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "emotional wounds"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "No sufficiently detailed, book-specific source confirmed in the results reviewed (via spreadsheet check)"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "family relationships and psychological distress are central topics"
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_ke7siz6y"
+  },
+  {
+    "title": "The Anthropocene Reviewed: Essays on a Human-Centered Planet",
+    "authors": [
+      "John Green"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 304,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "nonfiction",
+      "essays"
+    ],
+    "subgenres": [],
+    "moods": [],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "unknown",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Searched; no reliable source found either way"
+          }
+        ],
+        "note": "A search found no reliable source either way, so this has not been assessed."
+      },
+      {
+        "category": "illness",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings; John Green’s official book page (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/books/1c010db1-caba-4c2e-aa41-192c36c8eff8/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "Mental illness"
+      },
+      {
+        "category": "death-grief",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings; John Green’s official book page (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/books/1c010db1-caba-4c2e-aa41-192c36c8eff8/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "grief"
+      },
+      {
+        "category": "death-grief",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings; John Green’s official book page (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/books/1c010db1-caba-4c2e-aa41-192c36c8eff8/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "death"
+      },
+      {
+        "category": "suicide-self-harm",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings; John Green’s official book page (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/books/1c010db1-caba-4c2e-aa41-192c36c8eff8/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "suicidal thoughts"
+      },
+      {
+        "category": "mental-health",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings; John Green’s official book page (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/books/1c010db1-caba-4c2e-aa41-192c36c8eff8/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "panic attacks"
+      },
+      {
+        "category": "death-grief",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings; John Green’s official book page (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/books/1c010db1-caba-4c2e-aa41-192c36c8eff8/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "child death"
+      },
+      {
+        "category": "illness",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings; John Green’s official book page (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/books/1c010db1-caba-4c2e-aa41-192c36c8eff8/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "illness"
+      },
+      {
+        "category": "illness",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings; John Green’s official book page (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/books/1c010db1-caba-4c2e-aa41-192c36c8eff8/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "cancer"
+      },
+      {
+        "category": "war",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings; John Green’s official book page (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/books/1c010db1-caba-4c2e-aa41-192c36c8eff8/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "genocide"
+      },
+      {
+        "category": "discrimination",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings; John Green’s official book page (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/books/1c010db1-caba-4c2e-aa41-192c36c8eff8/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "racism and other social issues"
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_1df2ksqt"
+  },
+  {
+    "title": "The Essential Rumi",
+    "authors": [
+      "Jalal ad-Din Muhammad ar-Rumi"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 416,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "poetry",
+      "classic"
+    ],
+    "subgenres": [
+      "Persian literature"
+    ],
+    "moods": [],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph reader warning (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/book_reviews/38f4d734-6ab8-46c4-a770-7b5cf9ad21ee/content_warning/54?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "A reader-submitted warning includes rape; the source does not establish whether this refers to a particular poem, metaphorical language or a direct account. Confidence in this finding: Low. Answer given: Yes — reader warning."
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph reader warning (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/book_reviews/38f4d734-6ab8-46c4-a770-7b5cf9ad21ee/content_warning/54?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "Sexual content"
+      },
+      {
+        "category": "discrimination",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph reader warning (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/book_reviews/38f4d734-6ab8-46c4-a770-7b5cf9ad21ee/content_warning/54?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "misogyny"
+      },
+      {
+        "category": "violence-gore",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph reader warning (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/book_reviews/38f4d734-6ab8-46c4-a770-7b5cf9ad21ee/content_warning/54?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "violence"
+      },
+      {
+        "category": "war",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph reader warning (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/book_reviews/38f4d734-6ab8-46c4-a770-7b5cf9ad21ee/content_warning/54?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "war"
+      },
+      {
+        "category": "death-grief",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph reader warning (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/book_reviews/38f4d734-6ab8-46c4-a770-7b5cf9ad21ee/content_warning/54?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "death"
+      },
+      {
+        "category": "violence-gore",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph reader warning (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/book_reviews/38f4d734-6ab8-46c4-a770-7b5cf9ad21ee/content_warning/54?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "blood"
+      },
+      {
+        "category": "death-grief",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph reader warning (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/book_reviews/38f4d734-6ab8-46c4-a770-7b5cf9ad21ee/content_warning/54?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "pregnancy and grief"
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_tnztkrc6"
+  },
+  {
+    "title": "When You're Ready, This Is How You Heal",
+    "authors": [
+      "Brianna Wiest"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 235,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "nonfiction",
+      "self-help"
+    ],
+    "subgenres": [],
+    "moods": [],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "unknown",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Searched; no reliable source found either way"
+          }
+        ],
+        "note": "A search found no reliable source either way, so this has not been assessed."
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Book listing and text preview (via spreadsheet check)",
+            "url": "https://www.everand.com/book/561124624/When-You-re-Ready-This-Is-How-You-Heal?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "Emotional distress"
+      },
+      {
+        "category": "mental-health",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Book listing and text preview (via spreadsheet check)",
+            "url": "https://www.everand.com/book/561124624/When-You-re-Ready-This-Is-How-You-Heal?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "anxiety"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Book listing and text preview (via spreadsheet check)",
+            "url": "https://www.everand.com/book/561124624/When-You-re-Ready-This-Is-How-You-Heal?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "painful memories"
+      },
+      {
+        "category": "mental-health",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Book listing and text preview (via spreadsheet check)",
+            "url": "https://www.everand.com/book/561124624/When-You-re-Ready-This-Is-How-You-Heal?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "trauma and healing themes"
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_eszj0rwf"
+  },
+  {
+    "title": "The Mountain Is You: Transforming Self-Sabotage Into Self-Mastery",
+    "authors": [
+      "Brianna Wiest"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 250,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "nonfiction",
+      "self-help"
+    ],
+    "subgenres": [],
+    "moods": [],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "unknown",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Searched; no reliable source found either way"
+          }
+        ],
+        "note": "A search found no reliable source either way, so this has not been assessed."
+      },
+      {
+        "category": "illness",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/books/709d9dbc-80e1-437e-9e0d-611ae006a911/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "Mental illness"
+      },
+      {
+        "category": "mental-health",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/books/709d9dbc-80e1-437e-9e0d-611ae006a911/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "panic attacks"
+      },
+      {
+        "category": "suicide-self-harm",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/books/709d9dbc-80e1-437e-9e0d-611ae006a911/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "self-harm"
+      },
+      {
+        "category": "addiction",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/books/709d9dbc-80e1-437e-9e0d-611ae006a911/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "addiction"
+      },
+      {
+        "category": "abuse",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/books/709d9dbc-80e1-437e-9e0d-611ae006a911/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "toxic relationships"
+      },
+      {
+        "category": "discrimination",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings (via spreadsheet check)",
+            "url": "https://app.thestorygraph.com/books/709d9dbc-80e1-437e-9e0d-611ae006a911/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "fatphobia and ableism"
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_pyawhzda"
+  },
+  {
+    "title": "I Am The Hero Of My Own Life",
+    "authors": [
+      "Brianna Wiest"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 169,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "nonfiction",
+      "self-help"
+    ],
+    "subgenres": [],
+    "moods": [],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "unknown",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Searched; no reliable source found either way"
+          }
+        ],
+        "note": "A search found no reliable source either way, so this has not been assessed."
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Publisher description; Thought Catalog book listing (via spreadsheet check)",
+            "url": "https://www.piper.de/buecher/i-am-the-hero-of-my-own-life-isbn-978-3-492-07347-9?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "Self-reflection"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Publisher description; Thought Catalog book listing (via spreadsheet check)",
+            "url": "https://www.piper.de/buecher/i-am-the-hero-of-my-own-life-isbn-978-3-492-07347-9?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "insecurity"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Publisher description; Thought Catalog book listing (via spreadsheet check)",
+            "url": "https://www.piper.de/buecher/i-am-the-hero-of-my-own-life-isbn-978-3-492-07347-9?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "fear"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Publisher description; Thought Catalog book listing (via spreadsheet check)",
+            "url": "https://www.piper.de/buecher/i-am-the-hero-of-my-own-life-isbn-978-3-492-07347-9?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "personal growth and emotional struggles"
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_k0tfppv6"
+  },
+  {
+    "title": "I'm OK - You're OK",
+    "authors": [
+      "Thomas A. Harris"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 320,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "nonfiction",
+      "self-help"
+    ],
+    "subgenres": [],
+    "moods": [],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "unknown",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Searched; no reliable source found either way"
+          }
+        ],
+        "note": "A search found no reliable source either way, so this has not been assessed."
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_7hpqgaq9"
+  },
+  {
+    "title": "Clarity & Connection",
+    "authors": [
+      "Yung Pueblo"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 256,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "nonfiction",
+      "self-help"
+    ],
+    "subgenres": [],
+    "moods": [],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "unknown",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Searched; no reliable source found either way"
+          }
+        ],
+        "note": "A search found no reliable source either way, so this has not been assessed."
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "No sufficiently detailed, book-specific source confirmed in the results reviewed (via spreadsheet check)"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "Emotional healing"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "No sufficiently detailed, book-specific source confirmed in the results reviewed (via spreadsheet check)"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "relationship difficulties"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "No sufficiently detailed, book-specific source confirmed in the results reviewed (via spreadsheet check)"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "self-reflection and personal growth"
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_2vf4wqsc"
+  },
+  {
+    "title": "Inward",
+    "authors": [
+      "Yung Pueblo"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 222,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "nonfiction",
+      "self-help"
+    ],
+    "subgenres": [],
+    "moods": [],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "unknown",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Searched; no reliable source found either way"
+          }
+        ],
+        "note": "A search found no reliable source either way, so this has not been assessed."
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "No sufficiently detailed, book-specific source confirmed in the results reviewed (via spreadsheet check)"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "Emotional distress"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "No sufficiently detailed, book-specific source confirmed in the results reviewed (via spreadsheet check)"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "relationships"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "No sufficiently detailed, book-specific source confirmed in the results reviewed (via spreadsheet check)"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "self-reflection and healing"
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_6y3s756q"
+  },
+  {
+    "title": "Breaking the Habit of Being Yourself: How to Lose Your Mind and Create a New One",
+    "authors": [
+      "Joe Dispenza"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 329,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "nonfiction",
+      "self-help"
+    ],
+    "subgenres": [],
+    "moods": [],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "unknown",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Searched; no reliable source found either way"
+          }
+        ],
+        "note": "A search found no reliable source either way, so this has not been assessed."
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_c9tdpd0j"
+  },
+  {
+    "title": "Dopamine Nation: Finding Balance in the Age of Indulgence",
+    "authors": [
+      "Anna Lembke"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 304,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "nonfiction",
+      "psychology"
+    ],
+    "subgenres": [],
+    "moods": [],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings (via spreadsheet check)",
+            "url": "https://beta.thestorygraph.com/books/2dee7809-9456-4086-81d4-6796a7f6da5b/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Reader-submitted warnings include sexual assault; whether it is recounted as a case study, discussed generally or described in detail was not established. Confidence in this finding: Medium. Answer given: Yes — reader warning.",
+        "intensity": "mild"
+      },
+      {
+        "category": "addiction",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings (via spreadsheet check)",
+            "url": "https://beta.thestorygraph.com/books/2dee7809-9456-4086-81d4-6796a7f6da5b/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "Addiction"
+      },
+      {
+        "category": "addiction",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings (via spreadsheet check)",
+            "url": "https://beta.thestorygraph.com/books/2dee7809-9456-4086-81d4-6796a7f6da5b/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "drug and alcohol abuse"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings (via spreadsheet check)",
+            "url": "https://beta.thestorygraph.com/books/2dee7809-9456-4086-81d4-6796a7f6da5b/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "sexual content"
+      },
+      {
+        "category": "suicide-self-harm",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings (via spreadsheet check)",
+            "url": "https://beta.thestorygraph.com/books/2dee7809-9456-4086-81d4-6796a7f6da5b/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "suicidal thoughts"
+      },
+      {
+        "category": "suicide-self-harm",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings (via spreadsheet check)",
+            "url": "https://beta.thestorygraph.com/books/2dee7809-9456-4086-81d4-6796a7f6da5b/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "self-harm"
+      },
+      {
+        "category": "eating-disorders",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph content warnings (via spreadsheet check)",
+            "url": "https://beta.thestorygraph.com/books/2dee7809-9456-4086-81d4-6796a7f6da5b/content_warnings?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "eating disorders and mental illness"
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_ifpojpx8"
+  },
+  {
+    "title": "The Daily Stoic Journal: 366 Days of Writing and Reflection on the Art of Living",
+    "authors": [
+      "Ryan Holiday"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 384,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "nonfiction",
+      "self-help"
+    ],
+    "subgenres": [],
+    "moods": [],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "unknown",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Searched; no reliable source found either way"
+          }
+        ],
+        "note": "A search found no reliable source either way, so this has not been assessed."
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_iq1p4y9h"
+  },
+  {
+    "title": "The Daily Stoic: 366 Meditations on Wisdom, Perseverance, and the Art of Living",
+    "authors": [
+      "Ryan Holiday"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 416,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "nonfiction",
+      "self-help"
+    ],
+    "subgenres": [],
+    "moods": [],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "unknown",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Searched; no reliable source found either way"
+          }
+        ],
+        "note": "A search found no reliable source either way, so this has not been assessed."
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_96gy446o"
+  },
+  {
+    "title": "Immune: a Journey into the Mysterious System that Keeps You Alive",
+    "authors": [
+      "Philipp Dettmer"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 341,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "nonfiction",
+      "science"
+    ],
+    "subgenres": [],
+    "moods": [],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "unknown",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Searched; no reliable source found either way"
+          }
+        ],
+        "note": "A search found no reliable source either way, so this has not been assessed."
+      },
+      {
+        "category": "illness",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Author’s official book page; StoryGraph reader warnings (via spreadsheet check)",
+            "url": "https://www.philippdettmer.net/immune?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "Medical content"
+      },
+      {
+        "category": "illness",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Author’s official book page; StoryGraph reader warnings (via spreadsheet check)",
+            "url": "https://www.philippdettmer.net/immune?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "cancer"
+      },
+      {
+        "category": "illness",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Author’s official book page; StoryGraph reader warnings (via spreadsheet check)",
+            "url": "https://www.philippdettmer.net/immune?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "chronic illness"
+      },
+      {
+        "category": "violence-gore",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Author’s official book page; StoryGraph reader warnings (via spreadsheet check)",
+            "url": "https://www.philippdettmer.net/immune?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "blood"
+      },
+      {
+        "category": "violence-gore",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Author’s official book page; StoryGraph reader warnings (via spreadsheet check)",
+            "url": "https://www.philippdettmer.net/immune?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "gore"
+      },
+      {
+        "category": "death-grief",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Author’s official book page; StoryGraph reader warnings (via spreadsheet check)",
+            "url": "https://www.philippdettmer.net/immune?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "injury detail and death"
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_nycflmnj"
+  },
+  {
+    "title": "A Gentle Reminder",
+    "authors": [
+      "Bianca Sparacino"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 152,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "nonfiction",
+      "self-help"
+    ],
+    "subgenres": [],
+    "moods": [],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "unknown",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Searched; no reliable source found either way"
+          }
+        ],
+        "note": "A search found no reliable source either way, so this has not been assessed."
+      },
+      {
+        "category": "death-grief",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph book page and reader warnings (via spreadsheet check)",
+            "url": "https://beta.thestorygraph.com/books/e0cc103e-9be3-40a7-904a-d9b3695d5586?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "Grief"
+      },
+      {
+        "category": "abuse",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "StoryGraph book page and reader warnings (via spreadsheet check)",
+            "url": "https://beta.thestorygraph.com/books/e0cc103e-9be3-40a7-904a-d9b3695d5586?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "domestic abuse and body shaming appear in reader-submitted warnings"
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_viq82nbs"
+  },
+  {
+    "title": "An Anthology of Philosophy in Persia, Volume 3: Philosophical Theology in the Middle Ages and Beyond",
+    "authors": [
+      "Seyyed Hossein Nasr"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 390,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "nonfiction",
+      "philosophy"
+    ],
+    "subgenres": [
+      "Persian philosophy"
+    ],
+    "moods": [],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "unknown",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Searched; no reliable source found either way"
+          }
+        ],
+        "note": "A search found no reliable source either way, so this has not been assessed."
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_7fcqapfi"
+  },
+  {
+    "title": "An Anthology of Philosophy in Persia, Volume 2: Ismaili Thought in the Classical Age",
+    "authors": [
+      "Seyyed Hossein Nasr"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 421,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "nonfiction",
+      "philosophy"
+    ],
+    "subgenres": [
+      "Persian philosophy"
+    ],
+    "moods": [],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "unknown",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Searched; no reliable source found either way"
+          }
+        ],
+        "note": "A search found no reliable source either way, so this has not been assessed."
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_ocmnot74"
+  },
+  {
+    "title": "An Anthology of Philosophy in Persia, Volume 1: From Zoroaster to Omar Khayyam",
+    "authors": [
+      "Seyyed Hossein Nasr"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 506,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "nonfiction",
+      "philosophy"
+    ],
+    "subgenres": [
+      "Persian philosophy"
+    ],
+    "moods": [],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "unknown",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Searched; no reliable source found either way"
+          }
+        ],
+        "note": "A search found no reliable source either way, so this has not been assessed."
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_enogigra"
+  },
+  {
+    "title": "The Happiness Project",
+    "authors": [
+      "Gretchen Rubin"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 301,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "nonfiction",
+      "self-help"
+    ],
+    "subgenres": [],
+    "moods": [],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "unknown",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Searched; no reliable source found either way"
+          }
+        ],
+        "note": "A search found no reliable source either way, so this has not been assessed."
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_zu5aow2s"
+  },
+  {
+    "title": "The Comfort Book",
+    "authors": [
+      "Matt Haig"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 272,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "nonfiction",
+      "self-help"
+    ],
+    "subgenres": [],
+    "moods": [
+      "comforting"
+    ],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "SuperSummary content warning; StoryGraph content warnings (via spreadsheet check)",
+            "url": "https://www.supersummary.com/the-comfort-book/summary/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Sexual abuse is explicitly included in a study guide’s content warning; the warning does not establish graphic depiction. Confidence in this finding: High. Answer given: Yes — referenced/discussed."
+      },
+      {
+        "category": "suicide-self-harm",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "SuperSummary content warning; StoryGraph content warnings (via spreadsheet check)",
+            "url": "https://www.supersummary.com/the-comfort-book/summary/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "Suicidal ideation"
+      },
+      {
+        "category": "illness",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "SuperSummary content warning; StoryGraph content warnings (via spreadsheet check)",
+            "url": "https://www.supersummary.com/the-comfort-book/summary/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "mental illness"
+      },
+      {
+        "category": "war",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "SuperSummary content warning; StoryGraph content warnings (via spreadsheet check)",
+            "url": "https://www.supersummary.com/the-comfort-book/summary/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "Holocaust"
+      },
+      {
+        "category": "discrimination",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "SuperSummary content warning; StoryGraph content warnings (via spreadsheet check)",
+            "url": "https://www.supersummary.com/the-comfort-book/summary/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "antisemitism"
+      },
+      {
+        "category": "death-grief",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "SuperSummary content warning; StoryGraph content warnings (via spreadsheet check)",
+            "url": "https://www.supersummary.com/the-comfort-book/summary/?utm_source=chatgpt.com"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "slavery and grief"
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_bfw2ffb0"
+  },
+  {
+    "title": "Thinking, Fast and Slow",
+    "authors": [
+      "Daniel Kahneman"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 499,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "nonfiction",
+      "psychology"
+    ],
+    "subgenres": [],
+    "moods": [],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "unknown",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Searched; no reliable source found either way"
+          }
+        ],
+        "note": "A search found no reliable source either way, so this has not been assessed."
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_0syl9klq"
+  },
+  {
+    "title": "Man's Search for Meaning",
+    "authors": [
+      "Viktor E. Frankl"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 165,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "nonfiction",
+      "memoir",
+      "psychology"
+    ],
+    "subgenres": [],
+    "moods": [
+      "thought-provoking"
+    ],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "unknown",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Searched; no reliable source found either way"
+          }
+        ],
+        "note": "A search found no reliable source either way, so this has not been assessed."
+      },
+      {
+        "category": "war",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "No sufficiently detailed, book-specific sexual-violence source confirmed in the results reviewed (via spreadsheet check)"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "Holocaust"
+      },
+      {
+        "category": "war",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "No sufficiently detailed, book-specific sexual-violence source confirmed in the results reviewed (via spreadsheet check)"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "concentration camps"
+      },
+      {
+        "category": "discrimination",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "No sufficiently detailed, book-specific sexual-violence source confirmed in the results reviewed (via spreadsheet check)"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "antisemitism"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "No sufficiently detailed, book-specific sexual-violence source confirmed in the results reviewed (via spreadsheet check)"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "starvation"
+      },
+      {
+        "category": "other",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "No sufficiently detailed, book-specific sexual-violence source confirmed in the results reviewed (via spreadsheet check)"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "physical suffering"
+      },
+      {
+        "category": "death-grief",
+        "presence": "present",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "No sufficiently detailed, book-specific sexual-violence source confirmed in the results reviewed (via spreadsheet check)"
+          }
+        ],
+        "note": "Listed in the spreadsheet check.",
+        "subcategory": "death and trauma"
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_stwzvejt"
+  },
+  {
+    "title": "The Art of Loving",
+    "authors": [
+      "Erich Fromm"
+    ],
+    "summary": null,
+    "pages": {
+      "estimate": 180,
+      "confidence": "medium",
+      "source": "Goodreads export edition page count; other editions differ."
+    },
+    "genres": [
+      "nonfiction",
+      "psychology"
+    ],
+    "subgenres": [],
+    "moods": [
+      "thought-provoking"
+    ],
+    "warnings": [
+      {
+        "category": "sexual-violence",
+        "presence": "unknown",
+        "verification": "unverified-research",
+        "evidence": [
+          {
+            "label": "Searched; no reliable source found either way"
+          }
+        ],
+        "note": "A search found no reliable source either way, so this has not been assessed."
+      }
+    ],
+    "warningsReviewed": "partial",
+    "sources": [
+      {
+        "label": "Goodreads library export (title, author, page count)"
+      },
+      {
+        "label": "Genres proposed by Claude from general knowledge, left broad where unsure"
+      },
+      {
+        "label": "Content warnings from a spreadsheet check done with another AI tool; unverified"
+      }
+    ],
+    "cover": null,
+    "research": {
+      "status": "tags-only draft",
+      "lastReviewed": "2026-10-24"
+    },
+    "id": "bk_roisgcjj"
   }
 ]

@@ -27,7 +27,7 @@ export function validateBookRecord(b, at, { moods, cats }) {
   else if (p.estimate !== null && (!Number.isInteger(p.estimate) || p.estimate < 1 || p.estimate > 5000)) errors.push(`${at}: invalid page count`);
   else if (p.estimate === null && p.confidence !== "unknown") errors.push(`${at}: null pages needs confidence "unknown"`);
   if (!Array.isArray(b.genres) || !b.genres.length) errors.push(`${at}: genres required`);
-  if (!Array.isArray(b.moods) || !b.moods.length) errors.push(`${at}: moods required`);
+  if (!Array.isArray(b.moods)) errors.push(`${at}: moods must be a list (empty when not tagged yet)`);
   else b.moods.forEach(m => { if (!moods.has(m)) errors.push(`${at}: unknown mood ${m}`); });
   if (!REV.includes(b.warningsReviewed)) errors.push(`${at}: warningsReviewed invalid`);
   (b.warnings ?? []).forEach((w, j) => {
