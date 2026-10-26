@@ -13,6 +13,25 @@ export function FavBadge() {
   const c = STATUS_STYLE.favorite;
   return <span className="badge status" style={{ background: c.bg, color: c.text }}>♥ Favorite</span>;
 }
+export function ShelfControl({ bookId }: { bookId: string }) {
+  const lib = useLibrary();
+  const cur = lib.sessions.filter(x => x.bookRef === bookId).sort((a, b) => b.updatedAt.localeCompare(a.updatedAt))[0];
+  return (
+    <div className="shelfctl">
+      {cur && <StatusBadge status={cur.status} />}
+      {cur?.favorite && <FavBadge />}
+      <select aria-label="Set shelf status" value={cur?.status ?? ""} onChange={e => {
+        const v = e.target.value as Status | ""; if (!v) return;
+        const now = new Date().toISOString();
+        if (cur) store.upsertSession({ ...cur, status: v, updatedAt: now });
+        else store.upsertSession({ id: newId("ses"), bookRef: bookId, status: v, favorite: false, tags: [], updatedAt: now });
+      }}>
+        {!cur && <option value="">Add to my shelf…</option>}
+        {STATUSES.map(st => <option key={st.id} value={st.id}>{st.label}</option>)}
+      </select>
+    </div>
+  );
+}
 export function MoodChip({ id }: { id: string }) {
   const m = moodById(id);
   return <span className="chip" style={{ background: m?.bg ?? "#EEE5D2", color: m?.text ?? "#4A3426" }}>{m?.label ?? id}</span>;

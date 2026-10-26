@@ -85,3 +85,8 @@ table.pv{border-collapse:collapse;font-size:.85rem;width:100%;min-width:560px}
 .badge.status{font-weight:700;border:1px solid rgba(0,0,0,.08)}
 
 .muted{color:#6B5A4A;font-weight:600}
+
+.card.cardwrap{flex-direction:column;gap:0;padding:0;cursor:default}
+.cardmain{display:flex;gap:.8rem;text-align:left;background:none;border:0;font:inherit;color:inherit;padding:.7rem;cursor:pointer;width:100%}
+.shelfctl{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;border-top:1px solid var(--line);padding:.5rem .7rem}
+.shelfctl select{font:inherit;font-size:.85rem;padding:.3rem .5rem;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--brown);margin-left:auto}
