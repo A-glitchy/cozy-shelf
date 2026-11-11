@@ -69,15 +69,16 @@ export function planSessions(local: Session[], remote: Map<string, { session: Se
   return p;
 }
 
-export interface SettingsData { excluded: string[]; goals: Goal[]; updatedAt?: string }
+export interface SettingsData { excluded: string[]; goals: Goal[]; shelves?: Record<string, string[]>; updatedAt?: string }
 export function planSettings(local: SettingsData, remote: { value: string; updatedAt: string } | null, baseStamp: string | undefined):
   { push?: SettingsData & { updatedAt: string }; apply?: SettingsData & { updatedAt: string } } {
-  const hasLocal = local.excluded.length > 0 || local.goals.length > 0;
+  const hasLocal = local.excluded.length > 0 || local.goals.length > 0 || Object.keys(local.shelves ?? {}).length > 0;
   const lstamp = local.updatedAt ?? "";
   if (!remote) return hasLocal || lstamp ? { push: { ...local, updatedAt: lstamp || new Date().toISOString() } } : {};
-  let rd: { excluded?: unknown; goals?: unknown } = {};
+  let rd: { excluded?: unknown; goals?: unknown; shelves?: unknown } = {};
   try { rd = JSON.parse(remote.value); } catch { return {}; }
   const remoteData = { excluded: Array.isArray(rd.excluded) ? (rd.excluded as unknown[]).filter((x): x is string => typeof x === "string") : [],
+    shelves: (rd.shelves && typeof rd.shelves === "object") ? Object.fromEntries(Object.entries(rd.shelves as Record<string, unknown>).filter(([, v]) => Array.isArray(v)).map(([k, v]) => [k, (v as unknown[]).filter((x): x is string => typeof x === "string")])) : {},
     goals: Array.isArray(rd.goals) ? (rd.goals as Goal[]).filter(g => Number.isInteger(g?.year) && Number.isInteger(g?.target)) : [], updatedAt: remote.updatedAt };
   const b = baseStamp ?? "";
   const lc = lstamp !== b, rc = remote.updatedAt !== b;

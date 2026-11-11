@@ -5,11 +5,12 @@ import { Detail } from "./components";
 import Discover from "./Discover";
 import Journal from "./Journal";
 import Stats from "./Stats";
+import Shelf from "./Shelf";
 import { useLibrary, useSaveError } from "./store";
 import { useSyncStatus, syncNow } from "./sync";
 
-type Tab = "discover" | "journal" | "stats";
-const TABS: [Tab, string][] = [["discover", "Discover"], ["journal", "Journal"], ["stats", "Stats"]];
+type Tab = "discover" | "journal" | "shelf" | "stats";
+const TABS: [Tab, string][] = [["discover", "Discover"], ["journal", "Journal"], ["shelf", "Shelf"], ["stats", "Stats"]];
 
 export default function App() {
   const lib = useLibrary();
@@ -47,6 +48,7 @@ export default function App() {
       <main>
         {tab === "discover" && <Discover onOpen={setOpenId} />}
         {tab === "journal" && <Journal byId={byId} onOpen={setOpenId} />}
+        {tab === "shelf" && <Shelf byId={byId} onOpen={setOpenId} />}
         {tab === "stats" && <Stats byId={byId} />}
       </main>
       {open && <Detail key={open.id} b={open} onClose={() => setOpenId(null)} onOpen={setOpenId} />}

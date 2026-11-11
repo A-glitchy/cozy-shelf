@@ -4,6 +4,7 @@ import { recommend } from "./recommend";
 import type { Book, Session, Status } from "./types";
 import { STATUSES, STATUS_STYLE, statusLabel, stars, RATINGS, newId, splitList } from "./format";
 import { store, useLibrary } from "./store";
+import { getCover, saveCover, removeCover, useCoverVersion } from "./covers";
 
 export function StatusBadge({ status }: { status: Status }) {
   const c = STATUS_STYLE[status];
@@ -37,9 +38,47 @@ export function MoodChip({ id }: { id: string }) {
   return <span className="chip" style={{ background: m?.bg ?? "#EEE5D2", color: m?.text ?? "#4A3426" }}>{m?.label ?? id}</span>;
 }
 export function Cover({ b, small }: { b: Book; small?: boolean }) {
+  useCoverVersion();
+  const img = getCover(b.id);
   const m = moodById(b.moods[0] ?? "");
+  if (img) return <div className={`cover img ${small ? "small" : ""}`} style={{ backgroundImage: `url(${img})` }} role="img" aria-label={`Cover of ${b.title}`} />;
   return <div className={`cover ${small ? "small" : ""}`} style={{ background: m?.bg ?? "#EEE5D2", color: m?.text ?? "#4A3426" }} aria-hidden><span>{b.title}</span></div>;
 }
+const GRAD = [["#E9D8C4", "#C9A27A"], ["#D6E3D0", "#8FA68A"], ["#EBD2D6", "#C9929B"], ["#DCD6EA", "#A99BC9"], ["#F1E2B8", "#D6A94E"]];
+/** The cover shown face-out: your own image if you added one, otherwise a designed cover built from the book's moods. */
+export function CoverArt({ b }: { b: Book }) {
+  useCoverVersion();
+  const img = getCover(b.id);
+  if (img) return <div className="faceimg" style={{ backgroundImage: `url(${img})` }} role="img" aria-label={`Cover of ${b.title}`} />;
+  let h = 0; for (const c of b.id) h = (h * 31 + c.charCodeAt(0)) >>> 0;
+  const m1 = moodById(b.moods[0] ?? ""), m2 = moodById(b.moods[1] ?? ""), g = GRAD[h % GRAD.length];
+  const c1 = m1?.bg ?? g[0], c2 = m2?.bg ?? g[1], ink = m1?.text ?? "#4A3426";
+  const size = b.title.length > 34 ? 11 : b.title.length > 20 ? 13 : 15;
+  return (
+    <div className="gcover" style={{ background: `linear-gradient(160deg, ${c1}, ${c2})`, color: ink }} aria-hidden>
+      <span className="gc-orn">✦</span><span className="gc-title" style={{ fontSize: size }}>{b.title}</span><span className="gc-line" style={{ background: ink }} /><span className="gc-author">{b.authors[0]}</span>
+    </div>
+  );
+}
+export function CoverControl({ b }: { b: Book }) {
+  useCoverVersion();
+  const has = !!getCover(b.id);
+  const [err, setErr] = useState("");
+  return (
+    <div className="covercontrol">
+      <div className="covermini"><CoverArt b={b} /></div>
+      <div>
+        <label className="btn filebtn">{has ? "Change cover" : "Add a cover image"}
+          <input type="file" accept="image/*" hidden onChange={async e => { const f = e.target.files?.[0]; e.target.value = ""; if (!f) return; try { setErr(""); await saveCover(b.id, f); } catch (x) { setErr(x instanceof Error ? x.message : "Could not save that image."); } }} />
+        </label>
+        {has && <button className="link" onClick={() => void removeCover(b.id)}>Remove</button>}
+        <p className="small">Choose a photo or screenshot of the cover. It stays on this device only and is never uploaded.</p>
+        {err && <p className="notice">{err}</p>}
+      </div>
+    </div>
+  );
+}
+
 export function WarningBadge({ b, exCats }: { b: Book; exCats: string[] }) {
   const present = b.warnings.filter(w => w.presence === "present");
   const unassessed = exCats.filter(c => warningState(b, c) === "unassessed");
@@ -173,6 +212,7 @@ export function Detail({ b, onClose, onOpen }: { b: Book; onClose: () => void; o
         {!b.custom && <p className="meta small">{b.pages.source}</p>}
         <div className="chips">{b.moods.map(m => <MoodChip key={m} id={m} />)}</div>
         <p className="meta small">{[...b.genres, ...b.subgenres].join(" · ")}</p>
+        <CoverControl b={b} />
         <MyReading book={b} />
         {!b.custom && (
           <>

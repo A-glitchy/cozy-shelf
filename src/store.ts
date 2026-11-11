@@ -4,7 +4,7 @@ import { isDate } from "./format";
 
 const KEY = "cozy-shelf:v1";
 const STATUS_IDS = ["want", "reading", "read", "hold", "dnf"];
-const emptyLib = (): Library => ({ version: 1, sessions: [], customBooks: [], goals: [], excluded: [], tombstones: [] });
+const emptyLib = (): Library => ({ version: 1, sessions: [], customBooks: [], goals: [], excluded: [], tombstones: [], shelves: {} });
 const str = (v: unknown) => (typeof v === "string" && v.trim() ? v : undefined);
 const date = (v: unknown) => (typeof v === "string" && isDate(v) ? v : undefined);
 
@@ -37,6 +37,9 @@ export function normalizeLibrary(raw: any): { lib: Library; skipped: number; val
   for (const g of Array.isArray(raw.goals) ? raw.goals : []) {
     if (g && Number.isInteger(g.year) && Number.isInteger(g.target) && g.target > 0) lib.goals.push({ year: g.year, target: g.target });
   }
+  const sh: Record<string, string[]> = {};
+  if (raw.shelves && typeof raw.shelves === "object") for (const [k, v] of Object.entries(raw.shelves)) if (Array.isArray(v)) sh[k] = (v as unknown[]).filter((x): x is string => typeof x === "string");
+  lib.shelves = sh;
   lib.tombstones = Array.isArray(raw.tombstones) ? raw.tombstones.filter((x: unknown) => typeof x === "string") : [];
   lib.settingsUpdatedAt = typeof raw.settingsUpdatedAt === "string" ? raw.settingsUpdatedAt : undefined;
   lib.excluded = Array.isArray(raw.excluded) ? raw.excluded.filter((x: unknown) => typeof x === "string") : [];
@@ -79,7 +82,8 @@ export const store = {
   addCustomBook(b: CustomBook) { commit({ ...lib, customBooks: [...lib.customBooks, b] }); },
   removeCustomBook(id: string) {
     const gone = lib.sessions.filter(s => s.bookRef === id).map(s => s.id);
-    commit({ ...lib, customBooks: lib.customBooks.filter(b => b.id !== id), sessions: lib.sessions.filter(s => s.bookRef !== id), tombstones: [...lib.tombstones, id, ...gone] });
+    commit({ ...lib, customBooks: lib.customBooks.filter(b => b.id !== id), sessions: lib.sessions.filter(s => s.bookRef !== id), tombstones: [...lib.tombstones, id, ...gone],
+      shelves: Object.fromEntries(Object.entries(lib.shelves).map(([k, v]) => [k, v.filter(x => x !== id)])) });
   },
   setGoal(year: number, target: number) {
     const goals: Goal[] = lib.goals.filter(g => g.year !== year);
@@ -92,8 +96,10 @@ export const store = {
   /** Moves reading records from your own book to a catalogue book, then removes the duplicate own book. */
   relink(map: Record<string, string>) {
     commit({ ...lib, sessions: lib.sessions.map(x => (map[x.bookRef] ? { ...x, bookRef: map[x.bookRef], updatedAt: new Date().toISOString() } : x)),
-      customBooks: lib.customBooks.filter(b => !map[b.id]), tombstones: [...lib.tombstones, ...Object.keys(map)] });
+      customBooks: lib.customBooks.filter(b => !map[b.id]), tombstones: [...lib.tombstones, ...Object.keys(map)],
+      shelves: Object.fromEntries(Object.entries(lib.shelves).map(([k, v]) => [k, [...new Set(v.map(id => map[id] ?? id))]])) });
   },
+  setShelf(key: string, ids: string[]) { commit({ ...lib, shelves: { ...lib.shelves, [key]: ids }, settingsUpdatedAt: new Date().toISOString() }); },
   setExcluded(cats: string[]) { commit({ ...lib, excluded: cats, settingsUpdatedAt: new Date().toISOString() }); },
   replace(next: Library) { commit(next); },
   /** Adds records that are not already present. Existing records are never overwritten. */
@@ -102,11 +108,12 @@ export const store = {
     const newS = inc.sessions.filter(s => !sIds.has(s.id)), newB = inc.customBooks.filter(b => !bIds.has(b.id));
     const years = new Set(lib.goals.map(g => g.year));
     const newG = inc.goals.filter(g => !years.has(g.year));
-    commit({ ...lib, sessions: [...lib.sessions, ...newS], customBooks: [...lib.customBooks, ...newB], goals: [...lib.goals, ...newG], excluded: [...new Set([...lib.excluded, ...inc.excluded])] });
+    commit({ ...lib, sessions: [...lib.sessions, ...newS], customBooks: [...lib.customBooks, ...newB], goals: [...lib.goals, ...newG], excluded: [...new Set([...lib.excluded, ...inc.excluded])],
+      shelves: Object.fromEntries([...new Set([...Object.keys(lib.shelves), ...Object.keys(inc.shelves)])].map(k => [k, [...new Set([...(lib.shelves[k] ?? []), ...(inc.shelves[k] ?? [])])]])) });
     return { addedSessions: newS.length, skippedSessions: inc.sessions.length - newS.length, addedBooks: newB.length, skippedBooks: inc.customBooks.length - newB.length };
   },
   /** Applies what a sync received, without creating new timestamps or tombstones. */
-  applySync(d: { addBooks: CustomBook[]; upsertSessions: Session[]; deleteSessionIds: string[]; clearTombstones: string[]; settings?: { excluded: string[]; goals: Goal[]; updatedAt: string } }) {
+  applySync(d: { addBooks: CustomBook[]; upsertSessions: Session[]; deleteSessionIds: string[]; clearTombstones: string[]; settings?: { excluded: string[]; goals: Goal[]; shelves?: Record<string, string[]>; updatedAt: string } }) {
     const have = new Set(lib.customBooks.map(b => b.id));
     const addBooks = d.addBooks.filter(b => !have.has(b.id));
     const del = new Set(d.deleteSessionIds), up = new Map(d.upsertSessions.map(x => [x.id, x]));
@@ -118,7 +125,7 @@ export const store = {
     const changed = addBooks.length || d.upsertSessions.length || del.size || tombstones.length !== lib.tombstones.length || d.settings;
     if (!changed) return;
     commit({ ...lib, customBooks: [...lib.customBooks, ...addBooks], sessions, tombstones,
-      ...(d.settings ? { excluded: d.settings.excluded, goals: d.settings.goals, settingsUpdatedAt: d.settings.updatedAt } : {}) });
+      ...(d.settings ? { excluded: d.settings.excluded, goals: d.settings.goals, shelves: d.settings.shelves ?? lib.shelves, settingsUpdatedAt: d.settings.updatedAt } : {}) });
   },
   exportObject() { return { app: "cozy-shelf", exportedAt: new Date().toISOString(), ...lib }; },
 };
