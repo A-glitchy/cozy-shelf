@@ -78,6 +78,11 @@ export const store = {
     const sessions = i >= 0 ? lib.sessions.map(x => (x.id === s.id ? s : x)) : [...lib.sessions, s];
     commit({ ...lib, sessions });
   },
+  /** Removes reading records in one step; the Sheet marks them deleted on the next sync. */
+  deleteSessions(ids: string[]) {
+    const gone = new Set(ids);
+    commit({ ...lib, sessions: lib.sessions.filter(s => !gone.has(s.id)), tombstones: [...lib.tombstones, ...ids] });
+  },
   deleteSession(id: string) { commit({ ...lib, sessions: lib.sessions.filter(s => s.id !== id), tombstones: [...lib.tombstones, id] }); },
   addCustomBook(b: CustomBook) { commit({ ...lib, customBooks: [...lib.customBooks, b] }); },
   removeCustomBook(id: string) {

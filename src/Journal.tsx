@@ -154,6 +154,8 @@ export default function Journal({ byId, onOpen }: { byId: Map<string, Book>; onO
   const [importing, setImporting] = useState(false);
   const [showHidden, setShowHidden] = useState(false);
   const [q, setQ] = useState("");
+  const [selecting, setSelecting] = useState(false);
+  const [picked, setPicked] = useState<Set<string>>(new Set());
   const isExcluded = (s: { bookRef: string; status: Status }) => {
     const b = byId.get(s.bookRef);
     return s.status === "want" && !!b && lib.excluded.some(c => warningState(b, c) === "present");
@@ -165,6 +167,17 @@ export default function Journal({ byId, onOpen }: { byId: Map<string, Book>; onO
     return new Set(new Fuse(mine, { keys: ["title", "authors"], threshold: 0.3, ignoreLocation: true }).search(q.trim()).map(r => r.item.id));
   }, [q, lib.sessions, byId]);
   const list = lib.sessions.filter(s => (!matchIds || matchIds.has(s.bookRef)) && (showHidden || !isExcluded(s)) && (filter === "all" || s.status === filter) && (!favOnly || s.favorite)).sort((a, b) => b.updatedAt.localeCompare(a.updatedAt));
+  const titleOf = (id: string) => byId.get(lib.sessions.find(x => x.id === id)?.bookRef ?? "")?.title ?? "a book";
+  function removeIds(ids: string[], what: string) {
+    if (!ids.length) return;
+    const withData = lib.sessions.filter(x => ids.includes(x.id) && (x.rating || x.review || x.finishDate || x.startDate)).length;
+    const names = ids.slice(0, 5).map(titleOf).join(", ") + (ids.length > 5 ? `, and ${ids.length - 5} more` : "");
+    const warn = withData ? `\n\n${withData} of them have a rating, review or dates that will be deleted too.` : "";
+    if (window.confirm(`Remove ${ids.length} ${what} from your journal?\n\n${names}${warn}\n\nThis removes your reading records only; the books stay in the catalogue. Download a backup first if you are unsure.`)) {
+      store.deleteSessions(ids); setPicked(new Set()); setSelecting(false);
+    }
+  }
+  const toggle = (id: string) => setPicked(p => { const n = new Set(p); n.has(id) ? n.delete(id) : n.add(id); return n; });
   return (
     <>
       <div className="row between">
@@ -178,9 +191,17 @@ export default function Journal({ byId, onOpen }: { byId: Map<string, Book>; onO
         ))}
         <button className={`chip btn-chip plain ${favOnly ? "s1" : ""}`} style={{ background: STATUS_STYLE.favorite.bg, color: STATUS_STYLE.favorite.text }} onClick={() => setFavOnly(v => !v)}>♥ Favorites</button>
       </div>
+      <div className="row">
+        <button className="btn" onClick={() => { setSelecting(v => !v); setPicked(new Set()); }}>{selecting ? "Cancel clean-up" : "Clean up my list…"}</button>
+        {selecting && <>
+          <button className="btn" onClick={() => setPicked(new Set(list.map(x => x.id)))}>Select all shown ({list.length})</button>
+          <button className="btn primary" disabled={!picked.size} onClick={() => removeIds([...picked], "selected records")}>Remove {picked.size} selected</button>
+        </>}
+      </div>
+      {selecting && <p className="small">Tap books to select them. Use the filters above (for example Want to Read) to narrow the list first.</p>}
       <LinkBanner />
       {hiddenCount > 0 && (
-        <p className="small">{hiddenCount} to-read book{hiddenCount === 1 ? " is" : "s are"} {showHidden ? "shown" : "hidden"} because of warnings you excluded ({lib.excluded.map(catLabel).join(", ")}). <button className="link" onClick={() => setShowHidden(v => !v)}>{showHidden ? "Hide them" : "Show them"}</button></p>
+        <p className="small">{hiddenCount} to-read book{hiddenCount === 1 ? " is" : "s are"} {showHidden ? "shown" : "hidden"} because of warnings you excluded ({lib.excluded.map(catLabel).join(", ")}). <button className="link" onClick={() => setShowHidden(v => !v)}>{showHidden ? "Hide them" : "Show them"}</button> · <button className="link" onClick={() => removeIds(lib.sessions.filter(isExcluded).map(x => x.id), "hidden to-read books")}>Remove them from my list…</button></p>
       )}
       <p className="count">{list.length} record{list.length === 1 ? "" : "s"}</p>
       {lib.sessions.length === 0 && <p className="notice">Nothing here yet. Open a book in Discover and tap “Add to my shelf”, or add a book of your own.</p>}
@@ -188,7 +209,8 @@ export default function Journal({ byId, onOpen }: { byId: Map<string, Book>; onO
         {list.map(s => {
           const b = byId.get(s.bookRef);
           return (
-            <button key={s.id} className="card" onClick={() => b && onOpen(b.id)} disabled={!b}>
+            <button key={s.id} className={`card ${selecting && picked.has(s.id) ? "picked" : ""}`} onClick={() => (selecting ? toggle(s.id) : b && onOpen(b.id))} disabled={!b && !selecting}>
+              {selecting && <span className="pickbox" aria-hidden>{picked.has(s.id) ? "☑" : "☐"}</span>}
               {b ? <Cover b={b} small /> : <div className="cover small" />}
               <div className="info">
                 <h2>{b?.title ?? "Book no longer in the catalogue"}</h2>
