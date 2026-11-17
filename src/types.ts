@@ -2,7 +2,7 @@ export type Presence = "present" | "absent" | "unknown";
 export type Verification = "verified" | "unverified-research" | "community-report" | "disputed";
 export interface Evidence { label: string; url?: string }
 export interface Warning {
-  category: string; subcategory?: string; presence: Presence; verification: Verification;
+  category: string; subcategory?: string; name?: string; presence: Presence; verification: Verification;
   evidence?: Evidence[]; intensity?: "mild" | "moderate" | "heavy"; note?: string; spoilerNote?: string;
 }
 export interface Book {
@@ -27,4 +27,4 @@ export interface CustomBook {
   genres: string[]; moods: string[]; summary?: string; createdAt: string;
 }
 export interface Goal { year: number; target: number }
-export interface Library { version: 1; sessions: Session[]; customBooks: CustomBook[]; goals: Goal[]; excluded: string[]; tombstones: string[]; shelves: Record<string, string[]>; settingsUpdatedAt?: string }
+export interface Library { version: 1; sessions: Session[]; customBooks: CustomBook[]; goals: Goal[]; excluded: string[]; tombstones: string[]; shelves: Record<string, string[]>; removedWarnings: string[]; settingsUpdatedAt?: string }

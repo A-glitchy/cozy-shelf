@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
-import { moodById, pagesLabel, catLabel, verLabel, warningState, books, customToBook } from "./catalogue";
+import { moodById, pagesLabel, books, customToBook } from "./catalogue";
+import { reportedWarnings, removedWarningsOf, warnKey, groupWarnings, pillName, describeWarning, toneOf, CATEGORY_LABEL } from "./warnings";
 import { recommend } from "./recommend";
 import type { Book, Session, Status } from "./types";
 import { STATUSES, STATUS_STYLE, statusLabel, stars, RATINGS, newId, splitList } from "./format";
@@ -79,15 +80,63 @@ export function CoverControl({ b }: { b: Book }) {
   );
 }
 
-export function WarningBadge({ b, exCats }: { b: Book; exCats: string[] }) {
-  const present = b.warnings.filter(w => w.presence === "present");
-  const unassessed = exCats.filter(c => warningState(b, c) === "unassessed");
+export function WarningBadge({ b }: { b: Book }) {
+  const lib = useLibrary();
+  const n = reportedWarnings(b, lib.removedWarnings).length;
+  if (!n) return null;
+  return <div className="badges"><span className="badge warn">⚠ {n} warning{n > 1 ? "s" : ""} noted</span></div>;
+}
+
+/** Each reported trigger is its own pill. Tap one to see what was reported, by whom, and to remove it from your view. */
+export function WarningSection({ b }: { b: Book }) {
+  const lib = useLibrary();
+  const shown = reportedWarnings(b, lib.removedWarnings);
+  const gone = removedWarningsOf(b, lib.removedWarnings);
+  const [openKey, setOpenKey] = useState<string | null>(null);
+  const [spoiler, setSpoiler] = useState(false);
+  const [showGone, setShowGone] = useState(false);
+  const sel = shown.find(w => warnKey(b.id, w) === openKey) ?? null;
+  if (!shown.length && !gone.length) return null;
   return (
-    <div className="badges">
-      {present.length > 0 && <span className="badge warn">⚠ {present.length} warning{present.length > 1 ? "s" : ""} noted</span>}
-      {b.warningsReviewed === "none" && !b.custom && <span className="badge unk">Warnings not assessed</span>}
-      {unassessed.length > 0 && b.warningsReviewed !== "none" && <span className="badge unk">Not assessed for: {unassessed.map(catLabel).join(", ")}</span>}
-    </div>
+    <section>
+      <h3>Content warnings</h3>
+      {groupWarnings(shown).map(g => (
+        <div className="wgroup" key={g.category}>
+          <div className="wgroup-title">{g.label}</div>
+          <div className="pills">
+            {g.items.map(w => {
+              const k = warnKey(b.id, w);
+              return <button key={k} className={`pill ${toneOf(w.category)} ${openKey === k ? "open" : ""}`} aria-expanded={openKey === k}
+                onClick={() => { setOpenKey(openKey === k ? null : k); setSpoiler(false); }}>{pillName(w)}</button>;
+            })}
+          </div>
+          {sel && sel.category === g.category && (
+            <div className="wpop" role="region" aria-label={`About ${pillName(sel)}`}>
+              <div className="wpop-head"><strong>{pillName(sel)}</strong><span className="small">{CATEGORY_LABEL[sel.category] ?? sel.category}</span><button className="link" onClick={() => setOpenKey(null)}>Close</button></div>
+              <p>{describeWarning(sel)}</p>
+              {sel.intensity && <p className="small">Intensity: {sel.intensity}</p>}
+              <p className="small">Sources: {sel.evidence?.length
+                ? sel.evidence.map((e, i) => <span key={i}>{i ? ", " : ""}{e.url ? <a href={e.url} target="_blank" rel="noreferrer">{e.label}</a> : e.label}</span>)
+                : "names not recorded"}</p>
+              {sel.spoilerNote && (spoiler ? <div className="small spoiler">{sel.spoilerNote}</div>
+                : <button className="link" onClick={() => setSpoiler(true)}>Show spoiler details</button>)}
+              <div className="row"><button className="btn small danger" onClick={() => { store.removeWarning(warnKey(b.id, sel)); setOpenKey(null); }}>Remove this warning</button></div>
+            </div>
+          )}
+        </div>
+      ))}
+      {gone.length > 0 && (
+        <div className="wgone">
+          <button className="link" onClick={() => setShowGone(v => !v)}>{showGone ? "Hide" : "Show"} removed warnings ({gone.length})</button>
+          {showGone && <>
+            <ul className="plainlist">{gone.map(w => (
+              <li key={warnKey(b.id, w)} className="small">{pillName(w)} <span className="muted">({CATEGORY_LABEL[w.category] ?? w.category})</span> <button className="link" onClick={() => store.restoreWarnings([warnKey(b.id, w)])}>Restore</button></li>
+            ))}</ul>
+            <button className="link" onClick={() => store.restoreWarnings(gone.map(w => warnKey(b.id, w)))}>Restore all for this book</button>
+          </>}
+        </div>
+      )}
+    </section>
   );
 }
 
@@ -189,7 +238,7 @@ function Similar({ book, onOpen }: { book: Book; onOpen: (id: string) => void })
             <li key={r.book.id}>
               <button className="link big" onClick={() => onOpen(r.book.id)}>{r.book.title}</button> <span className="small">by {r.book.authors.join(", ")}</span>
               <div className="small">{r.reasons.join(" · ")}</div>
-              <WarningBadge b={r.book} exCats={[]} />
+              <WarningBadge b={r.book} />
             </li>
           ))}</ul>
           <p className="small">Based only on tags in this catalogue (moods, genres, author) and your ratings. Check each book's warnings before reading.</p>
@@ -200,7 +249,6 @@ function Similar({ book, onOpen }: { book: Book; onOpen: (id: string) => void })
 }
 
 export function Detail({ b, onClose, onOpen }: { b: Book; onClose: () => void; onOpen: (id: string) => void }) {
-  const [shown, setShown] = useState<Record<number, boolean>>({});
   return (
     <div className="overlay" onClick={onClose}>
       <article className="sheet" onClick={e => e.stopPropagation()} role="dialog" aria-label={b.title}>
@@ -214,32 +262,7 @@ export function Detail({ b, onClose, onOpen }: { b: Book; onClose: () => void; o
         <p className="meta small">{[...b.genres, ...b.subgenres].join(" · ")}</p>
         <CoverControl b={b} />
         <MyReading book={b} />
-        {!b.custom && (
-          <>
-            <h3>Content warnings</h3>
-            {b.warnings.length === 0 ? (
-              <p className="notice">No warnings have been recorded for this book. That does not mean it is warning-free.</p>
-            ) : (
-              <>
-                <ul className="warnings">
-                  {b.warnings.map((w, i) => (
-                    <li key={i}>
-                      {w.presence === "present" ? <strong>{catLabel(w.category)}{w.subcategory ? ` – ${w.subcategory}` : ""}</strong> : <strong className="muted">{catLabel(w.category)}: {w.presence === "absent" ? "not found in the sources checked" : "not assessed (no reliable source found)"}</strong>}{" "}
-                      <span className={`badge ${w.verification === "verified" ? "ok" : "unk"}`}>{verLabel[w.verification]}</span>
-                      {w.intensity && <span className="badge unk">{w.intensity}</span>}
-                      {w.note && <div className="small">{w.note}</div>}
-                      {w.spoilerNote && (shown[i] ? <div className="small spoiler">{w.spoilerNote}</div>
-                        : <button className="link" onClick={() => setShown({ ...shown, [i]: true })}>Reveal spoiler details</button>)}
-                      {w.evidence?.map((e, j) => <div className="small" key={j}>Source: {e.label}</div>)}
-                    </li>
-                  ))}
-                </ul>
-                {b.warningsReviewed !== "complete" && <p className="notice">Warning research is {b.warningsReviewed === "none" ? "not done" : "incomplete"} for this book; other topics may be present.</p>}
-              </>
-            )}
-            <p className="meta small">Catalogue entry status: {b.research.status}, last reviewed {b.research.lastReviewed}.</p>
-          </>
-        )}
+        {!b.custom && <WarningSection b={b} />}
         <Similar book={b} onOpen={onOpen} />
         {b.custom && (
           <button className="link" onClick={() => {

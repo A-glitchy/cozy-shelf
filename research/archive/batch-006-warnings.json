@@ -1,0 +1,725 @@
+{
+  "batchId": "batch-006-warnings",
+  "humanReviewed": false,
+  "books": [
+    {
+      "title": "The Book Eaters",
+      "authors": [
+        "Sunyi Dean"
+      ],
+      "summary": null,
+      "pages": {
+        "estimate": 298,
+        "confidence": "medium",
+        "source": "Goodreads export edition page count; other editions differ."
+      },
+      "genres": [
+        "fantasy",
+        "horror"
+      ],
+      "subgenres": [
+        "dark fantasy"
+      ],
+      "moods": [
+        "dark-unsettling",
+        "atmospheric",
+        "emotionally-intense"
+      ],
+      "warnings": [
+        {
+          "category": "sexual-violence",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Review site content warning list",
+              "url": "https://foreveryoungadult.com/?p=95168"
+            }
+          ],
+          "note": "Sources list forced pregnancy/childbirth and forced marriage. None of them says whether rape is shown, so check before reading.",
+          "subcategory": "forced pregnancy and forced marriage"
+        },
+        {
+          "category": "abuse",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Review site content warning list",
+              "url": "https://foreveryoungadult.com/?p=95168"
+            },
+            {
+              "label": "Sapphic book blog content warning",
+              "url": "https://lesbrary.com/rachel-reviews-the-book-eaters-by-sunyi-dean/"
+            }
+          ],
+          "note": "Domestic abuse and violence against children are listed.",
+          "subcategory": "domestic abuse; violence against children"
+        },
+        {
+          "category": "violence-gore",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Review site content warning list",
+              "url": "https://foreveryoungadult.com/?p=95168"
+            },
+            {
+              "label": "University library staff pick (warns of upsetting death and violence)",
+              "url": "https://sites.rutgers.edu/books-we-read/book-eaters/"
+            }
+          ],
+          "note": "Graphic violence, gore and body horror are listed; a library reviewer warns the amount of death and violence can be deeply upsetting.",
+          "subcategory": "graphic violence, gore, body horror",
+          "intensity": "heavy"
+        },
+        {
+          "category": "kidnapping",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Sapphic book blog content warning",
+              "url": "https://lesbrary.com/rachel-reviews-the-book-eaters-by-sunyi-dean/"
+            }
+          ],
+          "note": "Child abduction is listed.",
+          "subcategory": "child abduction"
+        },
+        {
+          "category": "discrimination",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Review site content warning list",
+              "url": "https://foreveryoungadult.com/?p=95168"
+            }
+          ],
+          "note": "Misogyny is listed.",
+          "subcategory": "misogyny"
+        }
+      ],
+      "warningsReviewed": "partial",
+      "sources": [
+        {
+          "label": "Goodreads library export (title, author, page count)"
+        },
+        {
+          "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+        },
+        {
+          "label": "Content warning sources are linked on each warning"
+        }
+      ],
+      "cover": null,
+      "research": {
+        "status": "draft",
+        "lastReviewed": "2026-10-24"
+      },
+      "id": "bk_hgvwynhe"
+    },
+    {
+      "title": "House of Leaves",
+      "authors": [
+        "Mark Z. Danielewski"
+      ],
+      "summary": null,
+      "pages": {
+        "estimate": 709,
+        "confidence": "medium",
+        "source": "Goodreads export edition page count; other editions differ."
+      },
+      "genres": [
+        "horror",
+        "literary fiction"
+      ],
+      "subgenres": [
+        "experimental fiction"
+      ],
+      "moods": [
+        "dark-unsettling",
+        "atmospheric",
+        "thought-provoking",
+        "spooky"
+      ],
+      "warnings": [
+        {
+          "category": "sexual-violence",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing",
+              "url": "https://triggerwarningdatabase.com/2021/12/28/house-of-leaves-by-mark-z-danielewski/"
+            },
+            {
+              "label": "Book review site content notes",
+              "url": "https://www.bookishelf.com/?p=34255"
+            }
+          ],
+          "note": "Rape, incest and sexual abuse are listed. One review says the child abuse is mostly in recalled histories.",
+          "subcategory": "rape, incest, sexual abuse"
+        },
+        {
+          "category": "abuse",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing",
+              "url": "https://triggerwarningdatabase.com/2021/12/28/house-of-leaves-by-mark-z-danielewski/"
+            },
+            {
+              "label": "Book review site content notes",
+              "url": "https://www.bookishelf.com/?p=34255"
+            }
+          ],
+          "note": "Child abuse and neglect are listed.",
+          "subcategory": "child abuse and neglect"
+        },
+        {
+          "category": "suicide-self-harm",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing",
+              "url": "https://triggerwarningdatabase.com/2021/12/28/house-of-leaves-by-mark-z-danielewski/"
+            },
+            {
+              "label": "Book review site content notes",
+              "url": "https://www.bookishelf.com/?p=34255"
+            }
+          ],
+          "note": "Suicide is listed.",
+          "subcategory": "suicide"
+        },
+        {
+          "category": "mental-health",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing",
+              "url": "https://triggerwarningdatabase.com/2021/12/28/house-of-leaves-by-mark-z-danielewski/"
+            },
+            {
+              "label": "Book review site content notes",
+              "url": "https://www.bookishelf.com/?p=34255"
+            }
+          ],
+          "note": "Schizophrenia, hallucinations and delusions, panic attacks, agoraphobia, claustrophobia, depersonalisation and hospitalisation are listed.",
+          "subcategory": "severe mental illness"
+        },
+        {
+          "category": "addiction",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing",
+              "url": "https://triggerwarningdatabase.com/2021/12/28/house-of-leaves-by-mark-z-danielewski/"
+            },
+            {
+              "label": "Book review site content notes",
+              "url": "https://www.bookishelf.com/?p=34255"
+            }
+          ],
+          "note": "Alcoholism and drug use are listed.",
+          "subcategory": "alcohol and drug use"
+        },
+        {
+          "category": "death-grief",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing",
+              "url": "https://triggerwarningdatabase.com/2021/12/28/house-of-leaves-by-mark-z-danielewski/"
+            }
+          ],
+          "note": "Deaths of a sibling, an uncle and a child, and grief, are listed.",
+          "subcategory": "death of family members and a child"
+        },
+        {
+          "category": "violence-gore",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing",
+              "url": "https://triggerwarningdatabase.com/2021/12/28/house-of-leaves-by-mark-z-danielewski/"
+            },
+            {
+              "label": "Book review site content notes",
+              "url": "https://www.bookishelf.com/?p=34255"
+            }
+          ],
+          "note": "Murder, gun violence and loss of a limb are listed.",
+          "subcategory": "murder, gun violence"
+        },
+        {
+          "category": "animal-cruelty",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing",
+              "url": "https://triggerwarningdatabase.com/2021/12/28/house-of-leaves-by-mark-z-danielewski/"
+            },
+            {
+              "label": "Book review site content notes",
+              "url": "https://www.bookishelf.com/?p=34255"
+            }
+          ],
+          "note": "The graphic death of a dog is listed.",
+          "subcategory": "graphic death of a dog"
+        },
+        {
+          "category": "stalking",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing",
+              "url": "https://triggerwarningdatabase.com/2021/12/28/house-of-leaves-by-mark-z-danielewski/"
+            }
+          ],
+          "note": "Stalking is listed."
+        },
+        {
+          "category": "infidelity",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing",
+              "url": "https://triggerwarningdatabase.com/2021/12/28/house-of-leaves-by-mark-z-danielewski/"
+            }
+          ],
+          "note": "Adultery is listed."
+        },
+        {
+          "category": "other",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Book review site content notes",
+              "url": "https://www.bookishelf.com/?p=34255"
+            }
+          ],
+          "note": "Explicit sexual content, mainly in the footnotes, is reported.",
+          "subcategory": "explicit sexual content"
+        }
+      ],
+      "warningsReviewed": "partial",
+      "sources": [
+        {
+          "label": "Goodreads library export (title, author, page count)"
+        },
+        {
+          "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+        },
+        {
+          "label": "Content warning sources are linked on each warning"
+        }
+      ],
+      "cover": null,
+      "research": {
+        "status": "draft",
+        "lastReviewed": "2026-10-24"
+      },
+      "id": "bk_wzqvt8e8"
+    },
+    {
+      "title": "Mistborn: The Final Empire",
+      "authors": [
+        "Brandon Sanderson"
+      ],
+      "summary": null,
+      "pages": {
+        "estimate": 541,
+        "confidence": "medium",
+        "source": "Goodreads export edition page count; other editions differ."
+      },
+      "genres": [
+        "fantasy"
+      ],
+      "subgenres": [
+        "epic fantasy"
+      ],
+      "moods": [
+        "adventurous",
+        "suspenseful",
+        "atmospheric"
+      ],
+      "warnings": [
+        {
+          "category": "sexual-violence",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Goodreads reader Q&A answer",
+              "url": "https://www.goodreads.com/questions/790289-i-am-of-14-and-a-half-is-this-book"
+            },
+            {
+              "label": "StoryGraph user-submitted content warnings",
+              "url": "https://beta.thestorygraph.com/books/c276d596-1d5d-412a-a512-ee7c8c9483eb"
+            }
+          ],
+          "note": "A reader says it is implied that nobles routinely rape enslaved people, discussed by characters with no such scenes on the page. StoryGraph users also list rape and sexual assault, rated minor.",
+          "subcategory": "referenced, not shown (per readers)",
+          "intensity": "mild"
+        },
+        {
+          "category": "other",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing (Final Empire)",
+              "url": "https://triggerwarningdatabase.com/2021/12/10/the-final-empire-by-brandon-sanderson/"
+            }
+          ],
+          "note": "Slavery is listed.",
+          "subcategory": "slavery"
+        },
+        {
+          "category": "abuse",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing (Final Empire)",
+              "url": "https://triggerwarningdatabase.com/2021/12/10/the-final-empire-by-brandon-sanderson/"
+            }
+          ],
+          "note": "Physical and emotional abuse are listed."
+        },
+        {
+          "category": "death-grief",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing (Final Empire)",
+              "url": "https://triggerwarningdatabase.com/2021/12/10/the-final-empire-by-brandon-sanderson/"
+            }
+          ],
+          "note": "Death of a child is listed.",
+          "subcategory": "death of a child"
+        },
+        {
+          "category": "violence-gore",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing (Final Empire)",
+              "url": "https://triggerwarningdatabase.com/2021/12/10/the-final-empire-by-brandon-sanderson/"
+            },
+            {
+              "label": "StoryGraph user-submitted content warnings",
+              "url": "https://beta.thestorygraph.com/books/c276d596-1d5d-412a-a512-ee7c8c9483eb"
+            }
+          ],
+          "note": "Graphic murder, torture, blood and gore are listed.",
+          "subcategory": "graphic murder, torture, gore",
+          "intensity": "heavy"
+        },
+        {
+          "category": "animal-cruelty",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "StoryGraph user-submitted content warnings",
+              "url": "https://beta.thestorygraph.com/books/c276d596-1d5d-412a-a512-ee7c8c9483eb"
+            }
+          ],
+          "note": "Animal death is listed (rated minor).",
+          "subcategory": "animal death",
+          "intensity": "mild"
+        }
+      ],
+      "warningsReviewed": "partial",
+      "sources": [
+        {
+          "label": "Goodreads library export (title, author, page count)"
+        },
+        {
+          "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+        },
+        {
+          "label": "Content warning sources are linked on each warning"
+        }
+      ],
+      "cover": null,
+      "research": {
+        "status": "draft",
+        "lastReviewed": "2026-10-24"
+      },
+      "id": "bk_u5rdi54c"
+    },
+    {
+      "title": "The Well of Ascension",
+      "authors": [
+        "Brandon Sanderson"
+      ],
+      "summary": null,
+      "pages": {
+        "estimate": 592,
+        "confidence": "medium",
+        "source": "Goodreads export edition page count; other editions differ."
+      },
+      "genres": [
+        "fantasy"
+      ],
+      "subgenres": [
+        "epic fantasy"
+      ],
+      "moods": [
+        "adventurous",
+        "suspenseful",
+        "atmospheric"
+      ],
+      "warnings": [
+        {
+          "category": "sexual-violence",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing (Well of Ascension)",
+              "url": "https://triggerwarningdatabase.com/2023/01/10/the-well-of-ascension-by-brandon-sanderson-2/"
+            }
+          ],
+          "note": "Rape and forced pregnancy are listed.",
+          "subcategory": "rape and forced pregnancy"
+        },
+        {
+          "category": "suicide-self-harm",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing (Well of Ascension)",
+              "url": "https://triggerwarningdatabase.com/2023/01/10/the-well-of-ascension-by-brandon-sanderson-2/"
+            }
+          ],
+          "note": "Suicidal ideation and self-harm are listed."
+        },
+        {
+          "category": "violence-gore",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing (Well of Ascension)",
+              "url": "https://triggerwarningdatabase.com/2023/01/10/the-well-of-ascension-by-brandon-sanderson-2/"
+            }
+          ],
+          "note": "Murder, knife violence, blood and gore, and body horror are listed."
+        },
+        {
+          "category": "war",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing (Well of Ascension)",
+              "url": "https://triggerwarningdatabase.com/2023/01/10/the-well-of-ascension-by-brandon-sanderson-2/"
+            }
+          ],
+          "note": "War themes are listed."
+        },
+        {
+          "category": "animal-cruelty",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing (Well of Ascension)",
+              "url": "https://triggerwarningdatabase.com/2023/01/10/the-well-of-ascension-by-brandon-sanderson-2/"
+            }
+          ],
+          "note": "Animal cruelty is listed."
+        },
+        {
+          "category": "discrimination",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing (Well of Ascension)",
+              "url": "https://triggerwarningdatabase.com/2023/01/10/the-well-of-ascension-by-brandon-sanderson-2/"
+            }
+          ],
+          "note": "Ableism and eugenics are listed.",
+          "subcategory": "ableism and eugenics"
+        },
+        {
+          "category": "other",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing (Well of Ascension)",
+              "url": "https://triggerwarningdatabase.com/2023/01/10/the-well-of-ascension-by-brandon-sanderson-2/"
+            }
+          ],
+          "note": "Slavery is listed.",
+          "subcategory": "slavery"
+        }
+      ],
+      "warningsReviewed": "partial",
+      "sources": [
+        {
+          "label": "Goodreads library export (title, author, page count)"
+        },
+        {
+          "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+        },
+        {
+          "label": "Content warning sources are linked on each warning"
+        }
+      ],
+      "cover": null,
+      "research": {
+        "status": "draft",
+        "lastReviewed": "2026-10-24"
+      },
+      "id": "bk_p58uxn59"
+    },
+    {
+      "title": "The Hero of Ages",
+      "authors": [
+        "Brandon Sanderson"
+      ],
+      "summary": null,
+      "pages": {
+        "estimate": 572,
+        "confidence": "medium",
+        "source": "Goodreads export edition page count; other editions differ."
+      },
+      "genres": [
+        "fantasy"
+      ],
+      "subgenres": [
+        "epic fantasy"
+      ],
+      "moods": [
+        "adventurous",
+        "suspenseful",
+        "atmospheric"
+      ],
+      "warnings": [
+        {
+          "category": "violence-gore",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "StoryGraph user-submitted content warnings (Hero of Ages)",
+              "url": "https://assets.thestorygraph.com/books/0982b9ef-7b80-4db4-a7b9-212381476d40"
+            }
+          ],
+          "note": "Violence, death and blood are rated graphic by users.",
+          "subcategory": "violence, death, blood",
+          "intensity": "heavy"
+        },
+        {
+          "category": "death-grief",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "StoryGraph user-submitted content warnings (Hero of Ages)",
+              "url": "https://assets.thestorygraph.com/books/0982b9ef-7b80-4db4-a7b9-212381476d40"
+            }
+          ],
+          "note": "Grief is rated moderate and child death minor.",
+          "subcategory": "grief; child death",
+          "intensity": "moderate"
+        },
+        {
+          "category": "war",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "StoryGraph user-submitted content warnings (Hero of Ages)",
+              "url": "https://assets.thestorygraph.com/books/0982b9ef-7b80-4db4-a7b9-212381476d40"
+            }
+          ],
+          "note": "War is rated moderate.",
+          "intensity": "moderate"
+        },
+        {
+          "category": "suicide-self-harm",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "StoryGraph user-submitted content warnings (Hero of Ages)",
+              "url": "https://assets.thestorygraph.com/books/0982b9ef-7b80-4db4-a7b9-212381476d40"
+            }
+          ],
+          "note": "Suicidal thoughts are rated minor.",
+          "subcategory": "suicidal thoughts",
+          "intensity": "mild"
+        },
+        {
+          "category": "discrimination",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "StoryGraph user-submitted content warnings (Hero of Ages)",
+              "url": "https://assets.thestorygraph.com/books/0982b9ef-7b80-4db4-a7b9-212381476d40"
+            }
+          ],
+          "note": "Ableism is rated minor.",
+          "subcategory": "ableism",
+          "intensity": "mild"
+        },
+        {
+          "category": "other",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "StoryGraph user-submitted content warnings (Hero of Ages)",
+              "url": "https://assets.thestorygraph.com/books/0982b9ef-7b80-4db4-a7b9-212381476d40"
+            }
+          ],
+          "note": "Confinement is rated moderate.",
+          "subcategory": "confinement",
+          "intensity": "moderate"
+        }
+      ],
+      "warningsReviewed": "partial",
+      "sources": [
+        {
+          "label": "Goodreads library export (title, author, page count)"
+        },
+        {
+          "label": "Genres and moods proposed by Claude from general knowledge of the book; not yet checked against a source"
+        },
+        {
+          "label": "Content warning sources are linked on each warning"
+        }
+      ],
+      "cover": null,
+      "research": {
+        "status": "draft",
+        "lastReviewed": "2026-10-24"
+      },
+      "id": "bk_fxcch72m"
+    }
+  ]
+}

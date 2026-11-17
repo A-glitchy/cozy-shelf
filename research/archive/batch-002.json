@@ -1,0 +1,129 @@
+{
+  "batchId": "batch-002",
+  "humanReviewed": false,
+  "books": [
+    {
+      "title": "The Song of Achilles",
+      "authors": [
+        "Madeline Miller"
+      ],
+      "summary": "Narrated by the exiled prince Patroclus, this retelling of the Trojan War follows his lifelong bond with Achilles as war and prophecy close in on them.",
+      "pages": {
+        "estimate": 352,
+        "confidence": "medium",
+        "source": "Goodreads export edition page count; other editions differ."
+      },
+      "genres": [
+        "fantasy",
+        "historical fiction"
+      ],
+      "subgenres": [
+        "mythological retelling"
+      ],
+      "moods": [
+        "heartbreaking",
+        "romantic",
+        "emotionally-intense",
+        "adventurous"
+      ],
+      "warnings": [
+        {
+          "category": "sexual-violence",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing",
+              "url": "https://triggerwarningdatabase.com/2021/05/10/the-song-of-achilles-by-madeline-miller/"
+            },
+            {
+              "label": "Book Riot article (attempted assault that is prevented)",
+              "url": "https://bookriot.com/madeline-millers-books-deepened-my-appreciation-for-greek-mythology/"
+            },
+            {
+              "label": "UK school lesson content guidance mentions sexual violence",
+              "url": "https://thenational.academy/pupils/programmes/english-secondary-year-8/units/myths-and-legends-re-told-poetry-and-short-stories/lessons/the-song-of-achilles-understanding-the-extract"
+            }
+          ],
+          "note": "A trigger-warning listing includes rape, and an article mentions an attempted rape that is stopped. How it appears on the page is not specified by these sources."
+        },
+        {
+          "category": "violence-gore",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing",
+              "url": "https://triggerwarningdatabase.com/2021/05/10/the-song-of-achilles-by-madeline-miller/"
+            }
+          ],
+          "note": "The listing includes murder, torture, blood and gore."
+        },
+        {
+          "category": "war",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing",
+              "url": "https://triggerwarningdatabase.com/2021/05/10/the-song-of-achilles-by-madeline-miller/"
+            }
+          ],
+          "note": "War and military violence are listed."
+        },
+        {
+          "category": "kidnapping",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing",
+              "url": "https://triggerwarningdatabase.com/2021/05/10/the-song-of-achilles-by-madeline-miller/"
+            }
+          ],
+          "note": "Kidnapping and human trafficking/slavery are listed.",
+          "subcategory": "kidnapping, slavery and trafficking"
+        },
+        {
+          "category": "abuse",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing",
+              "url": "https://triggerwarningdatabase.com/2021/05/10/the-song-of-achilles-by-madeline-miller/"
+            }
+          ],
+          "note": "Child abuse and neglect are listed.",
+          "subcategory": "child abuse and neglect"
+        },
+        {
+          "category": "suicide-self-harm",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing",
+              "url": "https://triggerwarningdatabase.com/2021/05/10/the-song-of-achilles-by-madeline-miller/"
+            }
+          ],
+          "note": "Self-harm is listed."
+        }
+      ],
+      "warningsReviewed": "partial",
+      "sources": [
+        {
+          "label": "Goodreads library export (title, author, page count)"
+        },
+        {
+          "label": "Summary written originally by Claude from publisher descriptions"
+        }
+      ],
+      "cover": null,
+      "research": {
+        "status": "draft",
+        "lastReviewed": "2026-10-23"
+      }
+    }
+  ]
+}

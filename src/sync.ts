@@ -100,7 +100,7 @@ async function doSync(catalogue: Book[]) {
   for (const nb of created.values()) { addBooks.push(nb); pushBooks.push(nb); }
 
   const plan = planSessions(lib.sessions, remote, cfg.base, tomb, skip, fill, cfg.force);
-  const sp = planSettings({ excluded: lib.excluded, goals: lib.goals, shelves: lib.shelves, updatedAt: lib.settingsUpdatedAt }, pulled.settings ?? null, cfg.base["settings"]);
+  const sp = planSettings({ excluded: lib.excluded, goals: lib.goals, shelves: lib.shelves, removedWarnings: lib.removedWarnings, updatedAt: lib.settingsUpdatedAt }, pulled.settings ?? null, cfg.base["settings"]);
 
   // --- apply locally, then send ---
   const titleOf = (id: string) => known.find(b => b.id === id);
@@ -111,7 +111,7 @@ async function doSync(catalogue: Book[]) {
 
   store.applySync({ addBooks, upsertSessions: plan.apply, deleteSessionIds: plan.deleteLocal, clearTombstones: [...tomb], settings: sp.apply });
   const payload: Record<string, unknown> = { action: "push", sessions: rows, books: bookRows };
-  if (sp.push) payload.settings = { value: JSON.stringify({ excluded: sp.push.excluded, goals: sp.push.goals, shelves: sp.push.shelves ?? {} }), updatedAt: sp.push.updatedAt };
+  if (sp.push) payload.settings = { value: JSON.stringify({ excluded: sp.push.excluded, goals: sp.push.goals, shelves: sp.push.shelves ?? {}, removedWarnings: sp.push.removedWarnings ?? [] }), updatedAt: sp.push.updatedAt };
   if (rows.length || bookRows.length || sp.push) await call(payload);
 
   Object.assign(cfg.base, plan.baseSet);

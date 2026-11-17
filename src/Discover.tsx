@@ -38,12 +38,12 @@ export default function Discover({ onOpen }: { onOpen: (id: string) => void }) {
         if (p === null || (min !== null && p < min) || (max !== null && p > max)) return false;
       }
       for (const c of exCats) {
-        const s = warningState(b, c);
+        const s = warningState(b, c, lib.removedWarnings);
         if (s === "present" || (s === "unassessed" && hideUnassessed)) return false;
       }
       return true;
     });
-  }, [q, moodSel, pMin, pMax, exCats, hideUnassessed, fuse, shelfFilter, shelf]);
+  }, [q, moodSel, pMin, pMax, exCats, hideUnassessed, fuse, shelfFilter, shelf, lib.removedWarnings]);
 
   const cycle = (id: string) => setMoodSel(s => ({ ...s, [id]: (((s[id] ?? 0) + 1) % 3) as Tri }));
   const toggleCat = (c: string) => setExCats(s => (s.includes(c) ? s.filter(x => x !== c) : [...s, c]));
@@ -106,7 +106,7 @@ export default function Discover({ onOpen }: { onOpen: (id: string) => void }) {
                 <p className="by">{b.authors.join(", ")}</p>
                 <p className="meta small">{pagesLabel(b)}</p>
                 <div className="chips">{b.moods.slice(0, 3).map(m => <MoodChip key={m} id={m} />)}</div>
-                <WarningBadge b={b} exCats={exCats} />
+                <WarningBadge b={b} />
               </div>
             </button>
               <ShelfControl bookId={b.id} />

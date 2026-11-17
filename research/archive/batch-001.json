@@ -1,0 +1,238 @@
+{
+  "batchId": "batch-001",
+  "humanReviewed": false,
+  "books": [
+    {
+      "title": "The Paper Palace",
+      "authors": [
+        "Miranda Cowley Heller"
+      ],
+      "summary": "Across a single summer day at her family's Cape Cod retreat, a woman weighs the life she has built against a love from her childhood, as memories fill in how she arrived at this moment.",
+      "pages": {
+        "estimate": 400,
+        "confidence": "low",
+        "source": "Goodreads export edition shows 400 pages; Bookshare lists 512 for its edition. Paperback may differ."
+      },
+      "genres": [
+        "literary fiction"
+      ],
+      "subgenres": [
+        "family saga"
+      ],
+      "moods": [
+        "emotionally-intense",
+        "heartbreaking",
+        "atmospheric"
+      ],
+      "warnings": [
+        {
+          "category": "infidelity",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing",
+              "url": "https://triggerwarningdatabase.com/2022/03/27/the-paper-palace-by-miranda-cowley-heller"
+            },
+            {
+              "label": "Reader newsletter noting infidelity in the first pages",
+              "url": "https://catherinethoms.substack.com/p/everything-vanishes-and-nothing-returns"
+            }
+          ],
+          "note": "Central to the premise and appears at the very start."
+        },
+        {
+          "category": "sexual-violence",
+          "subcategory": "rape and child sexual abuse",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing (rape)",
+              "url": "https://triggerwarningdatabase.com/2022/03/27/the-paper-palace-by-miranda-cowley-heller"
+            },
+            {
+              "label": "Reader blog review noting graphic sexual assault",
+              "url": "https://www.ashleyhajimirsadeghi.com/blog/the-paper-palace"
+            },
+            {
+              "label": "Reader newsletter noting child sexual abuse",
+              "url": "https://catherinethoms.substack.com/p/everything-vanishes-and-nothing-returns"
+            }
+          ],
+          "intensity": "heavy",
+          "note": "Reviewers report rape and sexual abuse, including abuse of a child, some described as graphic. One reader says it appears within the first 30 pages."
+        },
+        {
+          "category": "illness",
+          "subcategory": "cancer",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing",
+              "url": "https://triggerwarningdatabase.com/2022/03/27/the-paper-palace-by-miranda-cowley-heller"
+            }
+          ],
+          "note": "Cancer is listed as a topic."
+        },
+        {
+          "category": "other",
+          "subcategory": "near-drowning",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing",
+              "url": "https://triggerwarningdatabase.com/2022/03/27/the-paper-palace-by-miranda-cowley-heller"
+            }
+          ],
+          "note": "Near-drowning is listed as a topic."
+        }
+      ],
+      "warningsReviewed": "partial",
+      "sources": [
+        {
+          "label": "Goodreads library export (title, author, page count)"
+        },
+        {
+          "label": "Summary written originally by Claude from the publisher description"
+        }
+      ],
+      "cover": null,
+      "research": {
+        "status": "draft",
+        "lastReviewed": "2026-10-23"
+      }
+    },
+    {
+      "title": "Not a Happy Family",
+      "authors": [
+        "Shari Lapena"
+      ],
+      "summary": "After a wealthy couple is murdered following a tense family dinner, their three adult children, who stand to inherit, begin to wonder whether one of them is responsible.",
+      "pages": {
+        "estimate": 349,
+        "confidence": "medium",
+        "source": "Goodreads export shows 349 pages; a library catalogue record also lists 349 pages (hardcover)."
+      },
+      "genres": [
+        "thriller",
+        "mystery"
+      ],
+      "subgenres": [
+        "domestic suspense"
+      ],
+      "moods": [
+        "suspenseful",
+        "dark-unsettling"
+      ],
+      "warnings": [
+        {
+          "category": "violence-gore",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Publisher description via library catalogue",
+              "url": "https://catalog.saclibrary.org/Record/.b26854193"
+            }
+          ],
+          "note": "The premise involves the brutal murder of two parents."
+        },
+        {
+          "category": "abuse",
+          "subcategory": "verbal and emotional abuse by a parent",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Blog review posted on Goodreads",
+              "url": "https://www.goodreads.com/author_blog_posts/21593095-not-a-happy-family-by-shari-lapena?tab=book"
+            }
+          ],
+          "note": "A blogger's review describes the father as bullying and demeaning his children."
+        }
+      ],
+      "warningsReviewed": "partial",
+      "sources": [
+        {
+          "label": "Goodreads library export (title, author, page count)"
+        },
+        {
+          "label": "Summary written originally by Claude from publisher/library descriptions"
+        }
+      ],
+      "cover": null,
+      "research": {
+        "status": "draft",
+        "lastReviewed": "2026-10-23"
+      }
+    },
+    {
+      "title": "The Atlas Six",
+      "authors": [
+        "Olivie Blake"
+      ],
+      "summary": "Six exceptionally gifted magicians are recruited by a secret society of scholars, knowing that only five of them will be admitted.",
+      "pages": {
+        "estimate": 376,
+        "confidence": "medium",
+        "source": "Goodreads export shows 376 pages; one bookstore lists 384 for the revised paperback."
+      },
+      "genres": [
+        "fantasy"
+      ],
+      "subgenres": [
+        "dark academia"
+      ],
+      "moods": [
+        "suspenseful",
+        "atmospheric",
+        "dark-unsettling",
+        "thought-provoking"
+      ],
+      "warnings": [
+        {
+          "category": "violence-gore",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Goodreads reader Q&A answer",
+              "url": "https://www.goodreads.com/questions/2108515-is-there-any-explicit-violence-or-sexual/answers/1279780-yes-heavier-on-the"
+            }
+          ],
+          "note": "One reader answer reports some violence, less than the sexual content. Based on a single reader, so treat as weak evidence."
+        },
+        {
+          "category": "other",
+          "subcategory": "explicit sexual content",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Goodreads reader Q&A answer",
+              "url": "https://www.goodreads.com/questions/2108515-is-there-any-explicit-violence-or-sexual/answers/1279780-yes-heavier-on-the"
+            }
+          ],
+          "note": "One reader answer reports explicit sexual content. Based on a single reader, so treat as weak evidence."
+        }
+      ],
+      "warningsReviewed": "partial",
+      "sources": [
+        {
+          "label": "Goodreads library export (title, author, page count)"
+        },
+        {
+          "label": "Summary written originally by Claude from publisher descriptions"
+        }
+      ],
+      "cover": null,
+      "research": {
+        "status": "draft",
+        "lastReviewed": "2026-10-23"
+      }
+    }
+  ]
+}

@@ -158,7 +158,7 @@ export default function Journal({ byId, onOpen }: { byId: Map<string, Book>; onO
   const [picked, setPicked] = useState<Set<string>>(new Set());
   const isExcluded = (s: { bookRef: string; status: Status }) => {
     const b = byId.get(s.bookRef);
-    return s.status === "want" && !!b && lib.excluded.some(c => warningState(b, c) === "present");
+    return s.status === "want" && !!b && lib.excluded.some(c => warningState(b, c, lib.removedWarnings) === "present");
   };
   const hiddenCount = lib.sessions.filter(isExcluded).length;
   const matchIds = useMemo(() => {

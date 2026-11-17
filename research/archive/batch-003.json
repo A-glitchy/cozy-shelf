@@ -1,0 +1,311 @@
+{
+  "batchId": "batch-003",
+  "humanReviewed": false,
+  "books": [
+    {
+      "title": "The Last House on Needless Street",
+      "authors": [
+        "Catriona Ward"
+      ],
+      "summary": "A woman convinced a reclusive neighbour took her little sister years ago moves in next door to his boarded-up house, where a girl is never allowed outside and a cat reads the Bible.",
+      "pages": {
+        "estimate": 337,
+        "confidence": "medium",
+        "source": "Goodreads export edition page count; other editions differ."
+      },
+      "genres": [
+        "horror",
+        "thriller"
+      ],
+      "subgenres": [
+        "psychological horror"
+      ],
+      "moods": [
+        "dark-unsettling",
+        "suspenseful",
+        "emotionally-intense"
+      ],
+      "warnings": [
+        {
+          "category": "abuse",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing",
+              "url": "https://triggerwarningdatabase.com/2021/12/27/the-last-house-on-needless-street-by-catriona-ward/"
+            },
+            {
+              "label": "StoryGraph user-submitted content warnings",
+              "url": "https://beta.thestorygraph.com/books/996bedf3-16ed-4062-b981-c4e63d059c03"
+            },
+            {
+              "label": "Reader review (child abuse scenes described as heavy)",
+              "url": "https://quirkycatsfatstacks.com/2022/07/14/review-the-last-house-of-needless-street-by-catriona-ward/"
+            }
+          ],
+          "note": "Child abuse is listed by every source found; users rate it graphic and a reviewer calls the scenes heavy.",
+          "subcategory": "child abuse",
+          "intensity": "heavy"
+        },
+        {
+          "category": "death-grief",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing",
+              "url": "https://triggerwarningdatabase.com/2021/12/27/the-last-house-on-needless-street-by-catriona-ward/"
+            },
+            {
+              "label": "StoryGraph user-submitted content warnings",
+              "url": "https://beta.thestorygraph.com/books/996bedf3-16ed-4062-b981-c4e63d059c03"
+            }
+          ],
+          "note": "Child death (rated graphic by users) and the death of a parent are listed.",
+          "subcategory": "child death; death of a parent"
+        },
+        {
+          "category": "mental-health",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "StoryGraph user-submitted content warnings",
+              "url": "https://beta.thestorygraph.com/books/996bedf3-16ed-4062-b981-c4e63d059c03"
+            }
+          ],
+          "note": "Mental illness is listed and rated graphic by users.",
+          "subcategory": "mental illness",
+          "intensity": "heavy"
+        },
+        {
+          "category": "animal-cruelty",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing",
+              "url": "https://triggerwarningdatabase.com/2021/12/27/the-last-house-on-needless-street-by-catriona-ward/"
+            },
+            {
+              "label": "StoryGraph user-submitted content warnings",
+              "url": "https://beta.thestorygraph.com/books/996bedf3-16ed-4062-b981-c4e63d059c03"
+            }
+          ],
+          "note": "Animal cruelty and animal death are listed (rated moderate by users).",
+          "subcategory": "animal cruelty and death",
+          "intensity": "moderate"
+        },
+        {
+          "category": "suicide-self-harm",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "StoryGraph user-submitted content warnings",
+              "url": "https://beta.thestorygraph.com/books/996bedf3-16ed-4062-b981-c4e63d059c03"
+            }
+          ],
+          "note": "Suicide is listed (rated moderate by users).",
+          "subcategory": "suicide",
+          "intensity": "moderate"
+        },
+        {
+          "category": "violence-gore",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing",
+              "url": "https://triggerwarningdatabase.com/2021/12/27/the-last-house-on-needless-street-by-catriona-ward/"
+            }
+          ],
+          "note": "Murder is listed; the premise involves a suspected serial killer."
+        },
+        {
+          "category": "discrimination",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "StoryGraph user-submitted content warnings",
+              "url": "https://beta.thestorygraph.com/books/996bedf3-16ed-4062-b981-c4e63d059c03"
+            }
+          ],
+          "note": "Homophobia is listed (rated minor by users).",
+          "subcategory": "homophobia",
+          "intensity": "mild"
+        }
+      ],
+      "warningsReviewed": "partial",
+      "sources": [
+        {
+          "label": "Goodreads library export (title, author, page count)"
+        },
+        {
+          "label": "Summary written originally by Claude from publisher descriptions"
+        }
+      ],
+      "cover": null,
+      "research": {
+        "status": "draft",
+        "lastReviewed": "2026-10-23"
+      }
+    },
+    {
+      "title": "The Push",
+      "authors": [
+        "Ashley Audrain"
+      ],
+      "summary": "A new mother is convinced something is wrong with her daughter, while her husband insists she is imagining it, and she begins to doubt what to trust about her own life.",
+      "pages": {
+        "estimate": 307,
+        "confidence": "medium",
+        "source": "Goodreads export edition page count; other editions differ."
+      },
+      "genres": [
+        "thriller",
+        "literary fiction"
+      ],
+      "subgenres": [
+        "domestic suspense",
+        "psychological drama"
+      ],
+      "moods": [
+        "dark-unsettling",
+        "emotionally-intense",
+        "suspenseful"
+      ],
+      "warnings": [
+        {
+          "category": "death-grief",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing",
+              "url": "https://triggerwarningdatabase.com/2021/07/20/the-push-by-ashley-audrain/"
+            },
+            {
+              "label": "Book blog review's warning list",
+              "url": "https://quirkycatsfatstacks.com/2021/04/11/review-the-push-by-ashley-audrain/"
+            },
+            {
+              "label": "Goodreads group post compiling warnings found online",
+              "url": "https://www.goodreads.com/topic/show/23095581-book-4---the-push?page=1"
+            }
+          ],
+          "note": "Death of an infant is listed by several sources and is central to the story.",
+          "subcategory": "death of an infant"
+        },
+        {
+          "category": "abuse",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Book blog review's warning list",
+              "url": "https://bookmarkthat.co.uk/?p=2015"
+            },
+            {
+              "label": "Book blog review's warning list",
+              "url": "https://quirkycatsfatstacks.com/2021/04/11/review-the-push-by-ashley-audrain/"
+            },
+            {
+              "label": "Goodreads group post compiling warnings found online",
+              "url": "https://www.goodreads.com/topic/show/23095581-book-4---the-push?page=1"
+            }
+          ],
+          "note": "Child abuse, neglect and gaslighting are listed.",
+          "subcategory": "child abuse, neglect and gaslighting"
+        },
+        {
+          "category": "suicide-self-harm",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Book blog review's warning list",
+              "url": "https://bookmarkthat.co.uk/?p=2015"
+            },
+            {
+              "label": "Book blog review's warning list",
+              "url": "https://quirkycatsfatstacks.com/2021/04/11/review-the-push-by-ashley-audrain/"
+            },
+            {
+              "label": "Goodreads group post compiling warnings found online",
+              "url": "https://www.goodreads.com/topic/show/23095581-book-4---the-push?page=1"
+            }
+          ],
+          "note": "Suicide is listed.",
+          "subcategory": "suicide"
+        },
+        {
+          "category": "mental-health",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Book blog review's warning list",
+              "url": "https://bookmarkthat.co.uk/?p=2015"
+            },
+            {
+              "label": "Book blog review's warning list",
+              "url": "https://quirkycatsfatstacks.com/2021/04/11/review-the-push-by-ashley-audrain/"
+            },
+            {
+              "label": "Goodreads group post compiling warnings found online",
+              "url": "https://www.goodreads.com/topic/show/23095581-book-4---the-push?page=1"
+            }
+          ],
+          "note": "Postnatal depression and paranoia are listed.",
+          "subcategory": "postnatal depression"
+        },
+        {
+          "category": "pregnancy-loss",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Goodreads group post compiling warnings found online",
+              "url": "https://www.goodreads.com/topic/show/23095581-book-4---the-push?page=1"
+            }
+          ],
+          "note": "Miscarriage and a mentioned abortion are listed by one source.",
+          "subcategory": "miscarriage; abortion mentioned"
+        },
+        {
+          "category": "infidelity",
+          "presence": "present",
+          "verification": "unverified-research",
+          "evidence": [
+            {
+              "label": "Trigger Warning Database listing",
+              "url": "https://triggerwarningdatabase.com/2021/07/20/the-push-by-ashley-audrain/"
+            },
+            {
+              "label": "Goodreads group post compiling warnings found online",
+              "url": "https://www.goodreads.com/topic/show/23095581-book-4---the-push?page=1"
+            }
+          ],
+          "note": "Cheating is listed."
+        }
+      ],
+      "warningsReviewed": "partial",
+      "sources": [
+        {
+          "label": "Goodreads library export (title, author, page count)"
+        },
+        {
+          "label": "Summary written originally by Claude from publisher descriptions"
+        }
+      ],
+      "cover": null,
+      "research": {
+        "status": "draft",
+        "lastReviewed": "2026-10-23"
+      }
+    }
+  ]
+}

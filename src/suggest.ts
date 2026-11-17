@@ -1,5 +1,6 @@
 import type { Book, Session, Status } from "./types";
 import type { Season } from "./seasons";
+import { reportedWarnings } from "./warnings";
 
 export const SEASON_MOODS: Record<Season, string[]> = {
   autumn: ["cozy", "spooky", "atmospheric", "dark-unsettling", "nostalgic", "suspenseful"],
@@ -16,7 +17,7 @@ const hash = (s: string) => { // FNV-1a with a final mix, so a different seed re
 export interface Suggestion { book: Book; why: string[] }
 
 /** Season-fitting books you have not read. Books on your want-to-read list rank first; "refresh" reshuffles ties. */
-export function suggest(o: { season: Season; books: Book[]; sessions: Session[]; excluded: string[]; skip: Set<string>; seed: number; limit: number }): Suggestion[] {
+export function suggest(o: { season: Season; books: Book[]; sessions: Session[]; excluded: string[]; removed?: string[]; skip: Set<string>; seed: number; limit: number }): Suggestion[] {
   const latest = new Map<string, Status>();
   [...o.sessions].sort((a, b) => a.updatedAt.localeCompare(b.updatedAt)).forEach(s => latest.set(s.bookRef, s.status));
   const moods = new Set(SEASON_MOODS[o.season]);
@@ -26,7 +27,7 @@ export function suggest(o: { season: Season; books: Book[]; sessions: Session[];
     const st = latest.get(b.id);
     if (st === "read" || st === "dnf" || st === "reading") continue;
     if (b.genres.some(g => g === "nonfiction" || g === "poetry")) continue;
-    if (b.warnings.some(w => w.presence === "present" && o.excluded.includes(w.category))) continue; // never suggest books with warnings you excluded
+    if (reportedWarnings(b, o.removed ?? []).some(w => o.excluded.includes(w.category))) continue; // never suggest books with warnings you excluded
     const match = b.moods.filter(m => moods.has(m));
     const want = st === "want";
     if (!match.length && !want) continue;

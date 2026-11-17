@@ -120,8 +120,8 @@ export default function Shelf({ byId, onOpen }: { byId: Map<string, Book>; onOpe
     }
     return out.slice(0, per.faces);
   }, [lib.sessions, byId, per.faces]);
-  const suggestions = useMemo(() => suggest({ season, books: catalogue, sessions: lib.sessions, excluded: lib.excluded, skip: new Set(ids), seed, limit: per.faces }),
-    [season, lib.sessions, lib.excluded, ids, seed, per.faces]);
+  const suggestions = useMemo(() => suggest({ season, books: catalogue, sessions: lib.sessions, excluded: lib.excluded, removed: lib.removedWarnings, skip: new Set(ids), seed, limit: per.faces }),
+    [season, lib.sessions, lib.excluded, lib.removedWarnings, ids, seed, per.faces]);
 
   function fill() {
     const have = new Set(ids), add: string[] = [];

@@ -126,3 +126,15 @@ table.pv{border-collapse:collapse;font-size:.85rem;width:100%;min-width:560px}
 
 .card.picked{border-color:#8A2F2F;background:#FBEAE6}
 .pickbox{align-self:center;font-size:1.3rem;color:#8A2F2F}
+
+.wgroup{margin:.5rem 0}
+.wgroup-title{font-size:.72rem;letter-spacing:.05em;text-transform:uppercase;opacity:.7;margin-bottom:.25rem}
+.pills{display:flex;flex-wrap:wrap;gap:.35rem}
+.pill{font:inherit;font-size:.82rem;padding:.25rem .7rem;border-radius:999px;border:1px solid transparent;cursor:pointer;line-height:1.2}
+.pill.red{background:#F3D5D0;color:#6B2A1C}.pill.violet{background:#E4DCF0;color:#43365E}.pill.sand{background:#EFE3C8;color:#5A4326}
+.pill.open{border-color:var(--forest);box-shadow:0 0 0 2px rgba(47,74,58,.25);font-weight:700}
+.wpop{margin:.5rem 0;padding:.7rem .85rem;background:var(--card);border:1px solid var(--line);border-radius:12px}
+.wpop p{margin:.3rem 0}
+.wpop-head{display:flex;gap:.6rem;align-items:baseline;flex-wrap:wrap}.wpop-head .link{margin-left:auto}
+.btn.small{padding:.3rem .7rem;font-size:.82rem}.btn.danger{color:#8A2F2F;border-color:#C98B84}
+.wgone{margin-top:.6rem}
