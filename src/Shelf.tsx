@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import type { Book, Status } from "./types";
-import { moodById, books as catalogue } from "./catalogue";
+import { moodById, useBooks } from "./catalogue";
 import { STATUSES, STATUS_STYLE } from "./format";
 import { store, useLibrary } from "./store";
 import { SEASONS, THEMES, GarlandFor, seasonKey, seasonOf, inSeason, type Season, type Theme } from "./seasons";
@@ -95,6 +95,7 @@ function Picker({ byId, selected, onToggle, onClose }: { byId: Map<string, Book>
 
 export default function Shelf({ byId, onOpen }: { byId: Map<string, Book>; onOpen: (id: string) => void }) {
   const lib = useLibrary();
+  const catalogue = useBooks();
   const now = useMemo(() => seasonOf(), []);
   const [season, setSeason] = useState<Season>(now.season);
   const [year, setYear] = useState(now.year);
@@ -121,7 +122,7 @@ export default function Shelf({ byId, onOpen }: { byId: Map<string, Book>; onOpe
     return out.slice(0, per.faces);
   }, [lib.sessions, byId, per.faces]);
   const suggestions = useMemo(() => suggest({ season, books: catalogue, sessions: lib.sessions, excluded: lib.excluded, removed: lib.removedWarnings, skip: new Set(ids), seed, limit: per.faces }),
-    [season, lib.sessions, lib.excluded, lib.removedWarnings, ids, seed, per.faces]);
+    [season, catalogue, lib.sessions, lib.excluded, lib.removedWarnings, ids, seed, per.faces]);
 
   function fill() {
     const have = new Set(ids), add: string[] = [];

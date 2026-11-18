@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import Fuse from "fuse.js";
-import { books, moods, warningCategories, warningState, pagesLabel, catLabel } from "./catalogue";
+import { useBooks, moods, warningCategories, warningState, pagesLabel, catLabel } from "./catalogue";
+import { ABUSE_SUBTYPES, subtypeExclusionKey } from "./warnings";
 import { MoodChip, Cover, WarningBadge, ShelfControl } from "./components";
 import { STATUSES, STATUS_STYLE } from "./format";
 import type { Status } from "./types";
@@ -14,6 +15,7 @@ export default function Discover({ onOpen }: { onOpen: (id: string) => void }) {
   const [pMin, setPMin] = useState("");
   const [pMax, setPMax] = useState("");
   const lib = useLibrary();
+  const books = useBooks();
   const exCats = lib.excluded; // saved with your library, so it also applies to your to-read list
   const setExCats = (f: (s: string[]) => string[]) => store.setExcluded(f(lib.excluded));
   const [hideUnassessed, setHideUnassessed] = useState(false);
@@ -21,7 +23,7 @@ export default function Discover({ onOpen }: { onOpen: (id: string) => void }) {
   const [shelfFilter, setShelfFilter] = useState<"any" | "none" | Status>("any");
   const shelf = useMemo(() => { const m = new Map<string, Set<Status>>(); lib.sessions.forEach(x => { const t = m.get(x.bookRef) ?? new Set<Status>(); t.add(x.status); m.set(x.bookRef, t); }); return m; }, [lib.sessions]);
 
-  const fuse = useMemo(() => new Fuse(books, { keys: ["title", "authors", "genres", "subgenres"], threshold: 0.3, ignoreLocation: true }), []);
+  const fuse = useMemo(() => new Fuse(books, { keys: ["title", "authors", "genres", "subgenres"], threshold: 0.3, ignoreLocation: true }), [books]);
 
   const results = useMemo(() => {
     const incl = Object.keys(moodSel).filter(k => moodSel[k] === 1);
@@ -43,9 +45,10 @@ export default function Discover({ onOpen }: { onOpen: (id: string) => void }) {
       }
       return true;
     });
-  }, [q, moodSel, pMin, pMax, exCats, hideUnassessed, fuse, shelfFilter, shelf, lib.removedWarnings]);
+  }, [q, moodSel, pMin, pMax, exCats, hideUnassessed, fuse, shelfFilter, shelf, lib.removedWarnings, books]);
 
   const cycle = (id: string) => setMoodSel(s => ({ ...s, [id]: (((s[id] ?? 0) + 1) % 3) as Tri }));
+  const subtypes = useMemo(() => { const m = new Map(ABUSE_SUBTYPES.map(x => [x.toLowerCase(), x])); books.forEach(b => b.warnings.forEach(w => { if (w.abuseSubtype && !m.has(w.abuseSubtype.toLowerCase())) m.set(w.abuseSubtype.toLowerCase(), w.abuseSubtype); })); return [...m.values()]; }, [books]);
   const toggleCat = (c: string) => setExCats(s => (s.includes(c) ? s.filter(x => x !== c) : [...s, c]));
 
   return (
@@ -87,6 +90,12 @@ export default function Discover({ onOpen }: { onOpen: (id: string) => void }) {
                 {exCats.includes(c) ? "✕ " : ""}{catLabel(c)}
               </button>
             ))}
+          </div>
+          <h3>Abuse types <small>(to exclude just one kind of abuse)</small></h3>
+          <div className="chips">
+            {subtypes.map(t => { const key = subtypeExclusionKey(t); return (
+              <button key={key} className={`chip btn-chip plain ${exCats.includes(key) ? "s2" : ""}`} onClick={() => toggleCat(key)} aria-pressed={exCats.includes(key)}>{exCats.includes(key) ? "✕ " : ""}{t}</button>
+            ); })}
           </div>
           {exCats.length > 0 && (
             <label className="check">

@@ -2,7 +2,7 @@
 import fs from "node:fs"; import path from "node:path";
 
 export const PRES = ["present", "absent", "unknown"], VER = ["verified", "unverified-research", "community-report", "disputed"];
-export const CONF = ["high", "medium", "low", "unknown"], REV = ["none", "partial", "complete"], INT = ["mild", "moderate", "heavy"];
+export const CONF = ["high", "medium", "low", "unknown"], REV = ["none", "partial", "complete"], INT = ["mild", "minor", "moderate", "heavy", "graphic"];
 
 export function readJson(file, errors) {
   try { return JSON.parse(fs.readFileSync(file, "utf8")); }

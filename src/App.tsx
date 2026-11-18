@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { books, customToBook } from "./catalogue";
+import { useBooks, getBooks, customToBook } from "./catalogue";
 import type { Book } from "./types";
 import { Detail } from "./components";
 import Discover from "./Discover";
@@ -14,6 +14,7 @@ const TABS: [Tab, string][] = [["discover", "Discover"], ["journal", "Journal"],
 
 export default function App() {
   const lib = useLibrary();
+  const books = useBooks();
   const saveError = useSaveError();
   const sync = useSyncStatus();
   const [tab, setTab] = useState<Tab>("discover");
@@ -23,15 +24,15 @@ export default function App() {
     books.forEach(b => m.set(b.id, b));
     lib.customBooks.forEach(c => m.set(c.id, customToBook(c)));
     return m;
-  }, [lib.customBooks]);
+  }, [books, lib.customBooks]);
   // Sync a moment after any change, when the app is opened again, and when the connection returns.
   useEffect(() => {
     if (!sync.configured) return;
-    const t = setTimeout(() => void syncNow(books), 1500);
+    const t = setTimeout(() => void syncNow(getBooks()), 1500);
     return () => clearTimeout(t);
   }, [lib, sync.configured]);
   useEffect(() => {
-    const f = () => void syncNow(books);
+    const f = () => void syncNow(getBooks());
     window.addEventListener("focus", f); window.addEventListener("online", f);
     return () => { window.removeEventListener("focus", f); window.removeEventListener("online", f); };
   }, []);

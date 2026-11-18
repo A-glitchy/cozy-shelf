@@ -39,3 +39,21 @@ export function describeWarning(w: Warning): string {
   if (w.category === "sexual-violence" && w.subcategory) bits.push(`Details: ${w.subcategory}.`);
   return bits.join(" ") || `Reported for this book in the sources listed below.`;
 }
+
+export const ABUSE_SUBTYPES = ["Emotional abuse", "Physical abuse", "Sexual abuse", "Child abuse", "Domestic abuse", "Psychological abuse", "Verbal abuse", "Neglect", "Gaslighting", "Toxic relationship", "Abandonment", "Other / unspecified abuse"];
+/** An exclusion is either a category id ("abuse") or a subtype key ("abuse:emotional abuse"). */
+export const subtypeExclusionKey = (subtype: string) => `abuse:${subtype.trim().toLowerCase()}`;
+export function exclusionHit(w: Warning, key: string): boolean {
+  const i = key.indexOf(":");
+  if (i < 0) return w.category === key;
+  if (w.category !== key.slice(0, i)) return false;
+  const sub = key.slice(i + 1);
+  return (w.abuseSubtype ?? w.name ?? "").trim().toLowerCase() === sub;
+}
+export const exclusionLabel = (key: string) => {
+  const i = key.indexOf(":");
+  if (i < 0) return CATEGORY_LABEL[key] ?? key;
+  const sub = key.slice(i + 1); return `${CATEGORY_LABEL[key.slice(0, i)] ?? key.slice(0, i)} – ${sub.charAt(0).toUpperCase() + sub.slice(1)}`;
+};
+export const DEPICTION_LABEL: Record<string, string> = { "on-page": "Shown on the page", "off-page": "Happens off the page", referenced: "Mentioned or referred to" };
+export const cap1 = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);

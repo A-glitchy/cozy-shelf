@@ -5,11 +5,11 @@ import { Cover, MoodChip, StatusBadge, FavBadge } from "./components";
 import { STATUSES, STATUS_STYLE, statusLabel, stars, newId, splitList, csvEscape, download } from "./format";
 import { store, useLibrary, normalizeLibrary } from "./store";
 import Import from "./Import";
-import { useSyncStatus, connect, disconnect, syncNow, resolveConflict, getConnection } from "./sync";
+import { useSyncStatus, connect, disconnect, syncNow, resolveConflict, getConnection, useBuiltInCatalogue } from "./sync";
 import type { Session } from "./types";
 import Fuse from "fuse.js";
 import { findMatch } from "./importer";
-import { books, warningState, catLabel } from "./catalogue";
+import { useBooks, getBooks, warningState, catLabel } from "./catalogue";
 
 function AddBook({ onDone }: { onDone: (id?: string) => void }) {
   const [title, setTitle] = useState(""); const [authors, setAuthors] = useState(""); const [pages, setPages] = useState("");
@@ -101,6 +101,7 @@ function Backup({ byId }: { byId: Map<string, Book> }) {
 
 function LinkBanner() {
   const lib = useLibrary();
+  const books = useBooks();
   const links = lib.customBooks.map(c => ({ c, m: findMatch(c.title, c.authors.join(" "), books) }))
     .filter((x): x is { c: typeof x.c; m: { kind: "matched"; id: string; candidates: string[] } } => x.m.kind === "matched");
   if (!links.length) return null;
@@ -127,18 +128,21 @@ function SyncPanel({ byId }: { byId: Map<string, Book> }) {
         <label>Web app URL<input value={url} onChange={e => setUrl(e.target.value)} placeholder="https://script.google.com/macros/s/…/exec" /></label>
         <label>Token (the phrase you put in the script)<input type="password" value={token} onChange={e => setToken(e.target.value)} /></label>
         <div className="row">
-          <button className="btn primary" disabled={!url.trim() || !token.trim()} onClick={() => void connect(url, token, books)}>{st.configured ? "Save and sync" : "Connect and sync"}</button>
-          {st.configured && <button className="btn" onClick={() => void syncNow(books)}>Sync now</button>}
+          <button className="btn primary" disabled={!url.trim() || !token.trim()} onClick={() => void connect(url, token, getBooks())}>{st.configured ? "Save and sync" : "Connect and sync"}</button>
+          {st.configured && <button className="btn" onClick={() => void syncNow(getBooks(), true)}>Sync now</button>}
           {st.configured && <button className="btn" onClick={() => { if (window.confirm("Disconnect from the Sheet? Your data stays in the app and in the Sheet.")) { disconnect(); setUrl(""); setToken(""); } }}>Disconnect</button>}
         </div>
       </div>
       {st.message && <p className={st.state === "error" ? "notice" : "small"}>{st.message}{st.lastSync && st.state === "ok" ? ` (${new Date(st.lastSync).toLocaleTimeString()})` : ""}</p>}
+      {st.configured && <p className="small">{st.catalog.message || "Master catalogue: not checked yet."}</p>}
+      {st.catalog.problems.length > 0 && <details className="small"><summary>{st.catalog.problems.length} note{st.catalog.problems.length === 1 ? "" : "s"} about the master catalogue tabs</summary><ul className="plainlist">{st.catalog.problems.slice(0, 20).map((p, i) => <li key={i}>{p}</li>)}</ul>{st.catalog.problems.length > 20 && <p>…and {st.catalog.problems.length - 20} more.</p>}</details>}
+      {st.catalog.fromSheet && <button className="link" onClick={() => void useBuiltInCatalogue()}>Go back to the catalogue built into the site</button>}
       {st.conflicts.map(c => (
         <div className="notice" key={c.id}>
           <strong>{byId.get(c.local.bookRef)?.title ?? "A book"}</strong> was changed in both places.
           <div className="small">In the app: {summ(c.local)}</div>
           <div className="small">In the Sheet: {summ(c.remote)}</div>
-          <div className="row"><button className="btn" onClick={() => void resolveConflict(c.id, "app", books)}>Keep the app version</button><button className="btn" onClick={() => void resolveConflict(c.id, "sheet", books)}>Keep the Sheet version</button></div>
+          <div className="row"><button className="btn" onClick={() => void resolveConflict(c.id, "app", getBooks())}>Keep the app version</button><button className="btn" onClick={() => void resolveConflict(c.id, "sheet", getBooks())}>Keep the Sheet version</button></div>
         </div>
       ))}
       {st.problems.length > 0 && <div className="notice"><p>These Sheet rows were skipped, so nothing was changed. Fix them in the Sheet:</p><ul className="plainlist">{st.problems.slice(0, 10).map((p, i) => <li key={i} className="small">{p}</li>)}</ul></div>}

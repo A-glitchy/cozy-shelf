@@ -1,9 +1,11 @@
 export type Presence = "present" | "absent" | "unknown";
 export type Verification = "verified" | "unverified-research" | "community-report" | "disputed";
-export interface Evidence { label: string; url?: string }
+export interface Evidence { label: string; url?: string; note?: string }
 export interface Warning {
   category: string; subcategory?: string; name?: string; presence: Presence; verification: Verification;
-  evidence?: Evidence[]; intensity?: "mild" | "moderate" | "heavy"; note?: string; spoilerNote?: string;
+  evidence?: Evidence[]; intensity?: "mild" | "minor" | "moderate" | "heavy" | "graphic"; note?: string; spoilerNote?: string;
+  /** From the master workbook: the specific kind of abuse (only set on Abuse warnings), where it is shown, and its row id. */
+  abuseSubtype?: string; depiction?: "on-page" | "off-page" | "referenced"; warningId?: string;
 }
 export interface Book {
   id: string; title: string; authors: string[]; summary: string | null;
@@ -13,6 +15,8 @@ export interface Book {
   sources: Evidence[]; cover: { file: string; attribution: string; license: string } | null;
   research: { status: string; lastReviewed: string };
   custom?: boolean;
+  /** Sexual-violence research status from the master workbook. Only a reported trigger is ever shown. */
+  svStatus?: "yes" | "no" | "unsure" | "not-recorded"; svNote?: string;
 }
 export interface Mood { id: string; label: string; bg: string; text: string }
 

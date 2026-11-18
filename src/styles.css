@@ -138,3 +138,6 @@ table.pv{border-collapse:collapse;font-size:.85rem;width:100%;min-width:560px}
 .wpop-head{display:flex;gap:.6rem;align-items:baseline;flex-wrap:wrap}.wpop-head .link{margin-left:auto}
 .btn.small{padding:.3rem .7rem;font-size:.82rem}.btn.danger{color:#8A2F2F;border-color:#C98B84}
 .wgone{margin-top:.6rem}
+
+.srclist{margin:.2rem 0 0;padding-left:1.1rem}
+.srclist li{margin:.1rem 0}

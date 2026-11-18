@@ -1,6 +1,6 @@
 import type { Book, Session, Status } from "./types";
 import type { Season } from "./seasons";
-import { reportedWarnings } from "./warnings";
+import { reportedWarnings, exclusionHit } from "./warnings";
 
 export const SEASON_MOODS: Record<Season, string[]> = {
   autumn: ["cozy", "spooky", "atmospheric", "dark-unsettling", "nostalgic", "suspenseful"],
@@ -27,7 +27,7 @@ export function suggest(o: { season: Season; books: Book[]; sessions: Session[];
     const st = latest.get(b.id);
     if (st === "read" || st === "dnf" || st === "reading") continue;
     if (b.genres.some(g => g === "nonfiction" || g === "poetry")) continue;
-    if (reportedWarnings(b, o.removed ?? []).some(w => o.excluded.includes(w.category))) continue; // never suggest books with warnings you excluded
+    if (reportedWarnings(b, o.removed ?? []).some(w => o.excluded.some(k => exclusionHit(w, k)))) continue; // never suggest books with warnings you excluded
     const match = b.moods.filter(m => moods.has(m));
     const want = st === "want";
     if (!match.length && !want) continue;

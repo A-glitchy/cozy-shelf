@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
-import { moodById, pagesLabel, books, customToBook } from "./catalogue";
-import { reportedWarnings, removedWarningsOf, warnKey, groupWarnings, pillName, describeWarning, toneOf, CATEGORY_LABEL } from "./warnings";
+import { moodById, pagesLabel, useBooks, customToBook } from "./catalogue";
+import { reportedWarnings, removedWarningsOf, warnKey, groupWarnings, pillName, describeWarning, toneOf, CATEGORY_LABEL, DEPICTION_LABEL, cap1 } from "./warnings";
 import { recommend } from "./recommend";
 import type { Book, Session, Status } from "./types";
 import { STATUSES, STATUS_STYLE, statusLabel, stars, RATINGS, newId, splitList } from "./format";
@@ -114,10 +114,12 @@ export function WarningSection({ b }: { b: Book }) {
             <div className="wpop" role="region" aria-label={`About ${pillName(sel)}`}>
               <div className="wpop-head"><strong>{pillName(sel)}</strong><span className="small">{CATEGORY_LABEL[sel.category] ?? sel.category}</span><button className="link" onClick={() => setOpenKey(null)}>Close</button></div>
               <p>{describeWarning(sel)}</p>
-              {sel.intensity && <p className="small">Intensity: {sel.intensity}</p>}
-              <p className="small">Sources: {sel.evidence?.length
-                ? sel.evidence.map((e, i) => <span key={i}>{i ? ", " : ""}{e.url ? <a href={e.url} target="_blank" rel="noreferrer">{e.label}</a> : e.label}</span>)
-                : "names not recorded"}</p>
+              {sel.abuseSubtype && sel.abuseSubtype.toLowerCase() !== pillName(sel).toLowerCase() && <p className="small">Type of abuse: {sel.abuseSubtype}</p>}
+              {sel.intensity && <p className="small">Intensity: {cap1(sel.intensity)}</p>}
+              {sel.depiction && <p className="small">{DEPICTION_LABEL[sel.depiction]}</p>}
+              <div className="small">Sources: {sel.evidence?.length
+                ? <ul className="srclist">{sel.evidence.map((e, i) => <li key={i}>{e.url ? <a href={e.url} target="_blank" rel="noreferrer">{e.label}</a> : e.label}{e.note ? <span className="muted"> — {e.note}</span> : null}</li>)}</ul>
+                : "names not recorded"}</div>
               {sel.spoilerNote && (spoiler ? <div className="small spoiler">{sel.spoilerNote}</div>
                 : <button className="link" onClick={() => setSpoiler(true)}>Show spoiler details</button>)}
               <div className="row"><button className="btn small danger" onClick={() => { store.removeWarning(warnKey(b.id, sel)); setOpenKey(null); }}>Remove this warning</button></div>
@@ -218,13 +220,14 @@ function MyReading({ book }: { book: Book }) {
 
 function Similar({ book, onOpen }: { book: Book; onOpen: (id: string) => void }) {
   const lib = useLibrary();
+  const books = useBooks();
   const [show, setShow] = useState(false);
   const recs = useMemo(() => {
     if (!show) return [];
     const custom = lib.customBooks.map(customToBook);
     const lookup = (id: string) => books.find(b => b.id === id) ?? custom.find(b => b.id === id);
     return recommend(book, [...books, ...custom], lib.sessions, lookup);
-  }, [show, book, lib]);
+  }, [show, book, lib, books]);
   return (
     <section>
       <h3>Similar books</h3>
